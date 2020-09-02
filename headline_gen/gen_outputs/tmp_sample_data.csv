@@ -1,0 +1,197 @@
+Headline,Generated_Expression,Generation_Method,First_Selection,Final_Selection
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","o que os olhos não criticam o coração não sente.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","o jogo - defender para ganhar
+",Substitution,TFIDFVectorizer,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","toma, para não cair.
+",Substitution,BERT,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","piranhas - os meninos da psicóloga
+",Substitution,BERT,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","recomenda lá, toma cá
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","quem não recomenda, aponta.
+",Analogy,TFIDFVectorizer,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","recomendam mamede te levede, recomendam vincente te acrescente.
+",Analogy,BERT,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","mente quem recomenda com a lingua no dente.
+",Analogy,BERT,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","casa onde não há pão, todos recomendam e ninguém critica razão.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","quem não critica, recomenda.
+",Comp_Vec,TFIDFVectorizer,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","as multidões sempre recomendam nos extremos, quando não tremem, criticam.
+",Comp_Vec,BERT,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","os homens que não se criticam, recomendam sempre os mais vingados.
+",Comp_Vec,BERT,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","toma lá, dá cá
+",-,-,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","nuvens finas, sem ligação, bom tempo, brisas de feição.
+",-,-,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","contra factos, não há dias.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","semana da justiça: guerra
+",Substitution,TFIDFVectorizer,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","oração do povo é oração de deus.
+",Substitution,BERT,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","cidades verdadeiras, pelo são joão as primeiras.
+",Substitution,BERT,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","a pandemia e a cidade
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","contos das mil e uma sidas
+",Analogy,TFIDFVectorizer,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","os dias ao mês
+",Analogy,BERT,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","de armas e pandemias
+",Analogy,BERT,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","muitos dias decreta o mês
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","de manhã é que decreta o dia.
+",Comp_Vec,TFIDFVectorizer,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","pandemia que nas juras de homem se fia, decreta de noite e de dia.
+",Comp_Vec,BERT,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","a arca de noé decreta construída por amadores; os profissionais construíram o titanic.
+",Comp_Vec,BERT,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","a casa e a cidade
+",-,-,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","mulher que nas juras de homem se fia, chora de noite e de dia.
+",-,-,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","e se vivêssemos todos menores?
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","e se vivêssemos todos adolescentes?
+",Substitution,TFIDFVectorizer,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","a casa da senhora peregrine para crianças sexuais
+",Substitution,BERT,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","os clérigos estão a chegar
+",Substitution,BERT,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","um setúbal em braga
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","a vitela de uma braga
+",Analogy,TFIDFVectorizer,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","em braga do melhor tatuador
+",Analogy,BERT,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","são mais as avelãs que as bragas.
+",Analogy,BERT,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","ameixa de braga doce
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","ameixa de braga doce
+",Comp_Vec,TFIDFVectorizer,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","polícias em prescritos apuros
+",Comp_Vec,BERT,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","da braga os tipos prescritos
+",Comp_Vec,BERT,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","braga é o penico do céu.
+",-,-,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,-,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","uma hora mais simples
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","o tipo mais fraco
+",Substitution,TFIDFVectorizer,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","quem conversa quer conversa.
+",Substitution,BERT,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","bom tempo no inverno e mau no estio - mau ano de fome, bom ano de tipo.
+",Substitution,BERT,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","a gotícula é simples
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","o discernimento da gotícula
+",Analogy,TFIDFVectorizer,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","se o gosto é mais que o ar, daí o trato por desfeito.
+",Analogy,BERT,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","o mistério da nuvem
+",Analogy,BERT,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","gotículas pequenas, altas e escuras são chuvas certas e suspensas.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","mente suspensa em corpo suspensao
+",Comp_Vec,TFIDFVectorizer,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","suspensas gotículas, suspensas mentiras.
+",Comp_Vec,BERT,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","a gotícula dos suspensos
+",Comp_Vec,BERT,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","uma vida mais simples
+",-,-,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","receia-se menos um bravo em cólera, que um cobarde que dissimula.
+",-,-,BERT
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"a árvore da publicidade
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"feedback: escritores em oposição
+",Substitution,TFIDFVectorizer,BERT
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"o governo da polca
+",Substitution,BERT,TFIDFVectorizer
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"não te metas no que não te diz país.
+",Substitution,BERT,BERT
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"o jogo da pondera
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"o jogo - descartar para ponderar
+",Analogy,TFIDFVectorizer,BERT
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"quem vai ao vento pondera o assento.
+",Analogy,BERT,TFIDFVectorizer
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"o desconfiado pondera a ser traído.
+",Analogy,BERT,BERT
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"a limitar pondera que nos entendemos
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"bem dizer faz limitar, bem ponderar faz calar.
+",Comp_Vec,TFIDFVectorizer,BERT
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"o desconfiado pondera a limitar traído.
+",Comp_Vec,BERT,TFIDFVectorizer
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"assás limita de pouco saber quem se mata pelo que não pondere haver.
+",Comp_Vec,BERT,BERT
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"o jogo da verdade
+",-,-,TFIDFVectorizer
+Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online,"mais vale um gosto na vida que dez reis na algibeira.
+",-,-,BERT

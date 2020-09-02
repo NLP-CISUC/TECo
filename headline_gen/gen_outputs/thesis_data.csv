@@ -1,0 +1,2393 @@
+Headline,Generated_Expression,Generation_Method,Final_Selection
+"Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes
+","ano o seu cérebro
+",Substitution,TFIDFVectorizer
+"Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes
+","os desaparecidos são um vírus
+",Substitution,BERT
+"Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes
+","santos da casa não avaliam milagres.
+",Analogy,TFIDFVectorizer
+"Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes
+","avalia as causas, quem se concorda dos efeitos.
+",Analogy,BERT
+"Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes
+","todos sobreviventes a avaliar
+",Comp_Vec,TFIDFVectorizer
+"Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes
+","fevereiro sobrevivente avalia o diabo no ventre.
+",Comp_Vec,BERT
+"Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes
+","teste o seu cérebro
+",-,TFIDFVectorizer
+"Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes
+","a arca de noé foi construída por amadores; os profissionais construíram o titanic.
+",-,BERT
+"UEFA mantém designação do Europeu 2020 e explica a decisão
+","a decisão do mundo
+",Substitution,TFIDFVectorizer
+"UEFA mantém designação do Europeu 2020 e explica a decisão
+","ferro mata ferro continua.
+",Substitution,BERT
+"UEFA mantém designação do Europeu 2020 e explica a decisão
+","a designação do nome
+",Analogy,TFIDFVectorizer
+"UEFA mantém designação do Europeu 2020 e explica a decisão
+","a ignorância da lei não designação a ninguém.
+",Analogy,BERT
+"UEFA mantém designação do Europeu 2020 e explica a decisão
+","a grama mantém sempre mais verde do lado do vizinho.
+",Comp_Vec,TFIDFVectorizer
+"UEFA mantém designação do Europeu 2020 e explica a decisão
+","mantenhamos muitas designações, mas não disputemos nunca.
+",Comp_Vec,BERT
+"UEFA mantém designação do Europeu 2020 e explica a decisão
+","a decisão de isabel
+",-,TFIDFVectorizer
+"UEFA mantém designação do Europeu 2020 e explica a decisão
+","o homem honrado não se autoriza com as opiniões do patife.
+",-,BERT
+"Sindicato de Jogadores exige aprovação da DGS para regresso do futebol
+","um sindicato de homem
+",Substitution,TFIDFVectorizer
+"Sindicato de Jogadores exige aprovação da DGS para regresso do futebol
+","tal pai, tal atleta
+",Substitution,BERT
+"Sindicato de Jogadores exige aprovação da DGS para regresso do futebol
+","a greve do sindicato: o regresso do rugido
+",Analogy,TFIDFVectorizer
+"Sindicato de Jogadores exige aprovação da DGS para regresso do futebol
+","o jornalista do sindicato
+",Analogy,BERT
+"Sindicato de Jogadores exige aprovação da DGS para regresso do futebol
+","voz do sindicato exige voz de deus.
+",Comp_Vec,TFIDFVectorizer
+"Sindicato de Jogadores exige aprovação da DGS para regresso do futebol
+","da noz, o sindicato exige bom amigo.
+",Comp_Vec,BERT
+"Sindicato de Jogadores exige aprovação da DGS para regresso do futebol
+","gala internacional de futebol
+",-,TFIDFVectorizer
+"Sindicato de Jogadores exige aprovação da DGS para regresso do futebol
+","o homem honrado não se autoriza com as opiniões do patife.
+",-,BERT
+"Finge ter Covid-19 no Facebook e acaba detido
+","finge melhor quem finge por último.
+",Substitution,TFIDFVectorizer
+"Finge ter Covid-19 no Facebook e acaba detido
+","ferro que não se tem, gasta-o a ferrugem.
+",Substitution,BERT
+"Finge ter Covid-19 no Facebook e acaba detido
+","a minha liberdade acaba onde finge a liberdade dos outros.
+",Analogy,TFIDFVectorizer
+"Finge ter Covid-19 no Facebook e acaba detido
+","não se desconfie fingir em tudo
+",Analogy,BERT
+"Finge ter Covid-19 no Facebook e acaba detido
+","fingir no deserto, é sermão detido.
+",Comp_Vec,TFIDFVectorizer
+"Finge ter Covid-19 no Facebook e acaba detido
+","o avarento não detém, e o pródigo não fingirá.
+",Comp_Vec,BERT
+"Finge ter Covid-19 no Facebook e acaba detido
+","porque um dia acaba
+",-,TFIDFVectorizer
+"Finge ter Covid-19 no Facebook e acaba detido
+","mais vale uma vista do dono, que cem brados do abegão.
+",-,BERT
+"Pinto da Costa escreveu carta a sócios com mais de 70 anos
+","um pinto na carta
+",Substitution,TFIDFVectorizer
+"Pinto da Costa escreveu carta a sócios com mais de 70 anos
+","em terra de sapos, de escritoras como eles.
+",Substitution,BERT
+"Pinto da Costa escreveu carta a sócios com mais de 70 anos
+","sem anos de costa
+",Analogy,TFIDFVectorizer
+"Pinto da Costa escreveu carta a sócios com mais de 70 anos
+","fado, história de um mato
+",Analogy,BERT
+"Pinto da Costa escreveu carta a sócios com mais de 70 anos
+","mais vale agradecer com a costa, que ofender com a sócia.
+",Comp_Vec,TFIDFVectorizer
+"Pinto da Costa escreveu carta a sócios com mais de 70 anos
+","costa de uma sócia
+",Comp_Vec,BERT
+"Pinto da Costa escreveu carta a sócios com mais de 70 anos
+","um pinto na selva
+",-,TFIDFVectorizer
+"Pinto da Costa escreveu carta a sócios com mais de 70 anos
+","cão que levou mordida de cobra tem medo de salsicha.
+",-,BERT
+"Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas
+","os professores das trocas
+",Substitution,TFIDFVectorizer
+"Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas
+","o que fazemos nas televisões
+",Substitution,BERT
+"Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas
+","a verdade na arte é apenas a tv das televisões do artista.
+",Analogy,TFIDFVectorizer
+"Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas
+","o record do teu coração
+",Analogy,BERT
+"Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas
+","a tv na arte é apenas a turma das impressões do artista.
+",Comp_Vec,TFIDFVectorizer
+"Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas
+","a turma da senhora peregrine para tvs peculiares
+",Comp_Vec,BERT
+"Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas
+","a tv é tua
+",-,TFIDFVectorizer
+"Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas
+","a arca de noé foi construída por amadores; os profissionais construíram o titanic.
+",-,BERT
+"Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha
+","uma família para o natal
+",Substitution,TFIDFVectorizer
+"Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha
+","o dançar bem é de poucos.
+",Substitution,BERT
+"Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha
+","os marretas - avós para o sobrinhinho natal
+",Analogy,TFIDFVectorizer
+"Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha
+","um sobrinhinho, dois avós
+",Analogy,BERT
+"Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha
+","a parabém para sobrinha
+",Comp_Vec,TFIDFVectorizer
+"Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha
+","a sobrinha da senhora peregrine para crianças peculiares
+",Comp_Vec,BERT
+"Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha
+","chamadas para a quarentena
+",-,TFIDFVectorizer
+"Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha
+","a casa da senhora peregrine para crianças peculiares
+",-,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança
+","enquanto há esperança há esperança.
+",Substitution,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança
+","terrível de uma inspectora do livro de recordes
+",Substitution,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança
+","mágicas palavras e maus feitos, enganam sisudos e néscios.
+",Analogy,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança
+","lugar mágico, lugar sem repouso.
+",Analogy,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança
+","há incertezas em que o coração vê melhor que os olhos.
+",Comp_Vec,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança
+","o tesouro mágico da incerteza misteriosa
+",Comp_Vec,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança
+","enquanto há vida há esperança.
+",-,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança
+","mas se está claro, cheio de luz, haja alegria, que o tempo é de truz.
+",-,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho
+","o desconfiado defende a ser traído.
+",Substitution,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho
+","homenagem servicinho ouro negro
+",Substitution,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho
+","quem exclui o que pode a mais não é excluído.
+",Analogy,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho
+","não me cortes o cabelo que meu pai me exclui
+",Analogy,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho
+","nalgum auxílio do excluído
+",Comp_Vec,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho
+","não excluem galinhas onde a raposa mora.
+",Comp_Vec,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho
+","ser ou não ser
+",-,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho
+","respeitai os bens dos outros, se quereis possuir os vossos tranquilamente.
+",-,BERT
+"EUA estão a apontar para o pior número de desemprego da sua história
+","o rabo é o pior de apontar.
+",Substitution,TFIDFVectorizer
+"EUA estão a apontar para o pior número de desemprego da sua história
+","sou a cara má que vive nesta casa
+",Substitution,BERT
+"EUA estão a apontar para o pior número de desemprego da sua história
+","o rabo é o pior de apontar.
+",Analogy,TFIDFVectorizer
+"EUA estão a apontar para o pior número de desemprego da sua história
+","não entende a abelha, senão a quem aponta com ela.
+",Analogy,BERT
+"EUA estão a apontar para o pior número de desemprego da sua história
+","o rabo aponta o pior de esfolar.
+",Comp_Vec,TFIDFVectorizer
+"EUA estão a apontar para o pior número de desemprego da sua história
+","aponta que é pior!
+",Comp_Vec,BERT
+"EUA estão a apontar para o pior número de desemprego da sua história
+","pior é nada.
+",-,TFIDFVectorizer
+"EUA estão a apontar para o pior número de desemprego da sua história
+","o bibliotecário: a maldição do cálice de judas
+",-,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?
+","as cortes e os amores, os primeiros são os melhores.
+",Substitution,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?
+","não queira o corte tocar rabecão.
+",Substitution,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?
+","os expiatórios são os primeiros.
+",Analogy,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?
+","melhor procura o meu que o nosso.
+",Analogy,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?
+","os expiatórios e os bodes da morte
+",Comp_Vec,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?
+","os expiatórios e os bodes da morte
+",Comp_Vec,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?
+","os últimos são os primeiros.
+",-,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?
+","lisboa é praça de armas, coimbra dos estudantes, porto dos mercadores, vila real dos amantes.
+",-,BERT
+"Bancos dizem que as condições das linhas de crédito foram definidas pelo governo
+","dar a governo o que é de governo e a deus o que é de deus.
+",Substitution,TFIDFVectorizer
+"Bancos dizem que as condições das linhas de crédito foram definidas pelo governo
+","nem todas as circunstâncias se dizem.
+",Substitution,BERT
+"Bancos dizem que as condições das linhas de crédito foram definidas pelo governo
+","as definidas contas fazem os definidos amigos.
+",Analogy,TFIDFVectorizer
+"Bancos dizem que as condições das linhas de crédito foram definidas pelo governo
+","as definidas contas fazem os especificados amigos.
+",Analogy,BERT
+"Bancos dizem que as condições das linhas de crédito foram definidas pelo governo
+","vermelho nascente que definido descora, crédito de chuva que está p'ra demora.
+",Comp_Vec,TFIDFVectorizer
+"Bancos dizem que as condições das linhas de crédito foram definidas pelo governo
+","vermelho nascente que definido descora, crédito de chuva que está p'ra demora.
+",Comp_Vec,BERT
+"Bancos dizem que as condições das linhas de crédito foram definidas pelo governo
+","as linhas de torres
+",-,TFIDFVectorizer
+"Bancos dizem que as condições das linhas de crédito foram definidas pelo governo
+","a arca de noé foi construída por amadores; os profissionais construíram o titanic.
+",-,BERT
+"Sol e calor após o fim do estado de emergência
+","o fim do fim
+",Substitution,TFIDFVectorizer
+"Sol e calor após o fim do estado de emergência
+","bocado comido não apanha lado.
+",Substitution,BERT
+"Sol e calor após o fim do estado de emergência
+","o sol do calor
+",Analogy,TFIDFVectorizer
+"Sol e calor após o fim do estado de emergência
+","ao calor de um outro equipamento
+",Analogy,BERT
+"Sol e calor após o fim do estado de emergência
+","vaticano: o calor oculto do estado mais pequeno do mundo
+",Comp_Vec,TFIDFVectorizer
+"Sol e calor após o fim do estado de emergência
+","se entra por terra a emergência, é que o temporal a enxota.
+",Comp_Vec,BERT
+"Sol e calor após o fim do estado de emergência
+","o estado da nação
+",-,TFIDFVectorizer
+"Sol e calor após o fim do estado de emergência
+","vaticano: o rosto oculto do estado mais pequeno do mundo
+",-,BERT
+"Governo decide futuro das competições de futebol
+","a casa das competições
+",Substitution,TFIDFVectorizer
+"Governo decide futuro das competições de futebol
+","o mal dos outros é consolo de possíveis.
+",Substitution,BERT
+"Governo decide futuro das competições de futebol
+","o futuro a deus decide.
+",Analogy,TFIDFVectorizer
+"Governo decide futuro das competições de futebol
+","quem não convence, é como quem não decide.
+",Analogy,BERT
+"Governo decide futuro das competições de futebol
+","deus decide direito por competições tortas.
+",Comp_Vec,TFIDFVectorizer
+"Governo decide futuro das competições de futebol
+","a competição decide boa mostarda.
+",Comp_Vec,BERT
+"Governo decide futuro das competições de futebol
+","gala internacional de futebol
+",-,TFIDFVectorizer
+"Governo decide futuro das competições de futebol
+","bunker ou contos que ouvi depois do mundo acabar
+",-,BERT
+"Portugal sem casos de crianças com reação inflamatória rara
+","não há bela sem senão, nem rara sem sua graça.
+",Substitution,TFIDFVectorizer
+"Portugal sem casos de crianças com reação inflamatória rara
+","pragas com causa, nem ao meu cão.
+",Substitution,BERT
+"Portugal sem casos de crianças com reação inflamatória rara
+","não há bela sem senão, nem inflamatória sem sua graça.
+",Analogy,TFIDFVectorizer
+"Portugal sem casos de crianças com reação inflamatória rara
+","de sensações inflamatórias, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",Analogy,BERT
+"Portugal sem casos de crianças com reação inflamatória rara
+","não há inflamatória sem senão, nem rara sem sua graça.
+",Comp_Vec,TFIDFVectorizer
+"Portugal sem casos de crianças com reação inflamatória rara
+","raríssimo com raríssimo não faz inflamatório muro.
+",Comp_Vec,BERT
+"Portugal sem casos de crianças com reação inflamatória rara
+","as crianças de paris
+",-,TFIDFVectorizer
+"Portugal sem casos de crianças com reação inflamatória rara
+","nuvens finas, sem ligação, bom tempo, brisas de feição.
+",-,BERT
+"Supremo suspende nomeação de amigo de Bolsonaro para a polícia
+","uma polícia de sangue
+",Substitution,TFIDFVectorizer
+"Supremo suspende nomeação de amigo de Bolsonaro para a polícia
+","diário de um jovem policial
+",Substitution,BERT
+"Supremo suspende nomeação de amigo de Bolsonaro para a polícia
+","suspende de moleiro, que não suspendes de ladrão.
+",Analogy,TFIDFVectorizer
+"Supremo suspende nomeação de amigo de Bolsonaro para a polícia
+","autorizar, suspender e correr depressa
+",Analogy,BERT
+"Supremo suspende nomeação de amigo de Bolsonaro para a polícia
+","a nomeação de suspender amável
+",Comp_Vec,TFIDFVectorizer
+"Supremo suspende nomeação de amigo de Bolsonaro para a polícia
+","nem tudo o que nomeação suspende ouro.
+",Comp_Vec,BERT
+"Supremo suspende nomeação de amigo de Bolsonaro para a polícia
+","amigo do seu amigo meu amigo é.
+",-,TFIDFVectorizer
+"Supremo suspende nomeação de amigo de Bolsonaro para a polícia
+","de grão em grão a galinha enche o papo.
+",-,BERT
+"Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas
+","um burro carregado de livros é um mestre.
+",Substitution,TFIDFVectorizer
+"Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas
+","escola no cinema, um ponto de vista
+",Substitution,BERT
+"Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas
+","academia das quotidianas bruxas
+",Analogy,TFIDFVectorizer
+"Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas
+","falai no quotidiano que ele sempre aparece.
+",Analogy,BERT
+"Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas
+","a quotidiana tragédia das mulheres pintoras
+",Comp_Vec,TFIDFVectorizer
+"Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas
+","quotidiano: o rosto oculto do estado mais pequeno do mundo
+",Comp_Vec,BERT
+"Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas
+","academia das pequenas bruxas
+",-,TFIDFVectorizer
+"Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas
+","vaticano: o rosto oculto do estado mais pequeno do mundo
+",-,BERT
+"Europa prepara retoma gradual da atividade económica
+","gente da minha continente - europa
+",Substitution,TFIDFVectorizer
+"Europa prepara retoma gradual da atividade económica
+","valete: continente de máscaras
+",Substitution,BERT
+"Europa prepara retoma gradual da atividade económica
+","da europa e da união
+",Analogy,TFIDFVectorizer
+"Europa prepara retoma gradual da atividade económica
+","a melhor europa da história da união
+",Analogy,BERT
+"Europa prepara retoma gradual da atividade económica
+","a gradual europa da história da televisão
+",Comp_Vec,TFIDFVectorizer
+"Europa prepara retoma gradual da atividade económica
+","a europa da senhora peregrine para crianças graduais
+",Comp_Vec,BERT
+"Europa prepara retoma gradual da atividade económica
+","gente da minha terra - europa
+",-,TFIDFVectorizer
+"Europa prepara retoma gradual da atividade económica
+","a boca do ambicioso só se fecha com terra de sepultura.
+",-,BERT
+"Desporto? Governo tomará decisões de forma a estar assegurada a segurança
+","para governo, governo e meio.
+",Substitution,TFIDFVectorizer
+"Desporto? Governo tomará decisões de forma a estar assegurada a segurança
+","falta país no teu olhar
+",Substitution,BERT
+"Desporto? Governo tomará decisões de forma a estar assegurada a segurança
+","cada um toma de si, e deus de todos.
+",Analogy,TFIDFVectorizer
+"Desporto? Governo tomará decisões de forma a estar assegurada a segurança
+","devemos tomar a opinião dos outros
+",Analogy,BERT
+"Desporto? Governo tomará decisões de forma a estar assegurada a segurança
+","sê assegurado de saber, e tomarás sábio.
+",Comp_Vec,TFIDFVectorizer
+"Desporto? Governo tomará decisões de forma a estar assegurada a segurança
+","quando tudo é assegurada, coisa alguma toma.
+",Comp_Vec,BERT
+"Desporto? Governo tomará decisões de forma a estar assegurada a segurança
+","a nossa forma de vida
+",-,TFIDFVectorizer
+"Desporto? Governo tomará decisões de forma a estar assegurada a segurança
+","o bibliotecário: a maldição do cálice de judas
+",-,BERT
+"Trabalhadores da hotelaria e turismo há quase dois meses sem salários
+","a boa fé é uma moeda, que quase não tem curso no turismo da vida.
+",Substitution,TFIDFVectorizer
+"Trabalhadores da hotelaria e turismo há quase dois meses sem salários
+","para quem sabe ler um pingo é metade.
+",Substitution,BERT
+"Trabalhadores da hotelaria e turismo há quase dois meses sem salários
+","não há turismo sem hotelaria.
+",Analogy,TFIDFVectorizer
+"Trabalhadores da hotelaria e turismo há quase dois meses sem salários
+","a vida de uma hotelaria
+",Analogy,BERT
+"Trabalhadores da hotelaria e turismo há quase dois meses sem salários
+","enquanto há hotelaria há esperança.
+",Comp_Vec,TFIDFVectorizer
+"Trabalhadores da hotelaria e turismo há quase dois meses sem salários
+","o turismo é uma segunda hotelaria.
+",Comp_Vec,BERT
+"Trabalhadores da hotelaria e turismo há quase dois meses sem salários
+","não há dia sem tarde.
+",-,TFIDFVectorizer
+"Trabalhadores da hotelaria e turismo há quase dois meses sem salários
+","se o trabalho dá saúde, que trabalhem os doentes.
+",-,BERT
+"GNR descontamina ambulâncias de todo o país
+","as ambulâncias do padrinho
+",Substitution,TFIDFVectorizer
+"GNR descontamina ambulâncias de todo o país
+","todo o hospital tem o seu preço.
+",Substitution,BERT
+"GNR descontamina ambulâncias de todo o país
+","a ambulância: a viatura de um país
+",Analogy,TFIDFVectorizer
+"GNR descontamina ambulâncias de todo o país
+","quem não tem ambulância, todo o mundo é seu.
+",Analogy,BERT
+"GNR descontamina ambulâncias de todo o país
+","ambulâncias, país ... e gatos
+",Comp_Vec,TFIDFVectorizer
+"GNR descontamina ambulâncias de todo o país
+","valete: país de máscaras
+",Comp_Vec,BERT
+"GNR descontamina ambulâncias de todo o país
+","de beirais para o país
+",-,TFIDFVectorizer
+"GNR descontamina ambulâncias de todo o país
+","a ignorância da lei não desculpa a ninguém.
+",-,BERT
+"Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional
+","património nacional de música
+",Substitution,TFIDFVectorizer
+"Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional
+","o rapaz e o túmulo
+",Substitution,BERT
+"Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional
+","mosteiro nacional de monja
+",Analogy,TFIDFVectorizer
+"Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional
+","mosteiros com convento: a peça
+",Analogy,BERT
+"Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional
+","a mosteiro da bandeira nacional
+",Comp_Vec,TFIDFVectorizer
+"Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional
+","memórias de um monumento
+",Comp_Vec,BERT
+"Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional
+","prémio nacional de música
+",-,TFIDFVectorizer
+"Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional
+","não vendas a pele do urso antes de o matar.
+",-,BERT
+"Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa
+","uma mulher em lisboa
+",Substitution,TFIDFVectorizer
+"Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa
+","o porto do pau
+",Substitution,BERT
+"Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa
+","um homem com lisboa
+",Analogy,TFIDFVectorizer
+"Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa
+","o jardim do outro belém
+",Analogy,BERT
+"Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa
+","um homem com catana
+",Comp_Vec,TFIDFVectorizer
+"Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa
+","março marçagão, pela catana, cara de anjo; à noite, cara de ladrão.
+",Comp_Vec,BERT
+"Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa
+","uma aventura em lisboa
+",-,TFIDFVectorizer
+"Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa
+","receia-se menos um bravo em cólera, que um cobarde que dissimula.
+",-,BERT
+"Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.
+","a menina dos bancos
+",Substitution,TFIDFVectorizer
+"Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.
+","embargos de amor, embargos de um dia.
+",Substitution,BERT
+"Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.
+","petrolífero de um petróleo
+",Analogy,TFIDFVectorizer
+"Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.
+","de boas intenções está o inferno petrolífero.
+",Analogy,BERT
+"Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.
+","lisboa recupera praça de armas, coimbra dos estudantes, porto dos mercadores, vila petrolífero dos amantes.
+",Comp_Vec,TFIDFVectorizer
+"Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.
+","lenha petrolífero pouco acende e quem muito dorme pouco recupera.
+",Comp_Vec,BERT
+"Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.
+","a lei do mercado
+",-,TFIDFVectorizer
+"Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.
+","de lautas ceias estão as sepulturas cheias.
+",-,BERT
+"Bancos preparam-se para dar menos crédito às famílias
+","bancos, bancos, negócios à parte.
+",Substitution,TFIDFVectorizer
+"Bancos preparam-se para dar menos crédito às famílias
+","roma e pavia não se dão num dia.
+",Substitution,BERT
+"Bancos preparam-se para dar menos crédito às famílias
+","há crédito para tudo menos para a morte.
+",Analogy,TFIDFVectorizer
+"Bancos preparam-se para dar menos crédito às famílias
+","a escolha do prazo
+",Analogy,BERT
+"Bancos preparam-se para dar menos crédito às famílias
+","dar a crédito o que é de crédito e a banco o que é de banco.
+",Comp_Vec,TFIDFVectorizer
+"Bancos preparam-se para dar menos crédito às famílias
+","outro crédito da morte
+",Comp_Vec,BERT
+"Bancos preparam-se para dar menos crédito às famílias
+","há remédio para tudo menos para a morte.
+",-,TFIDFVectorizer
+"Bancos preparam-se para dar menos crédito às famílias
+","do carvão aos resíduos: o regresso a são pedro da cova
+",-,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","quando um burro fala, os outros recomendam as orelhas.
+",Substitution,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","a alma e a militante
+",Substitution,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","recomenda lá, toma cá
+",Analogy,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","quem não recomenda, aponta.
+",Analogy,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","casa onde não há pão, todos recomendam e ninguém critica razão.
+",Comp_Vec,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","quem não critica, recomenda.
+",Comp_Vec,BERT
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","toma lá, dá cá
+",-,TFIDFVectorizer
+"Hidroxicloroquina. Trump toma, autoridades não recomendam e opositores criticam
+","nuvens finas, sem ligação, bom tempo, brisas de feição.
+",-,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","contra factos, não há dias.
+",Substitution,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","ovelha que berra, mês que perde.
+",Substitution,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","a pandemia e a cidade
+",Analogy,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","casa de pandemia, ou morte ou avenida.
+",Analogy,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","muitos dias decreta o mês
+",Comp_Vec,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","nem todo o grão decreta ao olho do moinho.
+",Comp_Vec,BERT
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","a casa e a cidade
+",-,TFIDFVectorizer
+"Cidade brasileira decreta 21 dias de jejum e oração contra pandemia
+","mulher que nas juras de homem se fia, chora de noite e de dia.
+",-,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","os comedores de menores
+",Substitution,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","nem tanto ao mar nem tanto à oliveira.
+",Substitution,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","em tempo de braga, qualquer buraco é lisboa.
+",Analogy,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","a vitela de uma braga
+",Analogy,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","prescrita braga faz, quem em casa fica em paz.
+",Comp_Vec,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","se o trabalho dá braga, que trabalhem os prescritos.
+",Comp_Vec,BERT
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","braga é o penico do céu.
+",-,TFIDFVectorizer
+"Abusos sexuais de sacerdotes a menores em Braga ""canonicamente prescritos""
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","uma hora mais simples
+",Substitution,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","filhos criados, trabalhos suspensos
+",Substitution,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","a conversa é como as gotículas.
+",Analogy,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","não te atrevas, ó poeira...
+",Analogy,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","não se pescam gotículas a bragas suspensas.
+",Comp_Vec,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","uma gotícula suspensa põe o rebanho a perder.
+",Comp_Vec,BERT
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","uma vida mais simples
+",-,TFIDFVectorizer
+"Uma simples conversa gera gotículas que podem ficar suspensas no ar até 14 minutos
+","receia-se menos um bravo em cólera, que um cobarde que dissimula.
+",-,BERT
+"Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online
+","a publicidade de roubar
+",Substitution,TFIDFVectorizer
+"Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online
+","semanas disponíveis... e metade das férias escolares
+",Substitution,BERT
+"Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online
+","o jogo da pondera
+",Analogy,TFIDFVectorizer
+"Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online
+","o jogo - descartar para ponderar
+",Analogy,BERT
+"Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online
+","o desconfiado pondera a limitar traído.
+",Comp_Vec,TFIDFVectorizer
+"Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online
+","não limites para o que eu pondero, olha para o que eu escrevo
+",Comp_Vec,BERT
+"Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online
+","o jogo da verdade
+",-,TFIDFVectorizer
+"Governo pondera alterar Código da Publicidade e limitar anúncios ao jogo online
+","mais vale um gosto na vida que dez reis na algibeira.
+",-,BERT
+"Noivos desesperam por terminar lua de mel, mesmo estando ""presos"" nas Maldivas
+","na terra de fim e mel
+",Substitution,TFIDFVectorizer
+"Noivos desesperam por terminar lua de mel, mesmo estando ""presos"" nas Maldivas
+","na mente de um planeta
+",Substitution,BERT
+"Noivos desesperam por terminar lua de mel, mesmo estando ""presos"" nas Maldivas
+","o mau desespera nas maldades, e o bom, nas virtudes.
+",Analogy,TFIDFVectorizer
+"Noivos desesperam por terminar lua de mel, mesmo estando ""presos"" nas Maldivas
+","o homem desespere sempre com locomovo, e a mulher não lhe toque o vento.
+",Analogy,BERT
+"Noivos desesperam por terminar lua de mel, mesmo estando ""presos"" nas Maldivas
+","o mau desespera nas maldades, e o bom, nas virtudes.
+",Comp_Vec,TFIDFVectorizer
+"Noivos desesperam por terminar lua de mel, mesmo estando ""presos"" nas Maldivas
+","mel desespera o que mel vale.
+",Comp_Vec,BERT
+"Noivos desesperam por terminar lua de mel, mesmo estando ""presos"" nas Maldivas
+","o quarto de noivos
+",-,TFIDFVectorizer
+"Noivos desesperam por terminar lua de mel, mesmo estando ""presos"" nas Maldivas
+","as multidões sempre estão nos extremos, quando não tremem, ameaçam.
+",-,BERT
+"Futebol. Câmara do Porto quer transmissão de jogos em drive-in
+","o ano do porto
+",Substitution,TFIDFVectorizer
+"Futebol. Câmara do Porto quer transmissão de jogos em drive-in
+","nada há tão contagioso, como o presidente.
+",Substitution,BERT
+"Futebol. Câmara do Porto quer transmissão de jogos em drive-in
+","o rádio do porto
+",Analogy,TFIDFVectorizer
+"Futebol. Câmara do Porto quer transmissão de jogos em drive-in
+","a retransmissão do sacerdote
+",Analogy,BERT
+"Futebol. Câmara do Porto quer transmissão de jogos em drive-in
+","a transmissão do porto
+",Comp_Vec,TFIDFVectorizer
+"Futebol. Câmara do Porto quer transmissão de jogos em drive-in
+","foge de um porto azul aleitado; ou desces à transmissão ou ficas molhado.
+",Comp_Vec,BERT
+"Futebol. Câmara do Porto quer transmissão de jogos em drive-in
+","o vinho do porto
+",-,TFIDFVectorizer
+"Futebol. Câmara do Porto quer transmissão de jogos em drive-in
+","lisboa é praça de armas, coimbra dos estudantes, porto dos mercadores, vila real dos amantes.
+",-,BERT
+"Apoiante do Chega junta-se ao líder dos Super Dragões e compra o Canelas
+","dia do super líder
+",Substitution,TFIDFVectorizer
+"Apoiante do Chega junta-se ao líder dos Super Dragões e compra o Canelas
+","diário de uma inspectora do livro de negócios
+",Substitution,BERT
+"Apoiante do Chega junta-se ao líder dos Super Dragões e compra o Canelas
+","o leão dos dragões
+",Analogy,TFIDFVectorizer
+"Apoiante do Chega junta-se ao líder dos Super Dragões e compra o Canelas
+","a liderança de um líder
+",Analogy,BERT
+"Apoiante do Chega junta-se ao líder dos Super Dragões e compra o Canelas
+","dragão do super apoiante
+",Comp_Vec,TFIDFVectorizer
+"Apoiante do Chega junta-se ao líder dos Super Dragões e compra o Canelas
+","as águas de sua apoiante
+",Comp_Vec,BERT
+"Apoiante do Chega junta-se ao líder dos Super Dragões e compra o Canelas
+","dia do super pai
+",-,TFIDFVectorizer
+"Apoiante do Chega junta-se ao líder dos Super Dragões e compra o Canelas
+","receia-se menos um bravo em cólera, que um cobarde que dissimula.
+",-,BERT
+"Bolsonaro diz ter imagem negativa no exterior porque a imprensa é de esquerda
+","diz o roto ao exterior ""porque não te vestes tu?"".
+",Substitution,TFIDFVectorizer
+"Bolsonaro diz ter imagem negativa no exterior porque a imprensa é de esquerda
+","por vezes os positivos matam
+",Substitution,BERT
+"Bolsonaro diz ter imagem negativa no exterior porque a imprensa é de esquerda
+","diz o roto ao negativo ""porque não te vestes tu?"".
+",Analogy,TFIDFVectorizer
+"Bolsonaro diz ter imagem negativa no exterior porque a imprensa é de esquerda
+","não sou um homem negativa
+",Analogy,BERT
+"Bolsonaro diz ter imagem negativa no exterior porque a imprensa é de esquerda
+","exterior postais de cabo negativa
+",Comp_Vec,TFIDFVectorizer
+"Bolsonaro diz ter imagem negativa no exterior porque a imprensa é de esquerda
+","a exterior não serve negativa para usar boné.
+",Comp_Vec,BERT
+"Bolsonaro diz ter imagem negativa no exterior porque a imprensa é de esquerda
+","o livro de imagem
+",-,TFIDFVectorizer
+"Bolsonaro diz ter imagem negativa no exterior porque a imprensa é de esquerda
+","a grama é sempre mais verde do lado do vizinho.
+",-,BERT
+"Sergio Moro diz ter sido pressionado por Bolsonaro para aumentar acesso a munições
+","o que eu seria de ter sido
+",Substitution,TFIDFVectorizer
+"Sergio Moro diz ter sido pressionado por Bolsonaro para aumentar acesso a munições
+","ninguém diga desta vez não beberei.
+",Substitution,BERT
+"Sergio Moro diz ter sido pressionado por Bolsonaro para aumentar acesso a munições
+","moro por ter cão, moro por não ter.
+",Analogy,TFIDFVectorizer
+"Sergio Moro diz ter sido pressionado por Bolsonaro para aumentar acesso a munições
+","por onde moram as palavras
+",Analogy,BERT
+"Sergio Moro diz ter sido pressionado por Bolsonaro para aumentar acesso a munições
+","moro por pressionar cão, moro por não pressionar.
+",Comp_Vec,TFIDFVectorizer
+"Sergio Moro diz ter sido pressionado por Bolsonaro para aumentar acesso a munições
+","mais pressione morar rabo de pescada que cabeça de sardinha.
+",Comp_Vec,BERT
+"Sergio Moro diz ter sido pressionado por Bolsonaro para aumentar acesso a munições
+","o que eu gostaria de ter sido
+",-,TFIDFVectorizer
+"Sergio Moro diz ter sido pressionado por Bolsonaro para aumentar acesso a munições
+","em outubro manda o boi para o palheiro e o barco para o muro.
+",-,BERT
+"Desconfinamento: Em domingo de sol, mais de 180 mil pessoas foram às praias da Caparica
+","o fim de domingo
+",Substitution,TFIDFVectorizer
+"Desconfinamento: Em domingo de sol, mais de 180 mil pessoas foram às praias da Caparica
+","dia pai o que é a crise?
+",Substitution,BERT
+"Desconfinamento: Em domingo de sol, mais de 180 mil pessoas foram às praias da Caparica
+","às três é de praia.
+",Analogy,TFIDFVectorizer
+"Desconfinamento: Em domingo de sol, mais de 180 mil pessoas foram às praias da Caparica
+","a praia acalanta a banhista
+",Analogy,BERT
+"Desconfinamento: Em domingo de sol, mais de 180 mil pessoas foram às praias da Caparica
+","o sol de domingo
+",Comp_Vec,TFIDFVectorizer
+"Desconfinamento: Em domingo de sol, mais de 180 mil pessoas foram às praias da Caparica
+","em praia de marido e mulher, ninguém mete a colher.
+",Comp_Vec,BERT
+"Desconfinamento: Em domingo de sol, mais de 180 mil pessoas foram às praias da Caparica
+","o passeio de domingo
+",-,TFIDFVectorizer
+"Desconfinamento: Em domingo de sol, mais de 180 mil pessoas foram às praias da Caparica
+","mais vale uma vista do dono, que cem brados do abegão.
+",-,BERT
+"Festa em piscina junta milhares de pessoas durante a pandemia nos EUA
+","a festa das pessoas
+",Substitution,TFIDFVectorizer
+"Festa em piscina junta milhares de pessoas durante a pandemia nos EUA
+","discutamos muitas mulheres, mas não disputemos nunca.
+",Substitution,BERT
+"Festa em piscina junta milhares de pessoas durante a pandemia nos EUA
+","a pandemia das pessoas
+",Analogy,TFIDFVectorizer
+"Festa em piscina junta milhares de pessoas durante a pandemia nos EUA
+","a melhor pandemia de solteira
+",Analogy,BERT
+"Festa em piscina junta milhares de pessoas durante a pandemia nos EUA
+","a pandemia e a piscina
+",Comp_Vec,TFIDFVectorizer
+"Festa em piscina junta milhares de pessoas durante a pandemia nos EUA
+","só de bagos fez uma velha cem piscinas.
+",Comp_Vec,BERT
+"Festa em piscina junta milhares de pessoas durante a pandemia nos EUA
+","a cidade das pessoas
+",-,TFIDFVectorizer
+"Festa em piscina junta milhares de pessoas durante a pandemia nos EUA
+","só de bagos fez uma velha cem pipas.
+",-,BERT
+"""Parece um político de outro planeta"". Espanha rendida à fotografia de Marcelo nas redes sociais
+","ao fim de um outro amor
+",Substitution,TFIDFVectorizer
+"""Parece um político de outro planeta"". Espanha rendida à fotografia de Marcelo nas redes sociais
+","se dize o que eu sei, cala-te que eu me calarei.
+",Substitution,BERT
+"""Parece um político de outro planeta"". Espanha rendida à fotografia de Marcelo nas redes sociais
+","diário de um banana: uma rendida viagem
+",Analogy,TFIDFVectorizer
+"""Parece um político de outro planeta"". Espanha rendida à fotografia de Marcelo nas redes sociais
+","barriga cheia, cara rendida.
+",Analogy,BERT
+"""Parece um político de outro planeta"". Espanha rendida à fotografia de Marcelo nas redes sociais
+","planeta de homem, cu de mulher e nariz de cão rendida aquecem no verão.
+",Comp_Vec,TFIDFVectorizer
+"""Parece um político de outro planeta"". Espanha rendida à fotografia de Marcelo nas redes sociais
+","chuva miúda e neve rendida, são bom alimento de planeta lavrada.
+",Comp_Vec,BERT
+"""Parece um político de outro planeta"". Espanha rendida à fotografia de Marcelo nas redes sociais
+","planeta faz de conta
+",-,TFIDFVectorizer
+"""Parece um político de outro planeta"". Espanha rendida à fotografia de Marcelo nas redes sociais
+","relâmpagos ao norte, vento forte, se do sul vem, chuva também.
+",-,BERT
+"Ana Gomes está a “refletir“, sem “pressa“, sobre a sua eventual candidatura à Presidência: “Há outras prioridades“
+","a pressa é inimiga da presidência.
+",Substitution,TFIDFVectorizer
+"Ana Gomes está a “refletir“, sem “pressa“, sobre a sua eventual candidatura à Presidência: “Há outras prioridades“
+","manhã de candidato, tarde de calmeiro.
+",Substitution,BERT
+"Ana Gomes está a “refletir“, sem “pressa“, sobre a sua eventual candidatura à Presidência: “Há outras prioridades“
+","devagar que gomo pressa.
+",Analogy,TFIDFVectorizer
+"Ana Gomes está a “refletir“, sem “pressa“, sobre a sua eventual candidatura à Presidência: “Há outras prioridades“
+","não pereiras a mão em prato onde te gomem as unhas.
+",Analogy,BERT
+"Ana Gomes está a “refletir“, sem “pressa“, sobre a sua eventual candidatura à Presidência: “Há outras prioridades“
+","não há luar mais eventual que o de gomo.
+",Comp_Vec,TFIDFVectorizer
+"Ana Gomes está a “refletir“, sem “pressa“, sobre a sua eventual candidatura à Presidência: “Há outras prioridades“
+","uma eventual que gomava um gato
+",Comp_Vec,BERT
+"Ana Gomes está a “refletir“, sem “pressa“, sobre a sua eventual candidatura à Presidência: “Há outras prioridades“
+","sobre tudo sobre nada
+",-,TFIDFVectorizer
+"Ana Gomes está a “refletir“, sem “pressa“, sobre a sua eventual candidatura à Presidência: “Há outras prioridades“
+","em zanga de marido e mulher não se mete a colher.
+",-,BERT
+"OMS considera cada vez mais improvável segunda grande vaga
+","um titular de cada vez
+",Substitution,TFIDFVectorizer
+"OMS considera cada vez mais improvável segunda grande vaga
+","cada um chega a brasa à sua hipótese.
+",Substitution,BERT
+"OMS considera cada vez mais improvável segunda grande vaga
+","é de espinho improvável
+",Analogy,TFIDFVectorizer
+"OMS considera cada vez mais improvável segunda grande vaga
+","zomba o inevitável do improvável.
+",Analogy,BERT
+"OMS considera cada vez mais improvável segunda grande vaga
+","a vaga improvável serve para atrapalhar
+",Comp_Vec,TFIDFVectorizer
+"OMS considera cada vez mais improvável segunda grande vaga
+","exterminador improvável - destino sombrio
+",Comp_Vec,BERT
+"OMS considera cada vez mais improvável segunda grande vaga
+","um dia de cada vez
+",-,TFIDFVectorizer
+"OMS considera cada vez mais improvável segunda grande vaga
+","o grande circo dos artistas
+",-,BERT
+"Centros comerciais preparados para reabrir em junho
+","come para viver, não comerciais para comer.
+",Substitution,TFIDFVectorizer
+"Centros comerciais preparados para reabrir em junho
+","as trocas apressadas parem cães tortos.
+",Substitution,BERT
+"Centros comerciais preparados para reabrir em junho
+","reabre para viver, não vivas para reabrer.
+",Analogy,TFIDFVectorizer
+"Centros comerciais preparados para reabrir em junho
+","a bom ou mau retomar, três vezes reabrir.
+",Analogy,BERT
+"Centros comerciais preparados para reabrir em junho
+","reabre para viver, não comerciais para reabrer.
+",Comp_Vec,TFIDFVectorizer
+"Centros comerciais preparados para reabrir em junho
+","casa comercial e mesa reabre, hóspedes espera.
+",Comp_Vec,BERT
+"Centros comerciais preparados para reabrir em junho
+","em junho foucinha no punho.
+",-,TFIDFVectorizer
+"Centros comerciais preparados para reabrir em junho
+","sem ovos não se fazem omeletes.
+",-,BERT
+"E se uma flor consumisse o mundo?
+","a maior rosa do mundo
+",Substitution,TFIDFVectorizer
+"E se uma flor consumisse o mundo?
+","a espécie dos sonhos
+",Substitution,BERT
+"E se uma flor consumisse o mundo?
+","numa mulher não se consome nem com uma flor.
+",Analogy,TFIDFVectorizer
+"E se uma flor consumisse o mundo?
+","só eu consumo chupar
+",Analogy,BERT
+"E se uma flor consumisse o mundo?
+","numa mulher não se consome nem com uma flor.
+",Comp_Vec,TFIDFVectorizer
+"E se uma flor consumisse o mundo?
+","como consumir a flor
+",Comp_Vec,BERT
+"E se uma flor consumisse o mundo?
+","a maior flor do mundo
+",-,TFIDFVectorizer
+"E se uma flor consumisse o mundo?
+","ainda que sejas prudente e velho, não desprezes o conselho.
+",-,BERT
+"Versão digital do Louvre com mais de 10 milhões de visitas em 71 dias
+","de armas e visitas
+",Substitution,TFIDFVectorizer
+"Versão digital do Louvre com mais de 10 milhões de visitas em 71 dias
+","como se desenha uma hora
+",Substitution,BERT
+"Versão digital do Louvre com mais de 10 milhões de visitas em 71 dias
+","diário digital de um caçador de vampiros
+",Analogy,TFIDFVectorizer
+"Versão digital do Louvre com mais de 10 milhões de visitas em 71 dias
+","digitais: a última coelha
+",Analogy,BERT
+"Versão digital do Louvre com mais de 10 milhões de visitas em 71 dias
+","digital secreto de um caçador de vampiros
+",Comp_Vec,TFIDFVectorizer
+"Versão digital do Louvre com mais de 10 milhões de visitas em 71 dias
+","a arca de noé foi digital por amadores; os visitas construíram o titanic.
+",Comp_Vec,BERT
+"Versão digital do Louvre com mais de 10 milhões de visitas em 71 dias
+","a minha versão do amor
+",-,TFIDFVectorizer
+"Versão digital do Louvre com mais de 10 milhões de visitas em 71 dias
+","lisboa é praça de armas, coimbra dos estudantes, porto dos mercadores, vila real dos amantes.
+",-,BERT
+"Oito distritos sob aviso amarelo devido ao calor a partir de amanhã
+","o aviso é devido.
+",Substitution,TFIDFVectorizer
+"Oito distritos sob aviso amarelo devido ao calor a partir de amanhã
+","um problema quase perfeito
+",Substitution,BERT
+"Oito distritos sob aviso amarelo devido ao calor a partir de amanhã
+","o distrito é devido.
+",Analogy,TFIDFVectorizer
+"Oito distritos sob aviso amarelo devido ao calor a partir de amanhã
+","há festa no bairro
+",Analogy,BERT
+"Oito distritos sob aviso amarelo devido ao calor a partir de amanhã
+","crónicas de amarela cruz
+",Comp_Vec,TFIDFVectorizer
+"Oito distritos sob aviso amarelo devido ao calor a partir de amanhã
+","distritos de palmo e amarelo
+",Comp_Vec,BERT
+"Oito distritos sob aviso amarelo devido ao calor a partir de amanhã
+","antes de eu partir
+",-,TFIDFVectorizer
+"Oito distritos sob aviso amarelo devido ao calor a partir de amanhã
+","dificilmente o que habita perto da origem abandona o lugar
+",-,BERT
+"Coronavírus: Roma vai multar pessoas que atirem máscaras ou luvas para o chão
+","quem tem cima vai a roma.
+",Substitution,TFIDFVectorizer
+"Coronavírus: Roma vai multar pessoas que atirem máscaras ou luvas para o chão
+","na cima turva é que se apanha o bargue.
+",Substitution,BERT
+"Coronavírus: Roma vai multar pessoas que atirem máscaras ou luvas para o chão
+","quem tem boca atira a roma.
+",Analogy,TFIDFVectorizer
+"Coronavírus: Roma vai multar pessoas que atirem máscaras ou luvas para o chão
+","tortura o teu pano e dura mais um ano. volta a atirar e mais um ano vai durar.
+",Analogy,BERT
+"Coronavírus: Roma vai multar pessoas que atirem máscaras ou luvas para o chão
+","aquilo que sabe bem ou atira mal ou multa pecado.
+",Comp_Vec,TFIDFVectorizer
+"Coronavírus: Roma vai multar pessoas que atirem máscaras ou luvas para o chão
+","sempre promete em multa, pois, ao atirar, ninguém te ajuda.
+",Comp_Vec,BERT
+"Coronavírus: Roma vai multar pessoas que atirem máscaras ou luvas para o chão
+","quem tem boca vai a roma.
+",-,TFIDFVectorizer
+"Coronavírus: Roma vai multar pessoas que atirem máscaras ou luvas para o chão
+","muitos comandantes levam o navio pela encosta acima.
+",-,BERT
+"Reportagem: De máscara e sem medo, os alunos voltam aos laboratórios: “É impossível replicar à distância o que se faz aqui”
+","quando de faz uma máscara, faz-se o testo para ela.
+",Substitution,TFIDFVectorizer
+"Reportagem: De máscara e sem medo, os alunos voltam aos laboratórios: “É impossível replicar à distância o que se faz aqui”
+","a raiva é a última a morrer.
+",Substitution,BERT
+"Reportagem: De máscara e sem medo, os alunos voltam aos laboratórios: “É impossível replicar à distância o que se faz aqui”
+","o vinho faz bem aos homens quando são as mulheres que o replicam.
+",Analogy,TFIDFVectorizer
+"Reportagem: De máscara e sem medo, os alunos voltam aos laboratórios: “É impossível replicar à distância o que se faz aqui”
+","quem muito acerta pouco replica.
+",Analogy,BERT
+"Reportagem: De máscara e sem medo, os alunos voltam aos laboratórios: “É impossível replicar à distância o que se faz aqui”
+","a máscara de replicar leal
+",Comp_Vec,TFIDFVectorizer
+"Reportagem: De máscara e sem medo, os alunos voltam aos laboratórios: “É impossível replicar à distância o que se faz aqui”
+","pelo amor se replica o céu.
+",Comp_Vec,BERT
+"Reportagem: De máscara e sem medo, os alunos voltam aos laboratórios: “É impossível replicar à distância o que se faz aqui”
+","a um mar de distância
+",-,TFIDFVectorizer
+"Reportagem: De máscara e sem medo, os alunos voltam aos laboratórios: “É impossível replicar à distância o que se faz aqui”
+","poente nubloso, vermelho acobreado safa a japona, que o tempo é molhado.
+",-,BERT
+"Saúde: Bloco quer saber quando arrancam os projectos-piloto para o cuidador informal
+","quando um burro fala, os outros arrancam as orelhas.
+",Substitution,TFIDFVectorizer
+"Saúde: Bloco quer saber quando arrancam os projectos-piloto para o cuidador informal
+","ministra nabiça, tudo o que vê, tudo cobiça.
+",Substitution,BERT
+"Saúde: Bloco quer saber quando arrancam os projectos-piloto para o cuidador informal
+","quem cuidadora quer saber.
+",Analogy,TFIDFVectorizer
+"Saúde: Bloco quer saber quando arrancam os projectos-piloto para o cuidador informal
+","quando ao sol posto o norte é puro, tens bom tempo cuidador.
+",Analogy,BERT
+"Saúde: Bloco quer saber quando arrancam os projectos-piloto para o cuidador informal
+","quem cuidadora quer arrancar.
+",Comp_Vec,TFIDFVectorizer
+"Saúde: Bloco quer saber quando arrancam os projectos-piloto para o cuidador informal
+","quando o cuidador arranca na rocha quem se lixa é o mexilhão.
+",Comp_Vec,BERT
+"Saúde: Bloco quer saber quando arrancam os projectos-piloto para o cuidador informal
+","quem pergunta quer saber.
+",-,TFIDFVectorizer
+"Saúde: Bloco quer saber quando arrancam os projectos-piloto para o cuidador informal
+","vaticano: o rosto oculto do estado mais pequeno do mundo
+",-,BERT
+"Inspectores da Educação dizem que faltam meios para travar inflação de notas
+","notas de que não falamos
+",Substitution,TFIDFVectorizer
+"Inspectores da Educação dizem que faltam meios para travar inflação de notas
+","história de um crescimento
+",Substitution,BERT
+"Inspectores da Educação dizem que faltam meios para travar inflação de notas
+","depois de eu travar não faltam colheres.
+",Analogy,TFIDFVectorizer
+"Inspectores da Educação dizem que faltam meios para travar inflação de notas
+","depois de eu avançar não travam colheres.
+",Analogy,BERT
+"Inspectores da Educação dizem que faltam meios para travar inflação de notas
+","depois de eu travar não faltam colheres.
+",Comp_Vec,TFIDFVectorizer
+"Inspectores da Educação dizem que faltam meios para travar inflação de notas
+","não falte o sapateiro travar rabecão.
+",Comp_Vec,BERT
+"Inspectores da Educação dizem que faltam meios para travar inflação de notas
+","por encanto: notas de outono
+",-,TFIDFVectorizer
+"Inspectores da Educação dizem que faltam meios para travar inflação de notas
+","muitos comandantes levam o navio pela encosta acima.
+",-,BERT
+"Urbanismo: Obra no quarteirão da Casa Forte já tem licença para avançar
+","já tem casa para ter juízo
+",Substitution,TFIDFVectorizer
+"Urbanismo: Obra no quarteirão da Casa Forte já tem licença para avançar
+","o sentido do pai
+",Substitution,BERT
+"Urbanismo: Obra no quarteirão da Casa Forte já tem licença para avançar
+","já tem idade para ter quarteirão
+",Analogy,TFIDFVectorizer
+"Urbanismo: Obra no quarteirão da Casa Forte já tem licença para avançar
+","a cordilheira da montanha
+",Analogy,BERT
+"Urbanismo: Obra no quarteirão da Casa Forte já tem licença para avançar
+","a casa ao urbanismo
+",Comp_Vec,TFIDFVectorizer
+"Urbanismo: Obra no quarteirão da Casa Forte já tem licença para avançar
+","quarteirão dá o frio conforme a roupa.
+",Comp_Vec,BERT
+"Urbanismo: Obra no quarteirão da Casa Forte já tem licença para avançar
+","já tem idade para ter juízo
+",-,TFIDFVectorizer
+"Urbanismo: Obra no quarteirão da Casa Forte já tem licença para avançar
+","a menina do balcão e o poeta enamorado
+",-,BERT
+"Saúde: Um quarto das camas de medicina interna estão ocupadas com utentes que tiveram alta
+","de lautas ceias estão as camas cheias.
+",Substitution,TFIDFVectorizer
+"Saúde: Um quarto das camas de medicina interna estão ocupadas com utentes que tiveram alta
+","nascimento de uma estrutura
+",Substitution,BERT
+"Saúde: Um quarto das camas de medicina interna estão ocupadas com utentes que tiveram alta
+","mais vale ocupadíssimo e com saúde do que pobre e doente.
+",Analogy,TFIDFVectorizer
+"Saúde: Um quarto das camas de medicina interna estão ocupadas com utentes que tiveram alta
+","um gesto fútil e dominado
+",Analogy,BERT
+"Saúde: Um quarto das camas de medicina interna estão ocupadas com utentes que tiveram alta
+","diário ocupadíssimo de um caçador de vampiros
+",Comp_Vec,TFIDFVectorizer
+"Saúde: Um quarto das camas de medicina interna estão ocupadas com utentes que tiveram alta
+","diário ocupadíssimo de um caçador de vampiros
+",Comp_Vec,BERT
+"Saúde: Um quarto das camas de medicina interna estão ocupadas com utentes que tiveram alta
+","um quarto com vista para o mar
+",-,TFIDFVectorizer
+"Saúde: Um quarto das camas de medicina interna estão ocupadas com utentes que tiveram alta
+","ninguém aponte as faltas alheias com o dedo sujo.
+",-,BERT
+"Coronavírus: Europa deve ter frente unida para apoiar bancos, defende regulador
+","quem não deve, não defende.
+",Substitution,TFIDFVectorizer
+"Coronavírus: Europa deve ter frente unida para apoiar bancos, defende regulador
+","a cima mais brilhante
+",Substitution,BERT
+"Coronavírus: Europa deve ter frente unida para apoiar bancos, defende regulador
+","a europa em frente
+",Analogy,TFIDFVectorizer
+"Coronavírus: Europa deve ter frente unida para apoiar bancos, defende regulador
+","europas com razão, nem ao meu cão.
+",Analogy,BERT
+"Coronavírus: Europa deve ter frente unida para apoiar bancos, defende regulador
+","gala unida 'a europa'
+",Comp_Vec,TFIDFVectorizer
+"Coronavírus: Europa deve ter frente unida para apoiar bancos, defende regulador
+","horizonte puro, com fuzis brilhando, terás dia brando, com calor unidíssimo.
+",Comp_Vec,BERT
+"Coronavírus: Europa deve ter frente unida para apoiar bancos, defende regulador
+","gente da minha terra - europa
+",-,TFIDFVectorizer
+"Coronavírus: Europa deve ter frente unida para apoiar bancos, defende regulador
+","se deus não defende a cidade, debalde a vigiam seus guardas.
+",-,BERT
+"Carregamento normal de veículos elétricos em postos públicos pago a partir de julho
+","em julho pagar vasculho.
+",Substitution,TFIDFVectorizer
+"Carregamento normal de veículos elétricos em postos públicos pago a partir de julho
+","de fartas ceias estão as funcionárias cheias.
+",Substitution,BERT
+"Carregamento normal de veículos elétricos em postos públicos pago a partir de julho
+","em casa de carregamento, espeto de descarregamento.
+",Analogy,TFIDFVectorizer
+"Carregamento normal de veículos elétricos em postos públicos pago a partir de julho
+","em casa de carregamento, espeto de manuseamento.
+",Analogy,BERT
+"Carregamento normal de veículos elétricos em postos públicos pago a partir de julho
+","de médico, de carregamento e de louco todos pagamo um pouco.
+",Comp_Vec,TFIDFVectorizer
+"Carregamento normal de veículos elétricos em postos públicos pago a partir de julho
+","não peças a quem paga, nem sirvas a quem serviu.
+",Comp_Vec,BERT
+"Carregamento normal de veículos elétricos em postos públicos pago a partir de julho
+","antes de eu partir
+",-,TFIDFVectorizer
+"Carregamento normal de veículos elétricos em postos públicos pago a partir de julho
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,BERT
+"Saídas estreitas e muitos utilizadores. O apeadeiro que pode ser a chave da Covid-19 na Azambuja
+","um lado pode ser o mundo
+",Substitution,TFIDFVectorizer
+"Saídas estreitas e muitos utilizadores. O apeadeiro que pode ser a chave da Covid-19 na Azambuja
+","quem possa o mais possa o menos.
+",Substitution,BERT
+"Saídas estreitas e muitos utilizadores. O apeadeiro que pode ser a chave da Covid-19 na Azambuja
+","um degrau pode ser o telhal
+",Analogy,TFIDFVectorizer
+"Saídas estreitas e muitos utilizadores. O apeadeiro que pode ser a chave da Covid-19 na Azambuja
+","sem anos de azambuja
+",Analogy,BERT
+"Saídas estreitas e muitos utilizadores. O apeadeiro que pode ser a chave da Covid-19 na Azambuja
+","o apeadeiro da azambuja
+",Comp_Vec,TFIDFVectorizer
+"Saídas estreitas e muitos utilizadores. O apeadeiro que pode ser a chave da Covid-19 na Azambuja
+","mundo apeadeiro: reino caído
+",Comp_Vec,BERT
+"Saídas estreitas e muitos utilizadores. O apeadeiro que pode ser a chave da Covid-19 na Azambuja
+","um degrau pode ser o mundo
+",-,TFIDFVectorizer
+"Saídas estreitas e muitos utilizadores. O apeadeiro que pode ser a chave da Covid-19 na Azambuja
+","a arca de noé foi construída por amadores; os profissionais construíram o titanic.
+",-,BERT
+"Estudantes que regressaram aos Açores não conseguem chegar a casa
+","se o pai chegar
+",Substitution,TFIDFVectorizer
+"Estudantes que regressaram aos Açores não conseguem chegar a casa
+","não há mais aluno, que anos onze.
+",Substitution,BERT
+"Estudantes que regressaram aos Açores não conseguem chegar a casa
+","casa em que não regressa não
+",Analogy,TFIDFVectorizer
+"Estudantes que regressaram aos Açores não conseguem chegar a casa
+","quem não regressa, volta.
+",Analogy,BERT
+"Estudantes que regressaram aos Açores não conseguem chegar a casa
+","não regresses aos outros o que não gostas que te consigam a ti.
+",Comp_Vec,TFIDFVectorizer
+"Estudantes que regressaram aos Açores não conseguem chegar a casa
+","se um dia deus regressar, até com norte consiga chover.
+",Comp_Vec,BERT
+"Estudantes que regressaram aos Açores não conseguem chegar a casa
+","se o dia chegar
+",-,TFIDFVectorizer
+"Estudantes que regressaram aos Açores não conseguem chegar a casa
+","não faças aos outros o que não gostas que te façam a ti.
+",-,BERT
+"Governo espanhol retoma em junho libertação de frequência essencial para o 5G
+","governo de beiroas para todos
+",Substitution,TFIDFVectorizer
+"Governo espanhol retoma em junho libertação de frequência essencial para o 5G
+","há gente que prossegue portões
+",Substitution,BERT
+"Governo espanhol retoma em junho libertação de frequência essencial para o 5G
+","retoma para viver, não vivas para retomar.
+",Analogy,TFIDFVectorizer
+"Governo espanhol retoma em junho libertação de frequência essencial para o 5G
+","retomar vida sem dar
+",Analogy,BERT
+"Governo espanhol retoma em junho libertação de frequência essencial para o 5G
+","a frequência retoma para o coração, o que a prevenção retoma para o espírito.
+",Comp_Vec,TFIDFVectorizer
+"Governo espanhol retoma em junho libertação de frequência essencial para o 5G
+","quem vai ao mar retoma o lugar.
+",Comp_Vec,BERT
+"Governo espanhol retoma em junho libertação de frequência essencial para o 5G
+","um filme muito espanhol
+",-,TFIDFVectorizer
+"Governo espanhol retoma em junho libertação de frequência essencial para o 5G
+","poucos fuzis, trovões em barda, rumo em que o vento se alaparda.
+",-,BERT
+"Taxas de juro baixas vão “persistir por ainda mais tempo”, diz autoridade bancária europeia
+","o beijo de uma europeia
+",Substitution,TFIDFVectorizer
+"Taxas de juro baixas vão “persistir por ainda mais tempo”, diz autoridade bancária europeia
+","uma comunidade no tempo
+",Substitution,BERT
+"Taxas de juro baixas vão “persistir por ainda mais tempo”, diz autoridade bancária europeia
+","mulher bancária é casta por natureza.
+",Analogy,TFIDFVectorizer
+"Taxas de juro baixas vão “persistir por ainda mais tempo”, diz autoridade bancária europeia
+","força bancária é a lei do psicológico.
+",Analogy,BERT
+"Taxas de juro baixas vão “persistir por ainda mais tempo”, diz autoridade bancária europeia
+","bancária nascente que nuvens desfaz, reúne a companha que baixinho tempo nos trás.
+",Comp_Vec,TFIDFVectorizer
+"Taxas de juro baixas vão “persistir por ainda mais tempo”, diz autoridade bancária europeia
+","força baixa é a lei do bancário.
+",Comp_Vec,BERT
+"Taxas de juro baixas vão “persistir por ainda mais tempo”, diz autoridade bancária europeia
+","dá tempo ao tempo
+",-,TFIDFVectorizer
+"Taxas de juro baixas vão “persistir por ainda mais tempo”, diz autoridade bancária europeia
+","se deus não defende a cidade, debalde a vigiam seus guardas.
+",-,BERT
+"Como vão os drones vigiar as praias?
+","a conversa é como as praias.
+",Substitution,TFIDFVectorizer
+"Como vão os drones vigiar as praias?
+","uma litoral regressa de noite sozinha a casa
+",Substitution,BERT
+"Como vão os drones vigiar as praias?
+","todos os caminhos vão vigiar a roma.
+",Analogy,TFIDFVectorizer
+"Como vão os drones vigiar as praias?
+","minúsculos - o vigie das formigas
+",Analogy,BERT
+"Como vão os drones vigiar as praias?
+","a praia vigia como as cerejas.
+",Comp_Vec,TFIDFVectorizer
+"Como vão os drones vigiar as praias?
+","vermelho nascente que pronto vigia, tempo de praia que está p'ra demora.
+",Comp_Vec,BERT
+"Como vão os drones vigiar as praias?
+","vêm as glórias, vão-se as memórias.
+",-,TFIDFVectorizer
+"Como vão os drones vigiar as praias?
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,BERT
+"Incentivos fiscais tentam chamar a Cabo Verde rodagem de filmes e festivais de cinema
+","a história do cinema: uma rodagem
+",Substitution,TFIDFVectorizer
+"Incentivos fiscais tentam chamar a Cabo Verde rodagem de filmes e festivais de cinema
+","o crime é a nossa produção
+",Substitution,BERT
+"Incentivos fiscais tentam chamar a Cabo Verde rodagem de filmes e festivais de cinema
+","teatrinho festivais de cabo verde
+",Analogy,TFIDFVectorizer
+"Incentivos fiscais tentam chamar a Cabo Verde rodagem de filmes e festivais de cinema
+","muitos comandantes participam o festival pela encosta acima.
+",Analogy,BERT
+"Incentivos fiscais tentam chamar a Cabo Verde rodagem de filmes e festivais de cinema
+","vídeo festivais de cabo verde
+",Comp_Vec,TFIDFVectorizer
+"Incentivos fiscais tentam chamar a Cabo Verde rodagem de filmes e festivais de cinema
+","a festival é sempre mais verde do lado do vizinho.
+",Comp_Vec,BERT
+"Incentivos fiscais tentam chamar a Cabo Verde rodagem de filmes e festivais de cinema
+","vídeo postais de cabo verde
+",-,TFIDFVectorizer
+"Incentivos fiscais tentam chamar a Cabo Verde rodagem de filmes e festivais de cinema
+","muitos comandantes levam o navio pela encosta acima.
+",-,BERT
+"Artistas lusófonos em Portugal atuam via net enquanto fazem contas à vida
+","enquanto há vida há via.
+",Substitution,TFIDFVectorizer
+"Artistas lusófonos em Portugal atuam via net enquanto fazem contas à vida
+","sininho e o tesouro feito
+",Substitution,BERT
+"Artistas lusófonos em Portugal atuam via net enquanto fazem contas à vida
+","boas contas, fazem lusófonos amigos.
+",Analogy,TFIDFVectorizer
+"Artistas lusófonos em Portugal atuam via net enquanto fazem contas à vida
+","mais vale ser feliz que lusófono.
+",Analogy,BERT
+"Artistas lusófonos em Portugal atuam via net enquanto fazem contas à vida
+","lusófonas contas, fazem bons artistas.
+",Comp_Vec,TFIDFVectorizer
+"Artistas lusófonos em Portugal atuam via net enquanto fazem contas à vida
+","a lusófona fé é uma moeda, que quase não tem curso no comércio da artista.
+",Comp_Vec,BERT
+"Artistas lusófonos em Portugal atuam via net enquanto fazem contas à vida
+","boas contas, fazem bons amigos.
+",-,TFIDFVectorizer
+"Artistas lusófonos em Portugal atuam via net enquanto fazem contas à vida
+","ninguém aponte as faltas alheias com o dedo sujo.
+",-,BERT
+"Ferro Rodrigues desafiado pelo Chega a explicar razão de ter ignorado carta sobre “presenças-fantasma” de deputados
+","razão de um fantasma
+",Substitution,TFIDFVectorizer
+"Ferro Rodrigues desafiado pelo Chega a explicar razão de ter ignorado carta sobre “presenças-fantasma” de deputados
+","cão que levou mordida de cobra tem medo de razão.
+",Substitution,BERT
+"Ferro Rodrigues desafiado pelo Chega a explicar razão de ter ignorado carta sobre “presenças-fantasma” de deputados
+","não se fala de pereira em casa de rodrigado.
+",Analogy,TFIDFVectorizer
+"Ferro Rodrigues desafiado pelo Chega a explicar razão de ter ignorado carta sobre “presenças-fantasma” de deputados
+","dificilmente o que marca perto da origem rodriga o lugar
+",Analogy,BERT
+"Ferro Rodrigues desafiado pelo Chega a explicar razão de ter ignorado carta sobre “presenças-fantasma” de deputados
+","ai de quem de mim mal rodriga, pior de quem mo chega ao ferro.
+",Comp_Vec,TFIDFVectorizer
+"Ferro Rodrigues desafiado pelo Chega a explicar razão de ter ignorado carta sobre “presenças-fantasma” de deputados
+","o ferro - rodrigar para ganhar
+",Comp_Vec,BERT
+"Ferro Rodrigues desafiado pelo Chega a explicar razão de ter ignorado carta sobre “presenças-fantasma” de deputados
+","história de um fantasma
+",-,TFIDFVectorizer
+"Ferro Rodrigues desafiado pelo Chega a explicar razão de ter ignorado carta sobre “presenças-fantasma” de deputados
+","cão que levou mordida de cobra tem medo de salsicha.
+",-,BERT
+"Presidente francês debaixo de fogo depois de reabrir parque temático gerido por amigo pessoal
+","o temático de uma noite
+",Substitution,TFIDFVectorizer
+"Presidente francês debaixo de fogo depois de reabrir parque temático gerido por amigo pessoal
+","quem a alto sode de alto atira.
+",Substitution,BERT
+"Presidente francês debaixo de fogo depois de reabrir parque temático gerido por amigo pessoal
+","a costura de temático
+",Analogy,TFIDFVectorizer
+"Presidente francês debaixo de fogo depois de reabrir parque temático gerido por amigo pessoal
+","um temático dia na vida de maria
+",Analogy,BERT
+"Presidente francês debaixo de fogo depois de reabrir parque temático gerido por amigo pessoal
+","quem a temático sode de temático reabre.
+",Comp_Vec,TFIDFVectorizer
+"Presidente francês debaixo de fogo depois de reabrir parque temático gerido por amigo pessoal
+","quem a temático sode de temático reabre.
+",Comp_Vec,BERT
+"Presidente francês debaixo de fogo depois de reabrir parque temático gerido por amigo pessoal
+","o parque de diversões
+",-,TFIDFVectorizer
+"Presidente francês debaixo de fogo depois de reabrir parque temático gerido por amigo pessoal
+","vaticano: o rosto oculto do estado mais pequeno do mundo
+",-,BERT
+"Pedro Proença e os jogos em sinal aberto: “Injetar dinheiro nos generalistas para comprar conteúdos aos operadores”
+","os jogos estão a chegar
+",Substitution,TFIDFVectorizer
+"Pedro Proença e os jogos em sinal aberto: “Injetar dinheiro nos generalistas para comprar conteúdos aos operadores”
+","golpe de mensagem: um conto de natal
+",Substitution,BERT
+"Pedro Proença e os jogos em sinal aberto: “Injetar dinheiro nos generalistas para comprar conteúdos aos operadores”
+","quem pedra quer comprar.
+",Analogy,TFIDFVectorizer
+"Pedro Proença e os jogos em sinal aberto: “Injetar dinheiro nos generalistas para comprar conteúdos aos operadores”
+","tem a palavra a pedre
+",Analogy,BERT
+"Pedro Proença e os jogos em sinal aberto: “Injetar dinheiro nos generalistas para comprar conteúdos aos operadores”
+","dinheiro não pedra nas conteúdas.
+",Comp_Vec,TFIDFVectorizer
+"Pedro Proença e os jogos em sinal aberto: “Injetar dinheiro nos generalistas para comprar conteúdos aos operadores”
+","pedra com o conteúdo
+",Comp_Vec,BERT
+"Pedro Proença e os jogos em sinal aberto: “Injetar dinheiro nos generalistas para comprar conteúdos aos operadores”
+","não sou o pedro
+",-,TFIDFVectorizer
+"Pedro Proença e os jogos em sinal aberto: “Injetar dinheiro nos generalistas para comprar conteúdos aos operadores”
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,BERT
+"Especialistas defendem que união fiscal é chave para a união política europeia
+","a união faz a união.
+",Substitution,TFIDFVectorizer
+"Especialistas defendem que união fiscal é chave para a união política europeia
+","o país mais sexy do mundo
+",Substitution,BERT
+"Especialistas defendem que união fiscal é chave para a união política europeia
+","a união faz a chave.
+",Analogy,TFIDFVectorizer
+"Especialistas defendem que união fiscal é chave para a união política europeia
+","se derrota conhecer o vilão, põe-lhe uma vara na mão.
+",Analogy,BERT
+"Especialistas defendem que união fiscal é chave para a união política europeia
+","união para todo o serviço
+",Comp_Vec,TFIDFVectorizer
+"Especialistas defendem que união fiscal é chave para a união política europeia
+","a união com todos os dons
+",Comp_Vec,BERT
+"Especialistas defendem que união fiscal é chave para a união política europeia
+","a união faz a força.
+",-,TFIDFVectorizer
+"Especialistas defendem que união fiscal é chave para a união política europeia
+","as multidões sempre estão nos extremos, quando não tremem, ameaçam.
+",-,BERT
+"Microsoft alerta utilizadores para esquema de fraudes via email
+","outro filme de esquema
+",Substitution,TFIDFVectorizer
+"Microsoft alerta utilizadores para esquema de fraudes via email
+","o imprimir da fera
+",Substitution,BERT
+"Microsoft alerta utilizadores para esquema de fraudes via email
+","no email da via láctea
+",Analogy,TFIDFVectorizer
+"Microsoft alerta utilizadores para esquema de fraudes via email
+","uma acção em email
+",Analogy,BERT
+"Microsoft alerta utilizadores para esquema de fraudes via email
+","a aversão é para o email, o que a utilizadora é para o espírito.
+",Comp_Vec,TFIDFVectorizer
+"Microsoft alerta utilizadores para esquema de fraudes via email
+","outras cartas ou o utilizador inventado
+",Comp_Vec,BERT
+"Microsoft alerta utilizadores para esquema de fraudes via email
+","no laboratório da via láctea
+",-,TFIDFVectorizer
+"Microsoft alerta utilizadores para esquema de fraudes via email
+","da rua os tipos maus
+",-,BERT
+"Saiba como funciona o regime temporário e excecional relativo aos contratos de seguro
+","o prevenido funciona seguro.
+",Substitution,TFIDFVectorizer
+"Saiba como funciona o regime temporário e excecional relativo aos contratos de seguro
+","a garantia é a última a morrer.
+",Substitution,BERT
+"Saiba como funciona o regime temporário e excecional relativo aos contratos de seguro
+","arte de ser temporário
+",Analogy,TFIDFVectorizer
+"Saiba como funciona o regime temporário e excecional relativo aos contratos de seguro
+","uma temporária zona de turbulência
+",Analogy,BERT
+"Saiba como funciona o regime temporário e excecional relativo aos contratos de seguro
+","chega-te aos bons, saberás como eles, chega-te aos maus, saberás pior do que eles.
+",Comp_Vec,TFIDFVectorizer
+"Saiba como funciona o regime temporário e excecional relativo aos contratos de seguro
+","sabe o temporário pelo pecador.
+",Comp_Vec,BERT
+"Saiba como funciona o regime temporário e excecional relativo aos contratos de seguro
+","o seguro de vida
+",-,TFIDFVectorizer
+"Saiba como funciona o regime temporário e excecional relativo aos contratos de seguro
+","o lugar que se mantém profundamente inalterado perante a minha passagem circunstancial ou uma maneira de nos vermos dentro do fora de campo
+",-,BERT
+"Clubes noturnos na China já começaram a abrir com máscaras e desinfetante
+","não desespera quem já nada espera, porque já não tem máscaras.
+",Substitution,TFIDFVectorizer
+"Clubes noturnos na China já começaram a abrir com máscaras e desinfetante
+","quem vai ao mar passa o lugar.
+",Substitution,BERT
+"Clubes noturnos na China já começaram a abrir com máscaras e desinfetante
+","agora, já a máscara usa na bóia.
+",Analogy,TFIDFVectorizer
+"Clubes noturnos na China já começaram a abrir com máscaras e desinfetante
+","máscara ao meu avô
+",Analogy,BERT
+"Clubes noturnos na China já começaram a abrir com máscaras e desinfetante
+","cada um começa as máscaras com que se cose.
+",Comp_Vec,TFIDFVectorizer
+"Clubes noturnos na China já começaram a abrir com máscaras e desinfetante
+","alentejanos, algarvios e cães de caça, começa tudo da mesma raça.
+",Comp_Vec,BERT
+"Clubes noturnos na China já começaram a abrir com máscaras e desinfetante
+","as duas máscaras do justiceiro
+",-,TFIDFVectorizer
+"Clubes noturnos na China já começaram a abrir com máscaras e desinfetante
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,BERT
+"Equipas ensaiam novas normas a pensar na Volta
+","a pensar volta um burro.
+",Substitution,TFIDFVectorizer
+"Equipas ensaiam novas normas a pensar na Volta
+","brigas de namorados, amores restantes.
+",Substitution,BERT
+"Equipas ensaiam novas normas a pensar na Volta
+","a pensar ensaia um burro.
+",Analogy,TFIDFVectorizer
+"Equipas ensaiam novas normas a pensar na Volta
+","esta divergência ainda ensaia
+",Analogy,BERT
+"Equipas ensaiam novas normas a pensar na Volta
+","na norma ensaia o perigo.
+",Comp_Vec,TFIDFVectorizer
+"Equipas ensaiam novas normas a pensar na Volta
+","não ensaie o sapateiro além da canela.
+",Comp_Vec,BERT
+"Equipas ensaiam novas normas a pensar na Volta
+","de volta a casa
+",-,TFIDFVectorizer
+"Equipas ensaiam novas normas a pensar na Volta
+","nunca as minhas mãos ficam vazias
+",-,BERT
+"Chefe da diplomacia europeia pede estratégia mais robusta com a China
+","chefe - república popular da china
+",Substitution,TFIDFVectorizer
+"Chefe da diplomacia europeia pede estratégia mais robusta com a China
+","boa romaria faz, quem em casa reclama em paz.
+",Substitution,BERT
+"Chefe da diplomacia europeia pede estratégia mais robusta com a China
+","macau - república robusta da china
+",Analogy,TFIDFVectorizer
+"Chefe da diplomacia europeia pede estratégia mais robusta com a China
+","responsivos e conversas robustas
+",Analogy,BERT
+"Chefe da diplomacia europeia pede estratégia mais robusta com a China
+","coube sempre o robusta quinhão, a quem mais diplomacia teve, e não razão.
+",Comp_Vec,TFIDFVectorizer
+"Chefe da diplomacia europeia pede estratégia mais robusta com a China
+","força robusta é a diplomacia do bruto.
+",Comp_Vec,BERT
+"Chefe da diplomacia europeia pede estratégia mais robusta com a China
+","macau - república popular da china
+",-,TFIDFVectorizer
+"Chefe da diplomacia europeia pede estratégia mais robusta com a China
+","muitos comandantes levam o navio pela encosta acima.
+",-,BERT
+"Procurador russo pede 18 anos de prisão para norte-americano acusado de espionagem
+","duas décadas de prisão
+",Substitution,TFIDFVectorizer
+"Procurador russo pede 18 anos de prisão para norte-americano acusado de espionagem
+","quem tem telhado de vidro não atira detenções ao do vizinho.
+",Substitution,BERT
+"Procurador russo pede 18 anos de prisão para norte-americano acusado de espionagem
+","cada pessoa pede para o seu espionagem.
+",Analogy,TFIDFVectorizer
+"Procurador russo pede 18 anos de prisão para norte-americano acusado de espionagem
+","piranhas - os meninos da abrangência
+",Analogy,BERT
+"Procurador russo pede 18 anos de prisão para norte-americano acusado de espionagem
+","duas procuradeiras de prisão
+",Comp_Vec,TFIDFVectorizer
+"Procurador russo pede 18 anos de prisão para norte-americano acusado de espionagem
+","quem come e guarda, duas vezes põe a procuradeira.
+",Comp_Vec,BERT
+"Procurador russo pede 18 anos de prisão para norte-americano acusado de espionagem
+","duas histórias de prisão
+",-,TFIDFVectorizer
+"Procurador russo pede 18 anos de prisão para norte-americano acusado de espionagem
+","quem tem telhado de vidro não atira pedras ao do vizinho.
+",-,BERT
+"Sismo surpreende primeira-ministra neozelandesa durante entrevista
+","uma entrevista de tremores
+",Substitution,TFIDFVectorizer
+"Sismo surpreende primeira-ministra neozelandesa durante entrevista
+","a abelha não afirma chumbo.
+",Substitution,BERT
+"Sismo surpreende primeira-ministra neozelandesa durante entrevista
+","surpreende sempre uma primeira vez
+",Analogy,TFIDFVectorizer
+"Sismo surpreende primeira-ministra neozelandesa durante entrevista
+","se surpreenderes a ser rico, não te surpreendas de que foste pobre.
+",Analogy,BERT
+"Sismo surpreende primeira-ministra neozelandesa durante entrevista
+","um sismo surpreende um sismo
+",Comp_Vec,TFIDFVectorizer
+"Sismo surpreende primeira-ministra neozelandesa durante entrevista
+","sismo, se o surpreendeste, come o que baste.
+",Comp_Vec,BERT
+"Sismo surpreende primeira-ministra neozelandesa durante entrevista
+","uma entrevista de loucos
+",-,TFIDFVectorizer
+"Sismo surpreende primeira-ministra neozelandesa durante entrevista
+","arte xávega - o chamamento do mar
+",-,BERT
+"Mais de 1.500 camas dos hospitais do SNS ocupadas por pessoas que já tiveram alta
+","natal dos hospitais - mulher
+",Substitution,TFIDFVectorizer
+"Mais de 1.500 camas dos hospitais do SNS ocupadas por pessoas que já tiveram alta
+","zangas de namorados, exemplos dobrados.
+",Substitution,BERT
+"Mais de 1.500 camas dos hospitais do SNS ocupadas por pessoas que já tiveram alta
+","não há nada, por mais ocupadíssimo que seja, que não fosse já novo.
+",Analogy,TFIDFVectorizer
+"Mais de 1.500 camas dos hospitais do SNS ocupadas por pessoas que já tiveram alta
+","construído de um banana: uma ocupada viagem
+",Analogy,BERT
+"Mais de 1.500 camas dos hospitais do SNS ocupadas por pessoas que já tiveram alta
+","de couves ocupadas, mulheres nuas e lautas ceias estão as sepulturas camas.
+",Comp_Vec,TFIDFVectorizer
+"Mais de 1.500 camas dos hospitais do SNS ocupadas por pessoas que já tiveram alta
+","não há livro tão ruim, que não tenha alguma cama boa.
+",Comp_Vec,BERT
+"Mais de 1.500 camas dos hospitais do SNS ocupadas por pessoas que já tiveram alta
+","natal dos hospitais - lisboa
+",-,TFIDFVectorizer
+"Mais de 1.500 camas dos hospitais do SNS ocupadas por pessoas que já tiveram alta
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,BERT
+"Conselheiro de Boris Johnson viajou mais de 400 quilómetros durante o recolhimento obrigatório
+","obrigatório de uma criada de quarto
+",Substitution,TFIDFVectorizer
+"Conselheiro de Boris Johnson viajou mais de 400 quilómetros durante o recolhimento obrigatório
+","mais um dia gratuito
+",Substitution,BERT
+"Conselheiro de Boris Johnson viajou mais de 400 quilómetros durante o recolhimento obrigatório
+","mais um recolhimento obrigatório
+",Analogy,TFIDFVectorizer
+"Conselheiro de Boris Johnson viajou mais de 400 quilómetros durante o recolhimento obrigatório
+","as entranhas do recolhimento
+",Analogy,BERT
+"Conselheiro de Boris Johnson viajou mais de 400 quilómetros durante o recolhimento obrigatório
+","mais vale viajar rabo de pescada que cabeça de sardinha.
+",Comp_Vec,TFIDFVectorizer
+"Conselheiro de Boris Johnson viajou mais de 400 quilómetros durante o recolhimento obrigatório
+","se viaja conhecer o vilão, põe-lhe uma vara na mão.
+",Comp_Vec,BERT
+"Conselheiro de Boris Johnson viajou mais de 400 quilómetros durante o recolhimento obrigatório
+","se queres bom conselheiro, consulta o travesseiro.
+",-,TFIDFVectorizer
+"Conselheiro de Boris Johnson viajou mais de 400 quilómetros durante o recolhimento obrigatório
+","o bibliotecário: a maldição do cálice de judas
+",-,BERT
+"Cobra resgatada pela PSP de amortecedor de um carro em Matosinhos
+","motorista mordido de cobra, tem medo de lingüiça.
+",Substitution,TFIDFVectorizer
+"Cobra resgatada pela PSP de amortecedor de um carro em Matosinhos
+","a motorista da felicidade
+",Substitution,BERT
+"Cobra resgatada pela PSP de amortecedor de um carro em Matosinhos
+","um crime muito resgatada
+",Analogy,TFIDFVectorizer
+"Cobra resgatada pela PSP de amortecedor de um carro em Matosinhos
+","até ao resgatado combate
+",Analogy,BERT
+"Cobra resgatada pela PSP de amortecedor de um carro em Matosinhos
+","um amortecedor muito resgatada
+",Comp_Vec,TFIDFVectorizer
+"Cobra resgatada pela PSP de amortecedor de um carro em Matosinhos
+","o amortecedor é resgatado!
+",Comp_Vec,BERT
+"Cobra resgatada pela PSP de amortecedor de um carro em Matosinhos
+","cachorro mordido de cobra, tem medo de lingüiça.
+",-,TFIDFVectorizer
+"Cobra resgatada pela PSP de amortecedor de um carro em Matosinhos
+","brilhante nascente que nuvens desfaz, reúne a companha que bom tempo nos trás.
+",-,BERT
+"PR promulga diplomas que prolongam apoios às rendas e proíbem suspensão de água e luz
+","às três é de água.
+",Substitution,TFIDFVectorizer
+"PR promulga diplomas que prolongam apoios às rendas e proíbem suspensão de água e luz
+","chama e verás, trabalha e terás.
+",Substitution,BERT
+"PR promulga diplomas que prolongam apoios às rendas e proíbem suspensão de água e luz
+","às três promulga de vez.
+",Analogy,TFIDFVectorizer
+"PR promulga diplomas que prolongam apoios às rendas e proíbem suspensão de água e luz
+","veta que promulga, mas não promulga
+",Analogy,BERT
+"PR promulga diplomas que prolongam apoios às rendas e proíbem suspensão de água e luz
+","água promulga, água proíbe.
+",Comp_Vec,TFIDFVectorizer
+"PR promulga diplomas que prolongam apoios às rendas e proíbem suspensão de água e luz
+","em promulgo toda a fruta proíbe gosto.
+",Comp_Vec,BERT
+"PR promulga diplomas que prolongam apoios às rendas e proíbem suspensão de água e luz
+","às três é de vez.
+",-,TFIDFVectorizer
+"PR promulga diplomas que prolongam apoios às rendas e proíbem suspensão de água e luz
+","é mais abjecto que o miserável, quem lhe insulta a desgraça.
+",-,BERT
+"Autocaravanas invadem estacionamentos das praias no litoral alentejano
+","o despertar das praias
+",Substitution,TFIDFVectorizer
+"Autocaravanas invadem estacionamentos das praias no litoral alentejano
+","o norte e o peão
+",Substitution,BERT
+"Autocaravanas invadem estacionamentos das praias no litoral alentejano
+","morte no estacionamento das bruxas
+",Analogy,TFIDFVectorizer
+"Autocaravanas invadem estacionamentos das praias no litoral alentejano
+","o estacionamento da vida
+",Analogy,BERT
+"Autocaravanas invadem estacionamentos das praias no litoral alentejano
+","nem todos os estacionamentos invadem bispos.
+",Comp_Vec,TFIDFVectorizer
+"Autocaravanas invadem estacionamentos das praias no litoral alentejano
+","não invadas o estacionamento, senão a que o pedir.
+",Comp_Vec,BERT
+"Autocaravanas invadem estacionamentos das praias no litoral alentejano
+","morte no dia das bruxas
+",-,TFIDFVectorizer
+"Autocaravanas invadem estacionamentos das praias no litoral alentejano
+","muitos comandantes levam o navio pela encosta acima.
+",-,BERT
+"Quebra de preços no peixe preocupa os pescadores
+","sorte no jogo, peixe no amor.
+",Substitution,TFIDFVectorizer
+"Quebra de preços no peixe preocupa os pescadores
+","da série preocupada: convergente
+",Substitution,BERT
+"Quebra de preços no peixe preocupa os pescadores
+","filho de peixe sabe preocupar.
+",Analogy,TFIDFVectorizer
+"Quebra de preços no peixe preocupa os pescadores
+","preocupa as causas, quem se sabe dos efeitos.
+",Analogy,BERT
+"Quebra de preços no peixe preocupa os pescadores
+","pescador de peixe sabe preocupar.
+",Comp_Vec,TFIDFVectorizer
+"Quebra de preços no peixe preocupa os pescadores
+","a aversão preocupa para o coração, o que a prevenção preocupa para o pescador.
+",Comp_Vec,BERT
+"Quebra de preços no peixe preocupa os pescadores
+","a festa dos preços
+",-,TFIDFVectorizer
+"Quebra de preços no peixe preocupa os pescadores
+","do carvão aos resíduos: o regresso a são pedro da cova
+",-,BERT
+"Cinemas: distribuidores querem adiar reabertura das salas um mês
+","o homem das salas
+",Substitution,TFIDFVectorizer
+"Cinemas: distribuidores querem adiar reabertura das salas um mês
+","língua maia, mentira maior.
+",Substitution,BERT
+"Cinemas: distribuidores querem adiar reabertura das salas um mês
+","muitos distribuidores tem o mês
+",Analogy,TFIDFVectorizer
+"Cinemas: distribuidores querem adiar reabertura das salas um mês
+","o cliente e a mulher conhecem-se pelo distribuidor.
+",Analogy,BERT
+"Cinemas: distribuidores querem adiar reabertura das salas um mês
+","aquela cinemas do mês
+",Comp_Vec,TFIDFVectorizer
+"Cinemas: distribuidores querem adiar reabertura das salas um mês
+","o falcão cinema de amendoim
+",Comp_Vec,BERT
+"Cinemas: distribuidores querem adiar reabertura das salas um mês
+","o que as mulheres querem
+",-,TFIDFVectorizer
+"Cinemas: distribuidores querem adiar reabertura das salas um mês
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,BERT
+"Filhos na creche? Teremos que nos habituar a conviver com o risco
+","brilhante nascente que nuvens desfaz, reúne a creche que bom tempo nos trás.
+",Substitution,TFIDFVectorizer
+"Filhos na creche? Teremos que nos habituar a conviver com o risco
+","vezes da vida na terra
+",Substitution,BERT
+"Filhos na creche? Teremos que nos habituar a conviver com o risco
+","até que a vida nos habitue
+",Analogy,TFIDFVectorizer
+"Filhos na creche? Teremos que nos habituar a conviver com o risco
+","habitua comigo como a chuva
+",Analogy,BERT
+"Filhos na creche? Teremos que nos habituar a conviver com o risco
+","brilhante nascente que nuvens habitua, reúne a creche que bom tempo nos trás.
+",Comp_Vec,TFIDFVectorizer
+"Filhos na creche? Teremos que nos habituar a conviver com o risco
+","não habitua sempre na creche de cada um o ser feliz, mas habitua o merece-lo.
+",Comp_Vec,BERT
+"Filhos na creche? Teremos que nos habituar a conviver com o risco
+","os filhos da noite
+",-,TFIDFVectorizer
+"Filhos na creche? Teremos que nos habituar a conviver com o risco
+","não morde a abelha, senão a quem trata com ela.
+",-,BERT
+"Máquinas de café que são obras de arte – para ajudar os artistas
+","a arte de ajudar
+",Substitution,TFIDFVectorizer
+"Máquinas de café que são obras de arte – para ajudar os artistas
+","o dia do músico
+",Substitution,BERT
+"Máquinas de café que são obras de arte – para ajudar os artistas
+","as máquinas de plantação
+",Analogy,TFIDFVectorizer
+"Máquinas de café que são obras de arte – para ajudar os artistas
+","vê-se pela festa quem vai na carruagem.
+",Analogy,BERT
+"Máquinas de café que são obras de arte – para ajudar os artistas
+","de máquina todos os cafés são pardos
+",Comp_Vec,TFIDFVectorizer
+"Máquinas de café que são obras de arte – para ajudar os artistas
+","de médico, de café e de louco todos temos um pouco.
+",Comp_Vec,BERT
+"Máquinas de café que são obras de arte – para ajudar os artistas
+","as máquinas de maria
+",-,TFIDFVectorizer
+"Máquinas de café que são obras de arte – para ajudar os artistas
+","velhos são os trapos.
+",-,BERT
+"Austrália Ocidental enfrenta a pior tempestade desde há quase uma década
+","a década do mundo ocidental
+",Substitution,TFIDFVectorizer
+"Austrália Ocidental enfrenta a pior tempestade desde há quase uma década
+","voz do povo é voz de século.
+",Substitution,BERT
+"Austrália Ocidental enfrenta a pior tempestade desde há quase uma década
+","a tempestade do mundo ocidental
+",Analogy,TFIDFVectorizer
+"Austrália Ocidental enfrenta a pior tempestade desde há quase uma década
+","uma tempestade de ciclone
+",Analogy,BERT
+"Austrália Ocidental enfrenta a pior tempestade desde há quase uma década
+","tempestade só enfrenta uma.
+",Comp_Vec,TFIDFVectorizer
+"Austrália Ocidental enfrenta a pior tempestade desde há quase uma década
+","a maior tempestade é aquela que enfrenta da preguiça.
+",Comp_Vec,BERT
+"Austrália Ocidental enfrenta a pior tempestade desde há quase uma década
+","o coração da tempestade
+",-,TFIDFVectorizer
+"Austrália Ocidental enfrenta a pior tempestade desde há quase uma década
+","muitos comandantes levam o navio pela encosta acima.
+",-,BERT
+"Recursos para 2020 esgotavam-se na segunda-feira se todos vivessem como os portugueses
+","os recursos do dia
+",Substitution,TFIDFVectorizer
+"Recursos para 2020 esgotavam-se na segunda-feira se todos vivessem como os portugueses
+","aos espanhóis da inveja todo o sucesso é crime.
+",Substitution,BERT
+"Recursos para 2020 esgotavam-se na segunda-feira se todos vivessem como os portugueses
+","o sol vive para todos, e a sombra para poucos.
+",Analogy,TFIDFVectorizer
+"Recursos para 2020 esgotavam-se na segunda-feira se todos vivessem como os portugueses
+","muito vive a quem não age.
+",Analogy,BERT
+"Recursos para 2020 esgotavam-se na segunda-feira se todos vivessem como os portugueses
+","o recurso vive para todos, e a sombra para poucos.
+",Comp_Vec,TFIDFVectorizer
+"Recursos para 2020 esgotavam-se na segunda-feira se todos vivessem como os portugueses
+","quer viva quer não viva o burro há-de ir à feira.
+",Comp_Vec,BERT
+"Recursos para 2020 esgotavam-se na segunda-feira se todos vivessem como os portugueses
+","um homem de recursos
+",-,TFIDFVectorizer
+"Recursos para 2020 esgotavam-se na segunda-feira se todos vivessem como os portugueses
+","os tímidos roubam-se a si mesmo.
+",-,BERT
+"Polícia em Hong Kong dispara gás lacrimogéneo sobre centenas de manifestantes
+","em tempo de guerra não se limpam centenas.
+",Substitution,TFIDFVectorizer
+"Polícia em Hong Kong dispara gás lacrimogéneo sobre centenas de manifestantes
+","protesta a malícia onde falta a polícia.
+",Substitution,BERT
+"Polícia em Hong Kong dispara gás lacrimogéneo sobre centenas de manifestantes
+","de boas intenções está o gás lacrimogéneo.
+",Analogy,TFIDFVectorizer
+"Polícia em Hong Kong dispara gás lacrimogéneo sobre centenas de manifestantes
+","eis o lacrimogéneo mundo em rede
+",Analogy,BERT
+"Polícia em Hong Kong dispara gás lacrimogéneo sobre centenas de manifestantes
+","como se dispare o lacrimogéneo
+",Comp_Vec,TFIDFVectorizer
+"Polícia em Hong Kong dispara gás lacrimogéneo sobre centenas de manifestantes
+","de lacrimogéneas intenções dispara o inferno cheio.
+",Comp_Vec,BERT
+"Polícia em Hong Kong dispara gás lacrimogéneo sobre centenas de manifestantes
+","sobre tudo sobre nada
+",-,TFIDFVectorizer
+"Polícia em Hong Kong dispara gás lacrimogéneo sobre centenas de manifestantes
+","a ignorância da lei não desculpa a ninguém.
+",-,BERT
+"Ia dar a volta ao mundo, mas o vírus atirou-o para uma aldeia em Trás-os-Montes
+","se ao vale a aldeia baixar, vai para o mar. mas se p'los montes se atrasa, fica em casa.
+",Substitution,TFIDFVectorizer
+"Ia dar a volta ao mundo, mas o vírus atirou-o para uma aldeia em Trás-os-Montes
+","a ordem dos fatores não dar o produto.
+",Substitution,BERT
+"Ia dar a volta ao mundo, mas o vírus atirou-o para uma aldeia em Trás-os-Montes
+","há que dar vírus ao vírus.
+",Analogy,TFIDFVectorizer
+"Ia dar a volta ao mundo, mas o vírus atirou-o para uma aldeia em Trás-os-Montes
+","em mesa redonda não há vez.
+",Analogy,BERT
+"Ia dar a volta ao mundo, mas o vírus atirou-o para uma aldeia em Trás-os-Montes
+","aldeia ao revés encrespada, vai dar-te o vírus saltada.
+",Comp_Vec,TFIDFVectorizer
+"Ia dar a volta ao mundo, mas o vírus atirou-o para uma aldeia em Trás-os-Montes
+","uma aventura na aldeia assombrada
+",Comp_Vec,BERT
+"Ia dar a volta ao mundo, mas o vírus atirou-o para uma aldeia em Trás-os-Montes
+","os videos são um vírus
+",-,TFIDFVectorizer
+"Ia dar a volta ao mundo, mas o vírus atirou-o para uma aldeia em Trás-os-Montes
+","mata primeiro o elefante e depois arranca-lhe os pelos da cauda.
+",-,BERT
+"Investigadores australianos conseguiram velocidade de Internet mais rápida do mundo
+","a rápida e a besta
+",Substitution,TFIDFVectorizer
+"Investigadores australianos conseguiram velocidade de Internet mais rápida do mundo
+","santos da casa não conseguem milagres.
+",Substitution,BERT
+"Investigadores australianos conseguiram velocidade de Internet mais rápida do mundo
+","os homens que não se vingam, são sempre os mais australianos.
+",Analogy,TFIDFVectorizer
+"Investigadores australianos conseguiram velocidade de Internet mais rápida do mundo
+","solidão do segundo australiano
+",Analogy,BERT
+"Investigadores australianos conseguiram velocidade de Internet mais rápida do mundo
+","crónicas australianos de uma família rápida
+",Comp_Vec,TFIDFVectorizer
+"Investigadores australianos conseguiram velocidade de Internet mais rápida do mundo
+","ninguém quer ser australiano nem morrer rapidíssimo.
+",Comp_Vec,BERT
+"Investigadores australianos conseguiram velocidade de Internet mais rápida do mundo
+","o homem mais sexy do mundo
+",-,TFIDFVectorizer
+"Investigadores australianos conseguiram velocidade de Internet mais rápida do mundo
+","muitos comandantes levam o navio pela encosta acima.
+",-,BERT
+"Tribunal decide que quarentena obrigatória num hotel é o mesmo que uma prisão ilegal
+","a vida num tribunal
+",Substitution,TFIDFVectorizer
+"Tribunal decide que quarentena obrigatória num hotel é o mesmo que uma prisão ilegal
+","a decisão é a mãe de todos os erros.
+",Substitution,BERT
+"Tribunal decide que quarentena obrigatória num hotel é o mesmo que uma prisão ilegal
+","se não decide o que resolve, gosta do que decide.
+",Analogy,TFIDFVectorizer
+"Tribunal decide que quarentena obrigatória num hotel é o mesmo que uma prisão ilegal
+","tenta o teu pano e dura mais um ano. volta a decidir e mais um ano vai durar.
+",Analogy,BERT
+"Tribunal decide que quarentena obrigatória num hotel é o mesmo que uma prisão ilegal
+","mais decida um mau acordo que uma obrigatória sentença.
+",Comp_Vec,TFIDFVectorizer
+"Tribunal decide que quarentena obrigatória num hotel é o mesmo que uma prisão ilegal
+","a sorte decide os audazes.
+",Comp_Vec,BERT
+"Tribunal decide que quarentena obrigatória num hotel é o mesmo que uma prisão ilegal
+","uma acção em tribunal
+",-,TFIDFVectorizer
+"Tribunal decide que quarentena obrigatória num hotel é o mesmo que uma prisão ilegal
+","é mais abjecto que o miserável, quem lhe insulta a desgraça.
+",-,BERT
+"Uso de cobre no vestuário e nas máscaras para travar coronavírus: verdade ou mito?
+","o fim para a verdade
+",Substitution,TFIDFVectorizer
+"Uso de cobre no vestuário e nas máscaras para travar coronavírus: verdade ou mito?
+","o sexo dos lados
+",Substitution,BERT
+"Uso de cobre no vestuário e nas máscaras para travar coronavírus: verdade ou mito?
+","ou morro, ou uso melhor
+",Analogy,TFIDFVectorizer
+"Uso de cobre no vestuário e nas máscaras para travar coronavírus: verdade ou mito?
+","a máscara é para o coração, o que a exuberância é para o espírito.
+",Analogy,BERT
+"Uso de cobre no vestuário e nas máscaras para travar coronavírus: verdade ou mito?
+","o mau crê nas máscaras, e o bom, nas virtudes.
+",Comp_Vec,TFIDFVectorizer
+"Uso de cobre no vestuário e nas máscaras para travar coronavírus: verdade ou mito?
+","a bom bocado, bom cobre ou bom suspiro.
+",Comp_Vec,BERT
+"Uso de cobre no vestuário e nas máscaras para travar coronavírus: verdade ou mito?
+","zorro: a verdade por detrás do mito
+",-,TFIDFVectorizer
+"Uso de cobre no vestuário e nas máscaras para travar coronavírus: verdade ou mito?
+","vaticano: o rosto oculto do estado mais pequeno do mundo
+",-,BERT
+"Acesso à praia é livre, vermelho não é proibição de entrar
+","só deus é livre
+",Substitution,TFIDFVectorizer
+"Acesso à praia é livre, vermelho não é proibição de entrar
+","desconfiai de vós, dos homens e do mundo, mas confiai em fim.
+",Substitution,BERT
+"Acesso à praia é livre, vermelho não é proibição de entrar
+","proíbe o amor entrar
+",Analogy,TFIDFVectorizer
+"Acesso à praia é livre, vermelho não é proibição de entrar
+","a história do cinema: uma lei
+",Analogy,BERT
+"Acesso à praia é livre, vermelho não é proibição de entrar
+","a proibição de estar vermelho
+",Comp_Vec,TFIDFVectorizer
+"Acesso à praia é livre, vermelho não é proibição de entrar
+","se bem proibições o que é teu, melhor guardarás o que não for.
+",Comp_Vec,BERT
+"Acesso à praia é livre, vermelho não é proibição de entrar
+","deixa o amor entrar
+",-,TFIDFVectorizer
+"Acesso à praia é livre, vermelho não é proibição de entrar
+","o rio passado, o santo não lembrado.
+",-,BERT
+"Simeone responde aos críticos do estilo defensivo: ""Quem defende melhor é quem ganha""
+","quem sai aos seus não ganha.
+",Substitution,TFIDFVectorizer
+"Simeone responde aos críticos do estilo defensivo: ""Quem defende melhor é quem ganha""
+","um gosto de rapariga
+",Substitution,BERT
+"Simeone responde aos críticos do estilo defensivo: ""Quem defende melhor é quem ganha""
+","o farol do defensivo
+",Analogy,TFIDFVectorizer
+"Simeone responde aos críticos do estilo defensivo: ""Quem defende melhor é quem ganha""
+","sol posto defensivo, com claro ao norte, andar sem medo que monta com sorte.
+",Analogy,BERT
+"Simeone responde aos críticos do estilo defensivo: ""Quem defende melhor é quem ganha""
+","burro defensivo não ganha crítica.
+",Comp_Vec,TFIDFVectorizer
+"Simeone responde aos críticos do estilo defensivo: ""Quem defende melhor é quem ganha""
+","a água defensiva, na crítica seca, é doce.
+",Comp_Vec,BERT
+"Simeone responde aos críticos do estilo defensivo: ""Quem defende melhor é quem ganha""
+","ladrões com muito estilo
+",-,TFIDFVectorizer
+"Simeone responde aos críticos do estilo defensivo: ""Quem defende melhor é quem ganha""
+","se deus não defende a cidade, debalde a vigiam seus guardas.
+",-,BERT
+"West Ham avalia hipótese de colocar adeptos no estádio por videoconferência
+","por falar de estádio
+",Substitution,TFIDFVectorizer
+"West Ham avalia hipótese de colocar adeptos no estádio por videoconferência
+","parte de um cão burguês
+",Substitution,BERT
+"West Ham avalia hipótese de colocar adeptos no estádio por videoconferência
+","por fruir de amor
+",Analogy,TFIDFVectorizer
+"West Ham avalia hipótese de colocar adeptos no estádio por videoconferência
+","muitos filhos, um edifício e um castelo
+",Analogy,BERT
+"West Ham avalia hipótese de colocar adeptos no estádio por videoconferência
+","uma rapariga avalia de noite sozinha a videoconferência
+",Comp_Vec,TFIDFVectorizer
+"West Ham avalia hipótese de colocar adeptos no estádio por videoconferência
+","o livro avaliado: a videoconferência
+",Comp_Vec,BERT
+"West Ham avalia hipótese de colocar adeptos no estádio por videoconferência
+","por falar de amor
+",-,TFIDFVectorizer
+"West Ham avalia hipótese de colocar adeptos no estádio por videoconferência
+","do carvão aos resíduos: o regresso a são pedro da cova
+",-,BERT
+"Clubes do Rio de Janeiro ainda com treinos condicionados à parte física
+","com os treinos em franja
+",Substitution,TFIDFVectorizer
+"Clubes do Rio de Janeiro ainda com treinos condicionados à parte física
+","não é em pia grande que o porco fá à vontade.
+",Substitution,BERT
+"Clubes do Rio de Janeiro ainda com treinos condicionados à parte física
+","força física é a lei do condicionado.
+",Analogy,TFIDFVectorizer
+"Clubes do Rio de Janeiro ainda com treinos condicionados à parte física
+","nuvens condicionadas, sem ligação, bom tempo, camadas de feição.
+",Analogy,BERT
+"Clubes do Rio de Janeiro ainda com treinos condicionados à parte física
+","condicionados treinos, condicionados costumes.
+",Comp_Vec,TFIDFVectorizer
+"Clubes do Rio de Janeiro ainda com treinos condicionados à parte física
+","condicionados treinos, condicionados costumes.
+",Comp_Vec,BERT
+"Clubes do Rio de Janeiro ainda com treinos condicionados à parte física
+","força física é a lei do bruto.
+",-,TFIDFVectorizer
+"Clubes do Rio de Janeiro ainda com treinos condicionados à parte física
+","tantas vezes vai o cântaro à fonte que um dia se quebra.
+",-,BERT
+"Santuário de Fátima retoma no sábado celebrações com presença de peregrinos
+","porque hoje retoma sábado
+",Substitution,TFIDFVectorizer
+"Santuário de Fátima retoma no sábado celebrações com presença de peregrinos
+","vezes pequenas, altas e escuras são chuvas certas e seguras.
+",Substitution,BERT
+"Santuário de Fátima retoma no sábado celebrações com presença de peregrinos
+","com um olho no burro e o outro no visível.
+",Analogy,TFIDFVectorizer
+"Santuário de Fátima retoma no sábado celebrações com presença de peregrinos
+","amor fora da comemoração
+",Analogy,BERT
+"Santuário de Fátima retoma no sábado celebrações com presença de peregrinos
+","refrigerantes e celebrações de santuário
+",Comp_Vec,TFIDFVectorizer
+"Santuário de Fátima retoma no sábado celebrações com presença de peregrinos
+","a celebração do ambicioso só se fecha com terra de sepultura.
+",Comp_Vec,BERT
+"Santuário de Fátima retoma no sábado celebrações com presença de peregrinos
+","porque hoje é sábado
+",-,TFIDFVectorizer
+"Santuário de Fátima retoma no sábado celebrações com presença de peregrinos
+","jantar tarde e cear cedo tiram a merenda de permeio.
+",-,BERT
+"Estudo europeu conclui que consumo de vinho aumentou durante confinamento
+","a música nunca conclui
+",Substitution,TFIDFVectorizer
+"Estudo europeu conclui que consumo de vinho aumentou durante confinamento
+","o que não tem produto remediado está.
+",Substitution,BERT
+"Estudo europeu conclui que consumo de vinho aumentou durante confinamento
+","carne que baste, vinho que farte, confinamento que sobre.
+",Analogy,TFIDFVectorizer
+"Estudo europeu conclui que consumo de vinho aumentou durante confinamento
+","o confinamento que vai não volta.
+",Analogy,BERT
+"Estudo europeu conclui que consumo de vinho aumentou durante confinamento
+","carne que aumente, vinho que farte, confinamento que sobre.
+",Comp_Vec,TFIDFVectorizer
+"Estudo europeu conclui que consumo de vinho aumentou durante confinamento
+","a galinha da minha vizinha aumenta sempre melhor que a minha.
+",Comp_Vec,BERT
+"Estudo europeu conclui que consumo de vinho aumentou durante confinamento
+","um estudo de possibilidades
+",-,TFIDFVectorizer
+"Estudo europeu conclui que consumo de vinho aumentou durante confinamento
+","é mais abjecto que o miserável, quem lhe insulta a desgraça.
+",-,BERT
+"Esplanadas a abarrotar e pessoas sem máscara preocupam em Espanha
+","a mulher das pessoas
+",Substitution,TFIDFVectorizer
+"Esplanadas a abarrotar e pessoas sem máscara preocupam em Espanha
+","alentejanos, preocupados e cães de caça, é tudo da mesma raça.
+",Substitution,BERT
+"Esplanadas a abarrotar e pessoas sem máscara preocupam em Espanha
+","não faças nada, sem abarrotar a almofada.
+",Analogy,TFIDFVectorizer
+"Esplanadas a abarrotar e pessoas sem máscara preocupam em Espanha
+","não vendas a pele do urso antes de o abarrotar.
+",Analogy,BERT
+"Esplanadas a abarrotar e pessoas sem máscara preocupam em Espanha
+","não abarrota sábado sem sol, domingo sem missa nem segunda sem preguiça.
+",Comp_Vec,TFIDFVectorizer
+"Esplanadas a abarrotar e pessoas sem máscara preocupam em Espanha
+","a esplanada abarrota o gato
+",Comp_Vec,BERT
+"Esplanadas a abarrotar e pessoas sem máscara preocupam em Espanha
+","a cidade das pessoas
+",-,TFIDFVectorizer
+"Esplanadas a abarrotar e pessoas sem máscara preocupam em Espanha
+","de couves cruas, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",-,BERT
+"O humor em tempos de pandemia. Será que rir é mesmo o melhor remédio?
+","o último a rir é o que é melhor.
+",Substitution,TFIDFVectorizer
+"O humor em tempos de pandemia. Será que rir é mesmo o melhor remédio?
+","sido por cem, sido por mil.
+",Substitution,BERT
+"O humor em tempos de pandemia. Será que rir é mesmo o melhor remédio?
+","há pandemias em que o coração vê melhor que os olhos.
+",Analogy,TFIDFVectorizer
+"O humor em tempos de pandemia. Será que rir é mesmo o melhor remédio?
+","março, marçagão, de manhã inverno, à tarde vírus.
+",Analogy,BERT
+"O humor em tempos de pandemia. Será que rir é mesmo o melhor remédio?
+","há pandemias em que o remédio vê melhor que os olhos.
+",Comp_Vec,TFIDFVectorizer
+"O humor em tempos de pandemia. Será que rir é mesmo o melhor remédio?
+","pandemias simples da gente cá do meu bairro
+",Comp_Vec,BERT
+"O humor em tempos de pandemia. Será que rir é mesmo o melhor remédio?
+","rir é o melhor remédio
+",-,TFIDFVectorizer
+"O humor em tempos de pandemia. Será que rir é mesmo o melhor remédio?
+","manhã com arco mal vai o barco. se à tarde vem, é p'ra teu bem.
+",-,BERT
+"Venha connosco descobrir os vulcões mais bonitos do nosso planeta, a partir do mar.
+","a terra do mar
+",Substitution,TFIDFVectorizer
+"Venha connosco descobrir os vulcões mais bonitos do nosso planeta, a partir do mar.
+","sobre a estrela passada
+",Substitution,BERT
+"Venha connosco descobrir os vulcões mais bonitos do nosso planeta, a partir do mar.
+","os vulcões do vulcão
+",Analogy,TFIDFVectorizer
+"Venha connosco descobrir os vulcões mais bonitos do nosso planeta, a partir do mar.
+","ninguém fala: o vulcão de uma imprensa livre
+",Analogy,BERT
+"Venha connosco descobrir os vulcões mais bonitos do nosso planeta, a partir do mar.
+","bonitos vulcões, pescam-se em bonitos rios.
+",Comp_Vec,TFIDFVectorizer
+"Venha connosco descobrir os vulcões mais bonitos do nosso planeta, a partir do mar.
+","vulcão bonitinho não tem assento.
+",Comp_Vec,BERT
+"Venha connosco descobrir os vulcões mais bonitos do nosso planeta, a partir do mar.
+","os anjos estão connosco
+",-,TFIDFVectorizer
+"Venha connosco descobrir os vulcões mais bonitos do nosso planeta, a partir do mar.
+","sem nuvens o céu e estrelas sem brilho verás que a tormenta te põe num sarilho.
+",-,BERT
+"Marcelo promulga diploma da AR sobre reinício da atividade dos tribunais
+","promulga o diabo da cruz e o morcego da luz.
+",Substitution,TFIDFVectorizer
+"Marcelo promulga diploma da AR sobre reinício da atividade dos tribunais
+","ovelha quente bota o rebanho a perder.
+",Substitution,BERT
+"Marcelo promulga diploma da AR sobre reinício da atividade dos tribunais
+","promulga o diabo da cruz e o morcego da luz.
+",Analogy,TFIDFVectorizer
+"Marcelo promulga diploma da AR sobre reinício da atividade dos tribunais
+","promulga que zelar pelos nossos
+",Analogy,BERT
+"Marcelo promulga diploma da AR sobre reinício da atividade dos tribunais
+","promulga o diabo da cruz e o morcego da luz.
+",Comp_Vec,TFIDFVectorizer
+"Marcelo promulga diploma da AR sobre reinício da atividade dos tribunais
+","promulgar a qualquer reinício
+",Comp_Vec,BERT
+"Marcelo promulga diploma da AR sobre reinício da atividade dos tribunais
+","sobre tudo sobre nada
+",-,TFIDFVectorizer
+"Marcelo promulga diploma da AR sobre reinício da atividade dos tribunais
+","o homem honrado não se autoriza com as opiniões do patife.
+",-,BERT
+"Em dez anos nenhum polícia foi condenado por racismo. Estudo diz que há negligência na investigação
+","em investigação de uma nova vida
+",Substitution,TFIDFVectorizer
+"Em dez anos nenhum polícia foi condenado por racismo. Estudo diz que há negligência na investigação
+","a omissão é o pior de todos os males.
+",Substitution,BERT
+"Em dez anos nenhum polícia foi condenado por racismo. Estudo diz que há negligência na investigação
+","mais vale um gosto na vida que dez reis na negligência.
+",Analogy,TFIDFVectorizer
+"Em dez anos nenhum polícia foi condenado por racismo. Estudo diz que há negligência na investigação
+","cartas a uma negligência
+",Analogy,BERT
+"Em dez anos nenhum polícia foi condenado por racismo. Estudo diz que há negligência na investigação
+","a negligência salobra, na terra seca, é doce.
+",Comp_Vec,TFIDFVectorizer
+"Em dez anos nenhum polícia foi condenado por racismo. Estudo diz que há negligência na investigação
+","racismo fresca e cravos de papel
+",Comp_Vec,BERT
+"Em dez anos nenhum polícia foi condenado por racismo. Estudo diz que há negligência na investigação
+","mais vale um gosto na vida que dez reis na algibeira.
+",-,TFIDFVectorizer
+"Em dez anos nenhum polícia foi condenado por racismo. Estudo diz que há negligência na investigação
+","é mais abjecto que o miserável, quem lhe insulta a desgraça.
+",-,BERT
+"Alguém estará a piscar o olho a um regresso?
+","quem viver estará.
+",Substitution,TFIDFVectorizer
+"Alguém estará a piscar o olho a um regresso?
+","quem brinca com o olhar queima-se.
+",Substitution,BERT
+"Alguém estará a piscar o olho a um regresso?
+","abre o olho, que piscam carne.
+",Analogy,TFIDFVectorizer
+"Alguém estará a piscar o olho a um regresso?
+","agora pisca que somem elas
+",Analogy,BERT
+"Alguém estará a piscar o olho a um regresso?
+","piscar é olho.
+",Comp_Vec,TFIDFVectorizer
+"Alguém estará a piscar o olho a um regresso?
+","mais pisque um mau olho que uma boa sentença.
+",Comp_Vec,BERT
+"Alguém estará a piscar o olho a um regresso?
+","o regresso dos dinossauros
+",-,TFIDFVectorizer
+"Alguém estará a piscar o olho a um regresso?
+","os olhos pedem mais do que a barriga aguenta.
+",-,BERT
+"Homem condenado à morte através do Zoom por tráfico de droga
+","o condenado de seis cavalos
+",Substitution,TFIDFVectorizer
+"Homem condenado à morte através do Zoom por tráfico de droga
+","vai partir tudo bem
+",Substitution,BERT
+"Homem condenado à morte através do Zoom por tráfico de droga
+","a morte do super zoom
+",Analogy,TFIDFVectorizer
+"Homem condenado à morte através do Zoom por tráfico de droga
+","cachorros do ser: como os zoomes podem mudar o mundo
+",Analogy,BERT
+"Homem condenado à morte através do Zoom por tráfico de droga
+","setembro condenado, zoom estragado.
+",Comp_Vec,TFIDFVectorizer
+"Homem condenado à morte através do Zoom por tráfico de droga
+","quem parte velho condena novo.
+",Comp_Vec,BERT
+"Homem condenado à morte através do Zoom por tráfico de droga
+","a morte do super homem
+",-,TFIDFVectorizer
+"Homem condenado à morte através do Zoom por tráfico de droga
+","quem tem telhado de vidro não atira pedras ao do vizinho.
+",-,BERT
+"Marcou, abraçou motorista que salvou equipa e espera não ser castigado","a motorista não espera
+",Substitution,TFIDFVectorizer
+"Marcou, abraçou motorista que salvou equipa e espera não ser castigado","não há mal que sempre dure nem bem que não consiga.
+",Substitution,BERT
+"Marcou, abraçou motorista que salvou equipa e espera não ser castigado","quem espera abraça.
+",Analogy,TFIDFVectorizer
+"Marcou, abraçou motorista que salvou equipa e espera não ser castigado","quem muito dorme pouco abraça.
+",Analogy,BERT
+"Marcou, abraçou motorista que salvou equipa e espera não ser castigado","não há mal que sempre abrace nem bem que não salve.
+",Comp_Vec,TFIDFVectorizer
+"Marcou, abraçou motorista que salvou equipa e espera não ser castigado","sem se salvarem ovos não se abraçam omeletas.
+",Comp_Vec,BERT
+"Marcou, abraçou motorista que salvou equipa e espera não ser castigado","o cão que salvou o natal
+",-,TFIDFVectorizer
+"Marcou, abraçou motorista que salvou equipa e espera não ser castigado","socorro, sou uma mulher de sucesso
+",-,BERT

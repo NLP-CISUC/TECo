@@ -1,0 +1,700 @@
+Headline,Generated_Expression,Generation_Method,First_Selection,Final_Selection
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"Teste o Seu Cérebro
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"Quando o Amor Chega
+",Substitution,TFIDFVectorizer,BERT
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"santos da casa não fazem efeitos.
+",Substitution,BERT,TFIDFVectorizer
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"de fartas ceias estão as vítimas cheias.
+",Substitution,BERT,BERT
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"Quando o Amor Chega
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"avalia as causas, quem se analisa dos efeitos.
+",Analogy,TFIDFVectorizer,BERT
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"santos da casa não avalia milagres.
+",Analogy,BERT,TFIDFVectorizer
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"mais vale um que bem considera do que dois que mal avalia.
+",Analogy,BERT,BERT
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"pequenos descuidos avalia sobreviventes males.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"cada um avalia sobrevivente de seu pai.
+",Comp_Vec,TFIDFVectorizer,BERT
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"chega-te aos bons, avalia como eles, chega-te aos sobreviventes, avalia pior do que eles.
+",Comp_Vec,BERT,TFIDFVectorizer
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"o sobrevivente avalia mais que a avalia.
+",Comp_Vec,BERT,BERT
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"Teste o Seu Cérebro
+",-,-,TFIDFVectorizer
+Vírus da Covid-19 chega ao cérebro. Especialistas avaliam efeitos em sobreviventes,"a Arca de Noé foi construída por amadores; os profissionais construíram o Titanic.
+",-,-,BERT
+UEFA mantém designação do Europeu 2020 e explica a decisão,"a grama é sempre mais verde do lado do europeu.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+UEFA mantém designação do Europeu 2020 e explica a decisão,"o magnânimo tem por sua a denominação dos seus.
+",Substitution,TFIDFVectorizer,BERT
+UEFA mantém designação do Europeu 2020 e explica a decisão,"o europeu médico é o do terceiro dia.
+",Substitution,BERT,TFIDFVectorizer
+UEFA mantém designação do Europeu 2020 e explica a decisão,"tribunal que nasce torto morre torto.
+",Substitution,BERT,BERT
+UEFA mantém designação do Europeu 2020 e explica a decisão,"a designação é sempre mais verde do lado do vizinho.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+UEFA mantém designação do Europeu 2020 e explica a decisão,"O Ritmo na Vida
+",Analogy,TFIDFVectorizer,BERT
+UEFA mantém designação do Europeu 2020 e explica a decisão,"a designação é sempre mais verde do lado do designado.
+",Analogy,BERT,TFIDFVectorizer
+UEFA mantém designação do Europeu 2020 e explica a decisão,"a designação é para o coração, o que a conotação é para o espírito.
+",Analogy,BERT,BERT
+UEFA mantém designação do Europeu 2020 e explica a decisão,"designação ganha, designação mantê.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+UEFA mantém designação do Europeu 2020 e explica a decisão,"a maior mismantêria mantê aquela que vem da designação.
+",Comp_Vec,TFIDFVectorizer,BERT
+UEFA mantém designação do Europeu 2020 e explica a decisão,"designação ganha, designação mantê.
+",Comp_Vec,BERT,TFIDFVectorizer
+UEFA mantém designação do Europeu 2020 e explica a decisão,"a melhor defesa mantê o ataque.
+",Comp_Vec,BERT,BERT
+UEFA mantém designação do Europeu 2020 e explica a decisão,"A Decisão de Isabel
+",-,-,TFIDFVectorizer
+UEFA mantém designação do Europeu 2020 e explica a decisão,"o homem honrado não se autoriza com as opiniões do patife.
+",-,-,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"quem não é para comer, não é para exige.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"Magia a Quanto Obrigas
+",Substitution,TFIDFVectorizer,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"para bem tagarelar, basta o sindicato.
+",Substitution,BERT,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"Mini Chuva de Estrelas
+",Substitution,BERT,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"A Queda de uma Árvore: A História da Frente de Libertação da Terra
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"Cenas do Próximo Capítulo
+",Analogy,TFIDFVectorizer,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"a cabeça não serve só para usar sindicato.
+",Analogy,BERT,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"à boca da barra, se perde o sindicato.
+",Analogy,BERT,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"água do sindicato exige para o mar.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"vozes de burro não exige aos céus.
+",Comp_Vec,TFIDFVectorizer,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"a cabeça não exige só para usar sindicato.
+",Comp_Vec,BERT,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"o hábito exige uma segunda Natureza.
+",Comp_Vec,BERT,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"Gala Internacional de Futebol
+",-,-,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"o homem honrado não se autoriza com as opiniões do patife.
+",-,-,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"finge no deserto, é sermão perdido.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"a bom entendedor, meia palavra é.
+",Substitution,TFIDFVectorizer,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"prisão no jogo, azar no amor.
+",Substitution,BERT,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"o passa não ocupa lugar!.
+",Substitution,BERT,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"a minha liberdade acaba onde finge a liberdade dos outros.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"por mais santo que seja o dia, a panela tem que finge.
+",Analogy,TFIDFVectorizer,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"se um trovão seco no céu reboa, temporal violento nos finge.
+",Analogy,BERT,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"quando um cai, todos o finge.
+",Analogy,BERT,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"finge no deserto, é sermão detê.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"mais detê finge feliz que rico.
+",Comp_Vec,TFIDFVectorizer,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"finge detê morrer.
+",Comp_Vec,BERT,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"o que não detê solução, solucionado finge.
+",Comp_Vec,BERT,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"Porque Um Dia Acaba
+",-,-,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"mais vale uma vista do dono, que cem brados do abegão.
+",-,-,BERT
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"Os sócios do rio
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"O Pai Natal Chega Sempre
+",Substitution,TFIDFVectorizer,BERT
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"a boca do ambicioso só se fecha com terra de carta.
+",Substitution,BERT,TFIDFVectorizer
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"Gente da Minha Terra - Europa
+",Substitution,BERT,BERT
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"mais vale agradecer com a verdade, que soa com a costa.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"O Jardineiro que Não Tinha Projectos
+",Analogy,TFIDFVectorizer,BERT
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"A Noite Mais Longa
+",Analogy,BERT,TFIDFVectorizer
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"As costas da grande coisa
+",Analogy,BERT,BERT
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"mais vale agradecer com a costa, que ofender com a sócia.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"Vénus, Ninfas e Sereias
+",Comp_Vec,TFIDFVectorizer,BERT
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"Voar da costa dos sócios
+",Comp_Vec,BERT,TFIDFVectorizer
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"costa com sócio de grande aparato, É molha certa prá gente de quarto.
+",Comp_Vec,BERT,BERT
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"Um Pinto na Selva
+",-,-,TFIDFVectorizer
+Pinto da Costa escreveu carta a sócios com mais de 70 anos,"cão que levou mordida de cobra tem medo de salsicha.
+",-,-,BERT
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"mais vale um gosto na vida que dez professores na algibeira.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"Baseado Numa História Verídica
+",Substitution,TFIDFVectorizer,BERT
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"nível é o que nível vale.
+",Substitution,BERT,TFIDFVectorizer
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"se saem a ser rico, não te esqueças de que foste pobre.
+",Substitution,BERT,BERT
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"a verdade na arte é apenas a tv das televisões do artista.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"mais vale um gosto na vida que seis globos na tv.
+",Analogy,TFIDFVectorizer,BERT
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"na noite involta, tv o tvdor.
+",Analogy,BERT,TFIDFVectorizer
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"manhã de névoa, tarde de tv.
+",Analogy,BERT,BERT
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"mais vale um gosto na tv que dez reis na turma.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"a turma na arte é apenas a tv das impressões do artista.
+",Comp_Vec,TFIDFVectorizer,BERT
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"na tv involta, pesca o pescador.
+",Comp_Vec,BERT,TFIDFVectorizer
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"do prato à turma perde-se a tv.
+",Comp_Vec,BERT,BERT
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"A TV é Tua
+",-,-,TFIDFVectorizer
+Alunos e professores dizem que matéria transmitida na TV ficou aquém do nível das turmas,"a Arca de Noé foi construída por amadores; os profissionais construíram o Titanic.
+",-,-,BERT
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"Na família do pintor
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"O Segredo Bem Guardado
+",Substitution,TFIDFVectorizer,BERT
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"na família é que está o bom gosto.
+",Substitution,BERT,TFIDFVectorizer
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"o tio é o pior de esfolar.
+",Substitution,BERT,BERT
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"as sobrinhas e os avós, os primeiros são os melhores.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"O Tempo e Dez Mulheres
+",Analogy,TFIDFVectorizer,BERT
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"a sobrinha é o pior de todos os sobrinhinhos.
+",Analogy,BERT,TFIDFVectorizer
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"sobrinhinhos de amor, sobrinhinhos de um dia.
+",Analogy,BERT,BERT
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"os parabéns por sobrinha ainda vêem menos, que os parabéns por nascimento.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"quem gosta de parabém é homossexual, mulher gosta de sobrinhinho.
+",Comp_Vec,TFIDFVectorizer,BERT
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"a sobrinha não se fez só para usar parabém.
+",Comp_Vec,BERT,TFIDFVectorizer
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"não queira o parabém tocar sobrinhinho.
+",Comp_Vec,BERT,BERT
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"Chamadas para a Quarentena
+",-,-,TFIDFVectorizer
+Ronaldo juntou a família na quarentena para cantar os parabéns à sobrinha,"ao menino e ao borracho põe-lhes Deus a mão por baixo.
+",-,-,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","enquanto há esperança há esperança.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","Há Festa na Aldeia
+",Substitution,TFIDFVectorizer,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","há esperança demasiada, mas a educação é sempre pouca.
+",Substitution,BERT,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","A Vida do Avesso
+",Substitution,BERT,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","Pronta Para a Luta
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","O Importante é a Beterraba
+",Analogy,TFIDFVectorizer,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","mágicas palavras e maus feitos, enganam sisudos e néscios.
+",Analogy,BERT,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","quem em novo tia bem, em mágico algum geito tem.
+",Analogy,BERT,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","há incertezas em que o coração vê melhor que os olhos.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","Carvão Negro, Gelo Fino
+",Comp_Vec,TFIDFVectorizer,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","há incerteza mágica, mas a educação é sempre pouca.
+",Comp_Vec,BERT,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","cão que levou mágica de cobra tem medo de salsicha.
+",Comp_Vec,BERT,BERT
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","enquanto há vida há esperança.
+",-,-,TFIDFVectorizer
+"Há três palavras mágicas para o que vivemos: tragédia, incerteza e esperança","mas se está claro, cheio de luz, haja alegria, que o tempo é de truz.
+",-,-,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","Dos Homens e dos Deuses
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","não é vilão o da vila, senão o que faz reestruturação.
+",Substitution,TFIDFVectorizer,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","ninguém quer ser excluído nem morrer novo.
+",Substitution,BERT,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","enganaste-me uma operadora, nunca mais me enganarás.
+",Substitution,BERT,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","Ser ou Não Ser
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","quem faz o que pode a mais não é exclua.
+",Analogy,TFIDFVectorizer,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","ninguém quer ser excluído nem exclua novo.
+",Analogy,BERT,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","sê excluído de saber, e exclua sábio.
+",Analogy,BERT,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","Que exclua Feito dos Dias na Cave
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","se o sapo exclua em Janeiro, guarda a palha no sendeiro.
+",Comp_Vec,TFIDFVectorizer,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","o auxílio alheio não pesa a quem o não exclua.
+",Comp_Vec,BERT,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","de sábio e de auxílio todos exclua um pouco.
+",Comp_Vec,BERT,BERT
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","Ser ou Não Ser
+",-,-,TFIDFVectorizer
+"Auxílio dos acionistas privados na TAP não pode ser excluído, defende Frasquilho","respeitai os bens dos outros, se quereis possuir os vossos tranquilamente.
+",-,-,BERT
+UA estão a apontar para o pior número de desemprego da sua história,"Para O Melhor Ou Para O Pior
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+UA estão a apontar para o pior número de desemprego da sua história,"A Mãe é que Sabe
+",Substitution,TFIDFVectorizer,BERT
+UA estão a apontar para o pior número de desemprego da sua história,"a história da lei não desculpa a ninguém.
+",Substitution,BERT,TFIDFVectorizer
+UA estão a apontar para o pior número de desemprego da sua história,"O Homem Que Inventou o Natal
+",Substitution,BERT,BERT
+UA estão a apontar para o pior número de desemprego da sua história,"o rabo é o pior de aponta.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+UA estão a apontar para o pior número de desemprego da sua história,"Isto aponta Para a Televisão?
+",Analogy,TFIDFVectorizer,BERT
+UA estão a apontar para o pior número de desemprego da sua história,"Agora aponta a Sua Vez
+",Analogy,BERT,TFIDFVectorizer
+UA estão a apontar para o pior número de desemprego da sua história,"não começa para amanhã o que podes aponta hoje.
+",Analogy,BERT,BERT
+UA estão a apontar para o pior número de desemprego da sua história,"para aponta, até o ferro pior.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+UA estão a apontar para o pior número de desemprego da sua história,"É Preciso Ter Calma
+",Comp_Vec,TFIDFVectorizer,BERT
+UA estão a apontar para o pior número de desemprego da sua história,"saco pior não se aponta de pé.
+",Comp_Vec,BERT,TFIDFVectorizer
+UA estão a apontar para o pior número de desemprego da sua história,"saco pior não se aponta de pé.
+",Comp_Vec,BERT,BERT
+UA estão a apontar para o pior número de desemprego da sua história,"Para O Melhor Ou Para O Pior
+",-,-,TFIDFVectorizer
+UA estão a apontar para o pior número de desemprego da sua história,"não vendas a pele do urso antes de o matar.
+",-,-,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","as cortes e os amores, os primeiros são os melhores.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","O Gangue do Parque
+",Substitution,TFIDFVectorizer,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","os amigos são para as cortes.
+",Substitution,BERT,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","quem diz a vez, não merece castigo.
+",Substitution,BERT,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","os expiatórios são sempre os primeiros.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","janeiro geadeiro, Fevereiro rego cheio, Março coreiro, Abril águas mil caibam todas num barril, Maio amoroso, Junho calmoso e Julho ventoso, fazem o ano expiatório.
+",Analogy,TFIDFVectorizer,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","julgam os namorados que todos têm os olhos expiatórios.
+",Analogy,BERT,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","Peixe Doce em Água Salgada
+",Analogy,BERT,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","O Legado de um Caçador de Veados de Cauda Branca
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","chuva miúda e neve expiatória, são bom alimento de terra lavrada.
+",Comp_Vec,TFIDFVectorizer,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","de couves expiatórias, mulheres nuas e lautas ceias estão as sepulturas cheias.
+",Comp_Vec,BERT,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","dos bodes o menor.
+",Comp_Vec,BERT,BERT
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","Sobre Tudo Sobre Nada
+",-,-,TFIDFVectorizer
+"Rooney sobre cortes de salários: ""Porque é que são os futebolistas os bodes expiatórios?""","lisboa é praça de armas, Coimbra dos estudantes, Porto dos mercadores, Vila Real dos amantes.
+",-,-,BERT
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"As Linhas de Torres
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"A Arte da Paixão
+",Substitution,TFIDFVectorizer,BERT
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"há mais bancos que marinheiros.
+",Substitution,BERT,TFIDFVectorizer
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"muito se engana quem pensa.
+",Substitution,BERT,BERT
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"vinho, azeite e amigos, os mais definidos.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"definida geada, mensageira de prioridade.
+",Analogy,TFIDFVectorizer,BERT
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"as conformidades definidas parem cães tortos.
+",Analogy,BERT,TFIDFVectorizer
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"as definidas noticias chegam depressa.
+",Analogy,BERT,BERT
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"mãos definidas, crédito quente.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"Ao Longo da Estrada
+",Comp_Vec,TFIDFVectorizer,BERT
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"Afinal Quem é que Usa as Calças Lá em Casa?
+",Comp_Vec,BERT,TFIDFVectorizer
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"Rua Sésamo - Especial Fim de Ano
+",Comp_Vec,BERT,BERT
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"As Linhas de Torres
+",-,-,TFIDFVectorizer
+Bancos dizem que as condições das linhas de crédito foram definidas pelo governo,"a Arca de Noé foi construída por amadores; os profissionais construíram o Titanic.
+",-,-,BERT
+Sol e calor após o fim do estado de emergência,"É o Fim do Mundo
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Sol e calor após o fim do estado de emergência,"a água é tão útil às plantas como o planeta aos animais.
+",Substitution,TFIDFVectorizer,BERT
+Sol e calor após o fim do estado de emergência,"fim morto, fim posto.
+",Substitution,BERT,TFIDFVectorizer
+Sol e calor após o fim do estado de emergência,"Uma Pequena Zona de Turbulência
+",Substitution,BERT,BERT
+Sol e calor após o fim do estado de emergência,"É o Fim do Mundo
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Sol e calor após o fim do estado de emergência,"sol de Janeiro dá que fazer ao calor.
+",Analogy,TFIDFVectorizer,BERT
+Sol e calor após o fim do estado de emergência,"A Casa do Fim dos Tempos
+",Analogy,BERT,TFIDFVectorizer
+Sol e calor após o fim do estado de emergência,"Era o Vento... e o Mar
+",Analogy,BERT,BERT
+Sol e calor após o fim do estado de emergência,"O que a emergência rouba ao calor
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Sol e calor após o fim do estado de emergência,"pouco a pouco a emergência consegue devorar a folha da árvore.
+",Comp_Vec,TFIDFVectorizer,BERT
+Sol e calor após o fim do estado de emergência,"Vaticano: O calor oculto do Estado mais pequeno do mundo
+",Comp_Vec,BERT,TFIDFVectorizer
+Sol e calor após o fim do estado de emergência,"emergência de vaidades, não recompensam virtudes.
+",Comp_Vec,BERT,BERT
+Sol e calor após o fim do estado de emergência,"O Estado da Nação
+",-,-,TFIDFVectorizer
+Sol e calor após o fim do estado de emergência,"Vaticano: O rosto oculto do Estado mais pequeno do mundo
+",-,-,BERT
+Governo decide futuro das competições de futebol,"junho calmoso, governo formoso.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Governo decide futuro das competições de futebol,"Uma Rosa no Deserto
+",Substitution,TFIDFVectorizer,BERT
+Governo decide futuro das competições de futebol,"competições de namorados, amores dobrados.
+",Substitution,BERT,TFIDFVectorizer
+Governo decide futuro das competições de futebol,"é mais abjecto que o miserável, quem lhe tenta a desgraça.
+",Substitution,BERT,BERT
+Governo decide futuro das competições de futebol,"o futuro a Deus decida.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Governo decide futuro das competições de futebol,"poente nubloso, vermelho fá safa a japona, que o tempo é decida.
+",Analogy,TFIDFVectorizer,BERT
+Governo decide futuro das competições de futebol,"cada um decida de si, e Deus de todos.
+",Analogy,BERT,TFIDFVectorizer
+Governo decide futuro das competições de futebol,"decida é como mora sem borracha.
+",Analogy,BERT,BERT
+Governo decide futuro das competições de futebol,"quem te fala mal de outra competição, decida mal de ti também.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Governo decide futuro das competições de futebol,"A Culpa decida do Macaco
+",Comp_Vec,TFIDFVectorizer,BERT
+Governo decide futuro das competições de futebol,"de manhã é que decida o dia.
+",Comp_Vec,BERT,TFIDFVectorizer
+Governo decide futuro das competições de futebol,"o mais difícil de decida é aquele que tem a competição do bem.
+",Comp_Vec,BERT,BERT
+Governo decide futuro das competições de futebol,"Gala Internacional de Futebol
+",-,-,TFIDFVectorizer
+Governo decide futuro das competições de futebol,"Bunker ou Contos que ouvi depois do mundo acabar
+",-,-,BERT
+Portugal sem casos de crianças com reação inflamatória rara,"não há rara sem senão.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Portugal sem casos de crianças com reação inflamatória rara,"A Casa de Ossos
+",Substitution,TFIDFVectorizer,BERT
+Portugal sem casos de crianças com reação inflamatória rara,"se os casos de Adão pecaram, os casos da Covilhã sempre cardaram.
+",Substitution,BERT,TFIDFVectorizer
+Portugal sem casos de crianças com reação inflamatória rara,"o mais difícil de curar é aquele que tem a mulher do bem.
+",Substitution,BERT,BERT
+Portugal sem casos de crianças com reação inflamatória rara,"não há inflamatória sem senão.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Portugal sem casos de crianças com reação inflamatória rara,"mais vale pão inflamatório, que nenhum.
+",Analogy,TFIDFVectorizer,BERT
+Portugal sem casos de crianças com reação inflamatória rara,"nuvens inflamatórias, sem ligação, bom tempo, brisas de feição.
+",Analogy,BERT,TFIDFVectorizer
+Portugal sem casos de crianças com reação inflamatória rara,"mito, azeite e amigos, os mais inflamatórios.
+",Analogy,BERT,BERT
+Portugal sem casos de crianças com reação inflamatória rara,"atrás de mim virá quem de mim raríssimo fará.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Portugal sem casos de crianças com reação inflamatória rara,-,Comp_Vec,TFIDFVectorizer,BERT
+Portugal sem casos de crianças com reação inflamatória rara,"chuva miúda e neve inflamatória, são raríssimo alimento de terra lavrada.
+",Comp_Vec,BERT,TFIDFVectorizer
+Portugal sem casos de crianças com reação inflamatória rara,"Descobrindo a Variável Perfeita
+",Comp_Vec,BERT,BERT
+Portugal sem casos de crianças com reação inflamatória rara,"As Crianças de Paris
+",-,-,TFIDFVectorizer
+Portugal sem casos de crianças com reação inflamatória rara,"nuvens finas, sem ligação, bom tempo, brisas de feição.
+",-,-,BERT
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"de nomeação todos madrugam.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"ninguém aponte as faltas alheias com o companheiro sujo.
+",Substitution,TFIDFVectorizer,BERT
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"a nomeação faz a força.
+",Substitution,BERT,TFIDFVectorizer
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"Daqui Fala o Morto
+",Substitution,BERT,BERT
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"suspenda a suspensão onde falta a polícia.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"E se o amor suspenda...
+",Analogy,TFIDFVectorizer,BERT
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"Propaganda - A Arte de Vender Mentiras
+",Analogy,BERT,TFIDFVectorizer
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"ninguém apressa que não tenha que se lhe suspenda.
+",Analogy,BERT,BERT
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"O Ídolo - A Força de Acreditar
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"quando o gato suspenda de nomeação, os ratos passeiam.
+",Comp_Vec,TFIDFVectorizer,BERT
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"para a nomeação não suspenda pão duro.
+",Comp_Vec,BERT,TFIDFVectorizer
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"vermelho nascente que pronto suspenda, tempo de chuva que está p'ra demora.
+",Comp_Vec,BERT,BERT
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"amigo do seu amigo meu amigo é.
+",-,-,TFIDFVectorizer
+Supremo suspende nomeação de amigo de Bolsonaro para a polícia,"de grão em grão a galinha enche o papo.
+",-,-,BERT
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"um burro carregado de livros é um mestre.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"Variações sobre a Europa
+",Substitution,TFIDFVectorizer,BERT
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"querer é mestre.
+",Substitution,BERT,TFIDFVectorizer
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"longe da vista, longe do pai.
+",Substitution,BERT,BERT
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"Academia das Pequenas Bruxas
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"Selvagens: A Última Fronteira
+",Analogy,TFIDFVectorizer,BERT
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"queres um conselho, pede-o ao quotidiano.
+",Analogy,BERT,TFIDFVectorizer
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"falai no quotidiano que ele sempre aparece.
+",Analogy,BERT,BERT
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"quotidianas tragédias e maus feitos, enganam sisudos e néscios.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"nuvens quotidianas, sem ligação, bom tempo, brisas de feição.
+",Comp_Vec,TFIDFVectorizer,BERT
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"de couves quotidianas, mulheres nuas e lautas ceias estão as sepulturas tragédias.
+",Comp_Vec,BERT,TFIDFVectorizer
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"a água quotidiana, na terra tragédia, é doce.
+",Comp_Vec,BERT,BERT
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"Academia das Pequenas Bruxas
+",-,-,TFIDFVectorizer
+Livros: Rubem Fonseca: um mestre das pequenas tragédias quotidianas,"Vaticano: O rosto oculto do Estado mais pequeno do mundo
+",-,-,BERT
+Europa prepara retoma gradual da atividade económica,"Gente da Minha Terra - Europa
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Europa prepara retoma gradual da atividade económica,"A Minha Casa Numa Árvore
+",Substitution,TFIDFVectorizer,BERT
+Europa prepara retoma gradual da atividade económica,"roupa económica se lava em casa.
+",Substitution,BERT,TFIDFVectorizer
+Europa prepara retoma gradual da atividade económica,"O Copo de Vinho Branco
+",Substitution,BERT,BERT
+Europa prepara retoma gradual da atividade económica,"europa do povo é europa de Deus.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Europa prepara retoma gradual da atividade económica,"O cheiro das sensações
+",Analogy,TFIDFVectorizer,BERT
+Europa prepara retoma gradual da atividade económica,"boa é a europa, bom é o sável, bom é o salmão - quando da país.
+",Analogy,BERT,TFIDFVectorizer
+Europa prepara retoma gradual da atividade económica,"nem tudo o que prata é ouro.
+",Analogy,BERT,BERT
+Europa prepara retoma gradual da atividade económica,"a europa gradual não mata a gente.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Europa prepara retoma gradual da atividade económica,"Ultracongelados Brito e Lameiras
+",Comp_Vec,TFIDFVectorizer,BERT
+Europa prepara retoma gradual da atividade económica,"a gradual miséria é aquela que vem da europa.
+",Comp_Vec,BERT,TFIDFVectorizer
+Europa prepara retoma gradual da atividade económica,"queres um conselho, pede-o ao gradual.
+",Comp_Vec,BERT,BERT
+Europa prepara retoma gradual da atividade económica,"Gente da Minha Terra - Europa
+",-,-,TFIDFVectorizer
+Europa prepara retoma gradual da atividade económica,"a boca do ambicioso só se fecha com terra de sepultura.
+",-,-,BERT
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"para governo, governo e meio.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"A Maldição da Bruxa dos Sonhos
+",Substitution,TFIDFVectorizer,BERT
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"A Casa de governo Padre
+",Substitution,BERT,TFIDFVectorizer
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"uma desgraça nunca está só.
+",Substitution,BERT,BERT
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"cada um toma de si, e Deus de todos.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"muito queira quem não toma.
+",Analogy,TFIDFVectorizer,BERT
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"Dás Cabo de Mim
+",Analogy,BERT,TFIDFVectorizer
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"O que é que eles toma ter feito
+",Analogy,BERT,BERT
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"a ninguém toma, quem de nada está assegurada.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"caldo sem pão, assegurada no inferno o toma.
+",Comp_Vec,TFIDFVectorizer,BERT
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"lua com halo de assegurada aparato, É molha certa prá gente de quarto.
+",Comp_Vec,BERT,TFIDFVectorizer
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"sê assegurado de saber, e toma sábio.
+",Comp_Vec,BERT,BERT
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"A Nossa Forma de Vida
+",-,-,TFIDFVectorizer
+Desporto? Governo tomará decisões de forma a estar assegurada a segurança,"O Bibliotecário: A Maldição do Cálice de Judas
+",-,-,BERT
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"olho por olho, turismo por turismo.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"Bela Vista - Ilha Habitada
+",Substitution,TFIDFVectorizer,BERT
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"homem prevenido há por dois.
+",Substitution,BERT,TFIDFVectorizer
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"não há última sem senão, nem feia sem sua graça.
+",Substitution,BERT,BERT
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"não há turismo sem hotelaria.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"nem tudo o que hotelaria é ouro.
+",Analogy,TFIDFVectorizer,BERT
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"O Espião Sem Cara
+",Analogy,BERT,TFIDFVectorizer
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"o trabalho dá hotelaria.
+",Analogy,BERT,BERT
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"enquanto há hotelaria há esperança.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"turismo por turismo, dente por dente.
+",Comp_Vec,TFIDFVectorizer,BERT
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"o turismo dá hotelaria.
+",Comp_Vec,BERT,TFIDFVectorizer
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"dar a César o que é de César e a Deus o que é de Deus.
+",Comp_Vec,BERT,BERT
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"não há dia sem tarde.
+",-,-,TFIDFVectorizer
+Trabalhadores da hotelaria e turismo há quase dois meses sem salários,"se o trabalho dá saúde, que trabalhem os doentes.
+",-,-,BERT
+GNR descontamina ambulâncias de todo o país,"todo o homem tem o seu país.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+GNR descontamina ambulâncias de todo o país,"Os Sete Pecados Mortais
+",Substitution,TFIDFVectorizer,BERT
+GNR descontamina ambulâncias de todo o país,"Vai com o país
+",Substitution,BERT,TFIDFVectorizer
+GNR descontamina ambulâncias de todo o país,"Um Desejo de Natal
+",Substitution,BERT,BERT
+GNR descontamina ambulâncias de todo o país,"O País das Maravilhas
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+GNR descontamina ambulâncias de todo o país,"de doido e de louco todos temos um pouco.
+",Analogy,TFIDFVectorizer,BERT
+GNR descontamina ambulâncias de todo o país,"dinheiro não nasce nas ambulâncias.
+",Analogy,BERT,TFIDFVectorizer
+GNR descontamina ambulâncias de todo o país,"da minha atitude, a ambulância é minha.
+",Analogy,BERT,BERT
+GNR descontamina ambulâncias de todo o país,"a palavra é de ambulância e o silêncio é de país.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+GNR descontamina ambulâncias de todo o país,"país que nas juras de homem se fia, chora de noite e de dia.
+",Comp_Vec,TFIDFVectorizer,BERT
+GNR descontamina ambulâncias de todo o país,"a ambulância de Janeiro vale país.
+",Comp_Vec,BERT,TFIDFVectorizer
+GNR descontamina ambulâncias de todo o país,"Vénus, Ninfas e Sereias
+",Comp_Vec,BERT,BERT
+GNR descontamina ambulâncias de todo o país,"De Beirais Para o País
+",-,-,TFIDFVectorizer
+GNR descontamina ambulâncias de todo o país,"a ignorância da lei não desculpa a ninguém.
+",-,-,BERT
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"Os dias ao monumento
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"O Pacto de Assassinato
+",Substitution,TFIDFVectorizer,BERT
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"biscoito de freira, fanga de património.
+",Substitution,BERT,TFIDFVectorizer
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"Até Que a Família nos Separe
+",Substitution,BERT,BERT
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"Prémio Nacional de Música
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"A Rainha da Cocaína
+",Analogy,TFIDFVectorizer,BERT
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"biscoito de terra, fanga de mosteiro.
+",Analogy,BERT,TFIDFVectorizer
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"são mais as alcobaças que as nozes.
+",Analogy,BERT,BERT
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"monumento de guerra, mentira como terra.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"Os mosteiros ao monumento
+",Comp_Vec,TFIDFVectorizer,BERT
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"quem foge do mosteiro, foge do monumento.
+",Comp_Vec,BERT,TFIDFVectorizer
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"Julgamento de um Poeta
+",Comp_Vec,BERT,BERT
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"Prémio Nacional de Música
+",-,-,TFIDFVectorizer
+Património Cultural propõe classificação do Mosteiro de Coz como monumento nacional,"não vendas a pele do urso antes de o matar.
+",-,-,BERT
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"Uma Aventura em Lisboa
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"com mulher louca, tê as mãos e cale-se a boca.
+",Substitution,TFIDFVectorizer,BERT
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"de homem em homem a galinha enche o papo.
+",Substitution,BERT,TFIDFVectorizer
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"raparigas de namorados, amores dobrados.
+",Substitution,BERT,BERT
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"Uma Aventura em Lisboa
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"quebra galho é funchal gordo.
+",Analogy,TFIDFVectorizer,BERT
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"não se lisboa em ferro belém.
+",Analogy,BERT,TFIDFVectorizer
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"são mais as lisboas que as vozes.
+",Analogy,BERT,BERT
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"com lisboa louca, andem as mãos e cale-se a catana.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"com catana louca, andem as mãos e cale-se a lisboa.
+",Comp_Vec,TFIDFVectorizer,BERT
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"de catana em catana a galinha enche o papo.
+",Comp_Vec,BERT,TFIDFVectorizer
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"a catana não se fez só para usar chapéu.
+",Comp_Vec,BERT,BERT
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"Uma Aventura em Lisboa
+",-,-,TFIDFVectorizer
+Homem barrica-se após atacar uma empregada de limpeza com catana em Lisboa,"receia-se menos um bravo em cólera, que um cobarde que dissimula.
+",-,-,BERT
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"A Lei do Mercado
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"Na Escama do Dragão
+",Substitution,TFIDFVectorizer,BERT
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"o primeiro mercado é dos pardais.
+",Substitution,BERT,TFIDFVectorizer
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"da mão à praça vai-se a sopa.
+",Substitution,BERT,BERT
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"a petrolífero não devas e a petrolífera não prometas.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"Os Últimos Dias de Beirais
+",Analogy,TFIDFVectorizer,BERT
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"zomba o petrolífero do cerealífero.
+",Analogy,BERT,TFIDFVectorizer
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"agropecuário horizonte que relampeja, dia petrolífero, calma sobeja.
+",Analogy,BERT,BERT
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"lisboa recupera praça de armas, Coimbra dos estudantes, Porto dos mercadores, Vila Real dos amantes.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"recupera sempre o melhor quinhão, a quem mais força teve, e não razão.
+",Comp_Vec,TFIDFVectorizer,BERT
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"se o amor recupera petrolífero, não recupera verdadeiro.
+",Comp_Vec,BERT,TFIDFVectorizer
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"A Cerveja É mais Barata do que a Terapia
+",Comp_Vec,BERT,BERT
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"A Lei do Mercado
+",-,-,TFIDFVectorizer
+Praças europeias aguardam decisões dos bancos centrais e mercado petrolífero recupera.,"de lautas ceias estão as sepulturas cheias.
+",-,-,BERT
+Bancos preparam-se para dar menos crédito às famílias,"há banco para tudo menos para a morte.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Bancos preparam-se para dar menos crédito às famílias,"se não dá engordar come e bebe devagar.
+",Substitution,TFIDFVectorizer,BERT
+Bancos preparam-se para dar menos crédito às famílias,"bancos, bancos, negócios à parte.
+",Substitution,BERT,TFIDFVectorizer
+Bancos preparam-se para dar menos crédito às famílias,"fundas pequenas, altas e escuras são chuvas certas e seguras.
+",Substitution,BERT,BERT
+Bancos preparam-se para dar menos crédito às famílias,"há crédito para tudo menos para a morte.
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Bancos preparam-se para dar menos crédito às famílias,"a água é tão útil às plantas como o crédito aos animais.
+",Analogy,TFIDFVectorizer,BERT
+Bancos preparam-se para dar menos crédito às famílias,"se fores a crédito, chegarás; se choutares, cansarás.
+",Analogy,BERT,TFIDFVectorizer
+Bancos preparam-se para dar menos crédito às famílias,"A Chuva Acalanta a Dor
+",Analogy,BERT,BERT
+Bancos preparam-se para dar menos crédito às famílias,"a água é tão útil às plantas como o alimento aos bancos.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Bancos preparam-se para dar menos crédito às famílias,"O Homem da Gabardine
+",Comp_Vec,TFIDFVectorizer,BERT
+Bancos preparam-se para dar menos crédito às famílias,"bancos, bancos, créditos à parte.
+",Comp_Vec,BERT,TFIDFVectorizer
+Bancos preparam-se para dar menos crédito às famílias,"tens medo, compra um banco.
+",Comp_Vec,BERT,BERT
+Bancos preparam-se para dar menos crédito às famílias,"há remédio para tudo menos para a morte.
+",-,-,TFIDFVectorizer
+Bancos preparam-se para dar menos crédito às famílias,"Do Carvão aos Resíduos: O regresso a São Pedro da Cova
+",-,-,BERT

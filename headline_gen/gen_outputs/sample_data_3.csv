@@ -1,0 +1,57 @@
+Headline,Generated_Expression,Generation_Method,First_Selection,Final_Selection
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"água do futebol corre para o mar.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"come para viver, não aprovados para comer.
+",Substitution,TFIDFVectorizer,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"quem exige sorrir, exige viver.
+",Substitution,BERT,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"nada se dá com tanta ratificação como os conselhos.
+",Substitution,BERT,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"Gala Internacional de Futebol
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"há sindicato para tudo menos para a morte.
+",Analogy,TFIDFVectorizer,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"sindicato ardente, sindicato para sempre.
+",Analogy,BERT,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"só de sindicatos fez uma velha cem associações.
+",Analogy,BERT,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"água do sindicato exiges para o mar.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"água do sindicato exiges para o mar.
+",Comp_Vec,TFIDFVectorizer,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"a cabeça não exige só para usar sindicato.
+",Comp_Vec,BERT,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"Deus exiges sindicato por linhas tortas.
+",Comp_Vec,BERT,BERT
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"Gala Internacional de Futebol
+",-,-,TFIDFVectorizer
+Sindicato de Jogadores exige aprovação da DGS para regresso do futebol,"o homem honrado não se autoriza com as opiniões do patife.
+",-,-,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"setembro molhado, detido estragado.
+",Substitution,TFIDFVectorizer,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"ninguém confesse as faltas alheias com o dedo sujo.
+",Substitution,TFIDFVectorizer,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"finge melhor quem finge por último.
+",Substitution,BERT,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"mais vale uma vista do detido, que cem brados do abegão.
+",Substitution,BERT,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"No Centro do Palco - Toca a Aquecer!
+",Analogy,TFIDFVectorizer,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"ninguém é mais fácil de seduzir, que aquele que não engana ninguém.
+",Analogy,TFIDFVectorizer,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"finge melhor quem finge por último.
+",Analogy,BERT,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"quem não tem esforço, convence mais que o corço.
+",Analogy,BERT,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"pregar no deserto, é sermão detido.
+",Comp_Vec,TFIDFVectorizer,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"no São Martinho finge à adega e prova o vinho.
+",Comp_Vec,TFIDFVectorizer,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"cada um detém do que finge.
+",Comp_Vec,BERT,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"as multidões sempre detêm nos extremos, quando não tremem, ameaçam.
+",Comp_Vec,BERT,BERT
+Finge ter Covid-19 no Facebook e acaba detido,"Porque Um Dia Acaba
+",-,-,TFIDFVectorizer
+Finge ter Covid-19 no Facebook e acaba detido,"mais vale uma vista do dono, que cem brados do abegão.
+",-,-,BERT
