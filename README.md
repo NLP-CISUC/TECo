@@ -3,7 +3,7 @@
 # Download & Install
 Files needed to put in folder 'models_db':
 - To put in folder 'bert_pretrained_models', download BERT MultiLingual Cased 'multi_cased_L-12_H-768_A-12' from: https://github.com/google-research/bert
-- To put in folder 'we_models', download from: 
+- To put in folder 'we_models', download from: https://drive.google.com/drive/folders/1oCVCjoAED2DErrVCuk3yi0MFVvX3BO02?usp=sharing
 
 # Configuration
 Under 'teco_config', the configuration file is 'config.properties', where besides the paths to the models, there are also options for running TECo:
