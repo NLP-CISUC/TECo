@@ -1,5 +1,6 @@
-# TECo_Project
- 
+# Project TECo - Texto Em Context (Text in Context)
+This system aims to, given a short-text input, adapt and select Portuguese expressions (e.g., proverbs and movie titles) in order to approximate them to the input, enhancing relatedness, originality and, possibly, funniness.
+
 # Download & Install
 Files needed to put in folder 'models_db':
 - To put in folder 'bert_pretrained_models', download BERT MultiLingual Cased 'multi_cased_L-12_H-768_A-12' from: https://github.com/google-research/bert
