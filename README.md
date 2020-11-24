@@ -1,10 +1,10 @@
-# Project TECo - Texto Em Context (Text in Context)
+# Project TECo - Texto Em Contexto (Text in Context)
 This system aims to, given a short-text input, adapt and select Portuguese expressions (e.g., proverbs and movie titles) in order to approximate them to the input, enhancing relatedness, originality and, possibly, funniness.
 
 # Download & Install
 Files needed to put in folder 'models_db':
-- To put in folder 'bert_pretrained_models', download BERT MultiLingual Cased 'multi_cased_L-12_H-768_A-12' from: https://github.com/google-research/bert
-- To put in folder 'we_models', download from: https://drive.google.com/drive/folders/1oCVCjoAED2DErrVCuk3yi0MFVvX3BO02?usp=sharing
+- To put in folder 'bert_pretrained_models', download <a href="https://github.com/google-research/bert">BERT MultiLingual Cased 'multi_cased_L-12_H-768_A-12'</a>
+- To put in folder 'we_models', downloadable <a href="https://drive.google.com/drive/folders/1oCVCjoAED2DErrVCuk3yi0MFVvX3BO02?usp=sharing">here</a>
 
 # Configuration
 Under 'teco_config', the configuration file is 'config.properties', where besides the paths to the models, there are also options for running TECo:
