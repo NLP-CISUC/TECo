@@ -6,9 +6,8 @@ from gen_utils.utils_gen import trim_pos, check_pos
 
 
 def check_label(token, all_labels):
-    for label in all_labels:
-        if token == label[0]:
-            return label
+    if token in all_labels:
+        return all_labels[token]
     return []
 
 
@@ -21,7 +20,7 @@ def check_movie_pt(movie_title, all_labels):
         label = check_label(token, all_labels)
         if not label:
             return False
-        elif check_pos(trim_pos(label[2])):
+        elif check_pos(trim_pos(label[0][2])): #so' esta' a olhar para a primeira label
             verifier += 1
     if verifier < 2:
         return False
@@ -34,7 +33,6 @@ def check_movie_pt(movie_title, all_labels):
 
 def init_movie_retrieval():
     portuguese_movies = []
-    append_movie = portuguese_movies.append
     all_labels = read_write_obj_file(1, None, 'models_db/list_labels_v3.pk1')
     with open('models_db/movietitles.txt', 'rb') as movie_file:
         movie_reader = movie_file.readlines()
@@ -45,7 +43,7 @@ def init_movie_retrieval():
             if 'PT' in line[3] and check_movie_pt(line[2], all_labels):
                 print(row)
                 # print(line[2])
-                append_movie(line[2]+'\n')
+                portuguese_movies.append(line[2]+'\n')
     portuguese_movies.sort()
     with open('headline_gen/gen_inputs/movietitles_filtered_v3.txt', 'w') as movie_file:
         for title in portuguese_movies:

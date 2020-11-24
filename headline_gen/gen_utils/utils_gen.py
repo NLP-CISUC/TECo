@@ -13,13 +13,14 @@ def get_word_tfidf(prov_id, docs):
     return sorted([(feature_names[i], s) for (i, s) in tfidf_scores], key=lambda tup: tup[1], reverse=True)
 
 
-def get_word_tfidf_v2(headline, all_words, all_occurrences):
+def get_word_tfidf_v2(input_text, tfidf, input_tokens=None):
     token_dets = []
-    hl_tokens = headline.lower().translate(str.maketrans('', '', string.punctuation)).split()
-    for token in hl_tokens:
-        if token in all_words:
-            token_dets.append((token, all_occurrences[all_words.index(token)]))
-    return sorted(token_dets, key=lambda tup: tup[1], reverse=False)
+    if not input_tokens:
+        input_tokens = input_text.lower().translate(str.maketrans('', '', string.punctuation)).split()
+    for token in input_tokens:
+        if token in tfidf:
+            token_dets.append((token, tfidf[token]))
+    return sorted(token_dets, key=lambda tup: tup[1], reverse=True)
 
 
 def find_prov_index(prov, proverbs):
@@ -41,10 +42,8 @@ def find_index(keyword, tuple_list):
 
 def find_label(token, list_tokens, all_labels):
     count_labels = []
-    labels_append = count_labels.append
-    for label in all_labels:
-        if label[0] == token:
-            labels_append(label)
+    if token in all_labels:
+        count_labels.extend(all_labels[token])
 
     if len(count_labels) == 1:      # only one possibility
         return count_labels[0]
@@ -61,6 +60,9 @@ def find_label(token, list_tokens, all_labels):
         return ()
 
 
+'''
+Checks if open-class PoS
+'''
 def check_pos(w_pos):
     if w_pos[0] == 'n' and 'letra' not in w_pos:
         return True
@@ -70,6 +72,8 @@ def check_pos(w_pos):
         return True
     return False
 
+def aux_verb(label):
+    return label[2][0] == 'v' and (label[1] == 'ser' or label[1] == 'estar' or label[1] == 'ter' or label[1] == 'fazer')
 
 def trim_pos(w_pos):
     while '+' in w_pos:
@@ -79,12 +83,13 @@ def trim_pos(w_pos):
     return w_pos
 
 
-def get_right_form(keyword_det, sub_det, all_labels):
+def get_right_form(keyword_det, sub_det, dict_lemmas_labels):
+
     if keyword_det[2][0] != sub_det[2][0]:
         return "######"
 
     if keyword_det[2][0] == 'v':
-        tmp = get_right_verb_form(keyword_det, sub_det, all_labels)
+        tmp = get_right_verb_form(keyword_det, sub_det, dict_lemmas_labels)
         if tmp and tmp != keyword_det[0]:
             # print("\nSUB VERB: ", keyword_det, sub_det, tmp)
             return tmp
@@ -97,10 +102,11 @@ def get_right_form(keyword_det, sub_det, all_labels):
                 return sub_det[0]
 
         keyword_form = keyword_det[3]
-        for label in all_labels:
-            # check lemma and form
-            if label[1] == sub_det[1] and (label[3] == keyword_form or keyword_form in label[3]):
-                return label[0]
+        if sub_det[1] in dict_lemmas_labels:
+            for label in dict_lemmas_labels[sub_det[1]]:
+                # check lemma and form
+                if label[3] == keyword_form or keyword_form in label[3]:
+                    return label[0]
     # if a substitute has '######' in it, it's invalid
     # print("######", w, sub, trim_pos(sub[3]))
     return "######"
@@ -108,21 +114,19 @@ def get_right_form(keyword_det, sub_det, all_labels):
 
 def get_sentence_vector(tokens, model):
     vectors = []
-    append_vectors = vectors.append
     for t in tokens:
         if t in model.vocab:
-            append_vectors(model.wv[t])
+            vectors.append(model.wv[t])
     if len(vectors) > 0:
         return sum(vectors) / len(vectors)
     else:
         return []
 
-
-def get_right_verb_form(keyword_det, sub_det, all_labels):
+def get_right_verb_form(keyword_det, sub_det, dict_lemmas_labels):
     # print("[VERB]\t", keyword_det, sub_det)
     keyword_form = keyword_det[3].split(":")
-    for label in all_labels:
-        if label[1] == sub_det[1]:
+    if sub_det[1] in dict_lemmas_labels:
+        for label in dict_lemmas_labels[sub_det[1]]:
             sub_form = label[3].split(":")
             for form in sub_form:
                 if form in keyword_form and 'y' not in form:

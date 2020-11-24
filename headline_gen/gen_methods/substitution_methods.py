@@ -11,7 +11,7 @@ def get_headline_substitutes(headline_dets, model, all_labels, amount_subs):
     append_final_score = final_score.append
 
     for hl_keyword in headline_dets:
-        if hl_keyword != () and hl_keyword[0] in model.vocab:
+        if hl_keyword and hl_keyword[0] in model.vocab:
             tmp_list = model.wv.most_similar(positive=hl_keyword[0], topn=amount_subs)
             # print("---", tmp_list)
             # append_all_possibilities([word[0] for word in tmp])
@@ -34,7 +34,7 @@ def get_headline_substitutes(headline_dets, model, all_labels, amount_subs):
     return sorted(final_list, key=lambda tup: tup[1], reverse=True)
 
 
-def get_substitutes_v2(keyword_det, model, all_substitutes, all_labels, amount):
+def get_substitutes_v2(keyword_det, model, all_substitutes, dict_lemmas_labels, amount):
     """
     This function defines the list of the best substitutes for the given keyword, considering its Pos and form, while
     being semantically similar to any of the headline's keywords.
@@ -58,7 +58,7 @@ def get_substitutes_v2(keyword_det, model, all_substitutes, all_labels, amount):
         # if substitute_det != () and keyword_pos in substitute_det[2] and \
         #         len(Syllables(substitute_det[0]).make_division()) == keyword_syllables:
         if substitute_det != () and keyword_pos in substitute_det[2]:
-            right_form = get_right_form(keyword_det, substitute_det, all_labels)
+            right_form = get_right_form(keyword_det, substitute_det, dict_lemmas_labels)
             if substitute_det[0] == keyword or right_form == keyword:
                 continue
             if "######" not in right_form and right_form in model.vocab:
@@ -89,7 +89,8 @@ def get_generated_expressions(proverb, headline_keyword, prov_keywords, keyword_
             and tmp_hk_rightform != '######':
         tmp_proverb = proverb.replace(positive_keyword[0], tmp_hk_rightform)
         prov_tokens = tmp_proverb.lower().translate(str.maketrans('', '', string.punctuation)).split()
-        append_gen_expression(tmp_proverb)
+        # Descomentar para aceitar apenas uma substituição
+        # append_gen_expression(tmp_proverb)
         # print("teste1 -> ", tmp_proverb)
 
         for substitute_det in all_substitutes:
@@ -109,7 +110,7 @@ def get_generated_expressions(proverb, headline_keyword, prov_keywords, keyword_
 
 
 # ------------------- Vector comparison Method -----------------
-def get_comparison_keywords(comparison_vec, prov_tokens, accepted_pos, all_labels, model):
+def get_comparison_keywords(comparison_vec, prov_tokens, accepted_pos, all_labels, model, min_sim=0.1):
     # print(str(prov_tokens))
     prov_dets = [find_label(tok, prov_tokens, all_labels) for tok in prov_tokens]
     prov_len = len(prov_dets)
@@ -149,17 +150,16 @@ def get_comparison_keywords(comparison_vec, prov_tokens, accepted_pos, all_label
                 comparison_vec_2 = model.wv[token1_det[0]] - model.wv[token2_det[0]]
                 tmp_sim = model.wv.wv.cosine_similarities(np.asarray(comparison_vec), [np.asarray(comparison_vec_2)])
                 # dist = np.linalg.norm(a - b)
-                if tmp_sim > chosen_pair[2]:
+                if tmp_sim > min_sim and tmp_sim > chosen_pair[2]:
                     chosen_pair = (counter1, counter2, tmp_sim, sub_order)
 
     if chosen_pair == (-1, -1, 0):
-        return None, None, None
-    return prov_dets[chosen_pair[0]], prov_dets[chosen_pair[1]], chosen_pair[3]
+        return None, None, None, None
+    return prov_dets[chosen_pair[0]], prov_dets[chosen_pair[1]], chosen_pair[2], chosen_pair[3]
 
 
-def get_generated_expressions_compvec(proverb, headline_keywords, prov_key1, prov_key2, sub_order, all_labels):
-    selected_expressions = []
-    append_expression = selected_expressions.append
+def get_generated_expressions_vecdiff(proverb, headline_keywords, prov_key1, prov_key2, sub_order, all_labels):
+    generated_expressions = []
 
     if sub_order in [0, 2]:
         tmp_prov = proverb.replace(prov_key1[0], get_right_form(prov_key1, headline_keywords[0], all_labels))
@@ -168,14 +168,16 @@ def get_generated_expressions_compvec(proverb, headline_keywords, prov_key1, pro
             tmp_2 = tmp_prov.replace(prov_key2[0], get_right_form(prov_key2, headline_keywords[1], all_labels))
             if "######" not in tmp_2:
                 # print("0_1: ", tmp_2, proverb)
-                append_expression(tmp_2)
+                generated_expressions.append(tmp_2)
             # else:
                 # append_expression(tmp_prov)
+        '''
         else:
             tmp_2 = proverb.replace(prov_key2[0], get_right_form(prov_key2, headline_keywords[1], all_labels))
             if "######" not in tmp_2:
                 # print("0_2: ", tmp_2, proverb)
-                append_expression(tmp_2)
+                generated_expressions.append(tmp_2)
+        '''
 
     if sub_order in [1, 2]:
         tmp_prov = proverb.replace(prov_key1[0], get_right_form(prov_key1, headline_keywords[1], all_labels))
@@ -184,13 +186,15 @@ def get_generated_expressions_compvec(proverb, headline_keywords, prov_key1, pro
             tmp_2 = tmp_prov.replace(prov_key2[0], get_right_form(prov_key2, headline_keywords[0], all_labels))
             if "######" not in tmp_2:
                 # print("1_1: ", tmp_2, proverb)
-                append_expression(tmp_2)
+                generated_expressions.append(tmp_2)
             # else:
                 # append_expression(tmp_prov)
+        '''
         else:
             tmp_prov = proverb.replace(prov_key1[0], get_right_form(prov_key2, headline_keywords[1], all_labels))
             if "######" not in tmp_prov:
                 # print("1_2: ", tmp_prov, proverb)
-                append_expression(tmp_prov)
+                generated_expressions.append(tmp_prov)
+        '''
 
-    return selected_expressions
+    return generated_expressions

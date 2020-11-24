@@ -47,7 +47,7 @@ def get_info_methods(l_methods):
     elif l_methods[0] == 1:
         used_methods.append('Analogy')
     elif l_methods[0] == 2:
-        used_methods.append('Vector_Comp')
+        used_methods.append('VecDiff')
 
     # Final Selection Method
     if l_methods[1] == 0:
@@ -76,9 +76,9 @@ def get_selection_results(filename):
 
 def check_headline(headline, all_labels):
     headline_tokens = headline.lower().translate(str.maketrans('', '', string.punctuation)).split()
-    if len(headline_tokens) < 5:
-        return False
     total_tok = len(headline_tokens)
+    if total_tok < 5:
+        return False
     error_tok = 0
     for token in headline_tokens:
         label = check_label(token, all_labels)

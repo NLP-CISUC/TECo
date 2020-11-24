@@ -59,7 +59,7 @@ def news_data_retrieval():
     keywords = 'clima OR ambiente OR aquecimento global'
     # keywords = 'ronaldo'
     key_sources = 'www.dn.pt, publico.pt, expresso.pt, sapo.pt, www.jn.pt'
-    # domínios inválidos : 'Noticiasaominuto.com, pt.euronews.com, natgeo.pt, www.sicnoticias.pt, ionline.sapo.pt'
+    # domï¿½nios invï¿½lidos : 'Noticiasaominuto.com, pt.euronews.com, natgeo.pt, www.sicnoticias.pt, ionline.sapo.pt'
 
     top_headlines = newsapi.get_everything(q=keywords,
                                            language='pt',
@@ -83,13 +83,21 @@ def selector(input_text, proverbs, sim, info_sim, amount):
     chosen_expressions = []
     for inp_id, inp in enumerate(input_text):
         for counter in range(amount):
-            # print(counter, sim[0][inp_id])
+            #print(input_text, counter, sim[inp_id])
+
+            if len(sim[inp_id]) == 0:
+                break
+
             index_sim = sim[inp_id].index(max(sim[inp_id]))
-            # print(inp, proverbs[index_sim], sim[inp_id][index_sim], info_sim)
+            #print(inp, proverbs[index_sim], sim[inp_id][index_sim], info_sim)
             chosen_expressions.append((inp, proverbs[index_sim], sim[inp_id][index_sim]))
             if counter == 0:
                 # LOGGING RESULTS
                 log.info("[{}] Input: {}\n\tAt index: {} \n\tChosen proverb: {} \tSimilarity level: {}\n"
                          .format(info_sim, inp, index_sim, proverbs[index_sim], sim[inp_id][index_sim]))
             sim[inp_id].pop(index_sim)
+            proverbs.pop(index_sim)
+
+            #print("--", tmp)
+    #print("++", proverbs, chosen_expressions)
     return chosen_expressions

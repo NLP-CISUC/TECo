@@ -6,8 +6,8 @@ import string
 import NLPyPort as nlpyport
 from proverb_selector.sel_utils.file_manager import *
 from bert_serving.client import BertClient
-from bert_serving.server import BertServer
-from bert_serving.server.helper import get_args_parser
+#from bert_serving.server import BertServer
+#from bert_serving.server.helper import get_args_parser
 
 
 def init_prov_selector_bert(alg, input_text, proverbs, amount):
