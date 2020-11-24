@@ -8,11 +8,25 @@ Files needed to put in folder 'models_db':
 
 # Configuration
 Under 'teco_config', the configuration file is 'config.properties', where besides the paths to the models, there are also options for running TECo:
-- Adaptation method order: which runs first, VecDiff or Analogy
-- Amount of expressions to be selected from the corpus, before being adapted
-- Final Selection Method: 1 - TF-IDf; 2 - BERT;
+- Adaptation methods and their order, split by commas: VecDiff, Analogy, Subs
+- Amount of expressions to be selected from the corpus, for adaptation
+- Final Selection Method: TF-IDF, BERT
 - Interval between tweets, in seconds. Useful if trying to run the twitter-bot.
 
 # Running TECo
-- Run 'bert_server_run.py'
+- Run 'bert_server_run.py' (only if BERT is required)
 - Run 'teco_main.py'
+
+# More information
+- TECo is described in the research paper <i>TECo: Exploring Word Embeddings for Text Adaptation to a given
+Context</i>, included in the proceedings of the  <a href="http://computationalcreativity.net/iccc20/papers/ICCC20_Proceedings.pdf">11th International Conference on Computational Creativity</a>, which can be cited as follows:
+<pre>
+@inproceedings{mendes_goncalooliveira:iccc2020b,
+	author = {Rui Mendes and Hugo {Gon{\c c}alo Oliveira}},
+	booktitle = {Proceedings of the 11th International Conference on Computational Creativity, September 7-11, 2020, Coimbra},
+	pages = {185--188},
+	publisher = {ACC},
+	series = {ICCC 2020},
+	title = {TECo: Exploring Word Embeddings for Text Adaptation to a given Context},
+	year = {2020}}
+</pre>
