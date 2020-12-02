@@ -19,14 +19,14 @@ def get_word_tfidf(prov_id, docs):
     return sorted([(feature_names[i], s) for (i, s) in tfidf_scores], key=lambda tup: tup[1], reverse=True)
 
 
-def get_word_tfidf_v2(input_text, tfidf, input_tokens=None):
+def get_words_relevance(input_text, df, ascending_df=True, input_tokens=None):
     token_dets = []
     if not input_tokens:
         input_tokens = input_text.lower().translate(str.maketrans('', '', string.punctuation)).split()
     for token in input_tokens:
-        if token in tfidf:
-            token_dets.append((token, tfidf[token]))
-    return sorted(token_dets, key=lambda tup: tup[1], reverse=True)
+        if token in df:
+            token_dets.append((token, df[token]))
+    return sorted(token_dets, key=lambda tup: tup[1], reverse=(not ascending_df)) #the higher the DF, the lower the relevance
 
 
 def find_prov_index(prov, proverbs):

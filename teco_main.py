@@ -28,7 +28,7 @@ def test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_lab
         # um que so' da' com Subs
 #        "Mourinho culpa-me por ter sido demitido do Chelsea. Esteve sempre contra mim",
 #       "VÍDEO: erro de Otamendi e Rodrigo Pinho dá vantagem ao Marítimo",
-        "Agência europeia confirma pedidos de vacinas e responde dentro de semanas Analogy",
+        "Agência europeia confirma pedidos de vacinas e responde dentro de semanas",
         "Cristina Ferreira levou os amigos e tentou mudar tudo na TVI mas as derrotas sucessivas ameaçam o futuro",
         "Coronavírus: Profissionais de saúde sofreram estigma por parte de vizinhos",
         "Pareceu que o adversário queria passar mais do que nós à próxima eliminatória",
@@ -97,8 +97,8 @@ if __name__ == '__main__':
     dict_lemmas_labels = dict_forms_to_lemmas_label(dict_forms_labels)
 
     #test_console_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
-    #test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
-    test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, post=True)
+    test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
+    #test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, post=True)
 
     # vectorizer = TfidfVectorizer(max_df=0.75, min_df=2)
     # vectors = vectorizer.fit_transform(all_expressions)

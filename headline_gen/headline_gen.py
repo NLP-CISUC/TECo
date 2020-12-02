@@ -19,7 +19,7 @@ VEC_DIFF="VecDiff"
 #REGEX_QUOTATION="«|»"
 
 
-def get_best_keywords(sentence_words, all_labels, model, order):
+def get_best_keywords(sentence_words, all_labels, model, reverse_order):
     """
     This function chooses the most important words from a sentence from their Tf-Idf value.
     @:param sentence_words: list of tuples, each containing a word from the sentence and its Tf-Idf value
@@ -36,7 +36,7 @@ def get_best_keywords(sentence_words, all_labels, model, order):
 
     if not list_keywords:
         return []
-    list_keywords = sorted(list_keywords, key=lambda tup: tup[4], reverse=order)
+    list_keywords = sorted(list_keywords, key=lambda tup: tup[4], reverse=reverse_order)
 
     #print(sentence_words, list_keywords)
 
@@ -86,7 +86,7 @@ def substitution_many(headline, proverbs, headline_tokens, tfidf, dict_forms_lab
     for proverb in proverbs:
         #tmp_proverb = (proverb.lower(), 0)
 
-        best_prov_keywords = get_best_keywords(get_word_tfidf_v2(proverb, tfidf), dict_forms_labels, model, False)
+        best_prov_keywords = get_best_keywords(get_words_relevance(proverb, tfidf), dict_forms_labels, model, False)
         generated = substitution_one(proverb, best_prov_keywords, headline_substitutes, dict_lemmas_labels, model)
         if generated:
             all_generated.extend(generated)
@@ -107,7 +107,8 @@ def substitution_one(proverb, best_prov_keywords, headline_substitutes, dict_lem
     return generated_expressions
 
 def get_headline_keywords(headline, headline_tokens, tfidf, all_labels, model, min=2, max=2):
-    headline_tfidf = get_word_tfidf_v2(headline, tfidf, input_tokens=headline_tokens)
+    headline_tfidf = get_words_relevance(headline, tfidf, ascending_df=True, input_tokens=headline_tokens)
+    #print("TFIDF", headline_tfidf)
     headline_keywords = []
     for hk in headline_tfidf:
         if hk[0] in model.vocab:
@@ -132,7 +133,7 @@ def analogy_many(proverbs, headline, headline_tokens, tfidf, dict_forms_labels, 
     all_generated = []
     for proverb in proverbs:
         # Structure of keywords: [( [0] word; [1] lemma; [2] PoS tag;  [3] Form ; [4] Similarity), .. ,()]
-        best_prov_keywords = get_best_keywords(get_word_tfidf_v2(proverb, tfidf), dict_forms_labels, model, False)
+        best_prov_keywords = get_best_keywords(get_words_relevance(proverb, tfidf), dict_forms_labels, model, False)
 
         #needs at least two keywords to replace!
         if len(best_prov_keywords) >= 2:
@@ -212,6 +213,8 @@ def analogy_one(expression, exp_keywords, headline, headline_keywords, dict_form
                         filt_subs = [] #quadruplos: k1->sub_k1, k2->sub_k2
                         for sub, sim in tmp_subs:
                             if sim >= min_sim:
+                                #print("**", (exp_keywords[i_exp], h_keyword, exp_keywords[j_exp], sub))
+                                #even if h_keyword and sub are different, they can have the same lemma and, after inflection, become the same
                                 filt_subs.append((exp_keywords[i_exp], h_keyword, exp_keywords[j_exp], sub))
 
                         if filt_subs:
