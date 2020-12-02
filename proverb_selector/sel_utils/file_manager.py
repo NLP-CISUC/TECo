@@ -1,7 +1,8 @@
 import logging as log
 import pickle
 import csv
-from newsapi.newsapi_client import NewsApiClient
+
+#from newsapi.newsapi_client import NewsApiClient
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -50,7 +51,7 @@ def get_word_tfidf(word, inp_id, vectorizer, tfidf_matrix):
     else:
         return 0
 
-
+'''
 def news_data_retrieval():
     newsapi = NewsApiClient(api_key='20e090e9c80047e2b990da48f070739b')
     csvFile = open('sel_inputs/ClimaGNews.csv', 'a')  # Open/Create a file to append data
@@ -76,7 +77,7 @@ def news_data_retrieval():
     file = open('sel_inputs/newsTitles_naturee.txt', 'w')
     file.write(newstxt)
     file.close()
-
+'''
 
 def selector(input_text, proverbs, sim, amount):
     # print("$$$$", input_text, proverbs, sim, info_sim)

@@ -5,15 +5,17 @@ from gensim.models import KeyedVectors
 
 from headline_gen.headline_gen import init_headline_generator_v2, get_tokens
 from proverb_selector.sel_utils.file_manager import read_write_obj_file
-from sel_approach_standard.standard_approach import init_prov_selector_we
+from proverb_selector.sel_approach_standard.standard_approach import init_prov_selector_we
 from teco_twitterbot.twitter_utils.twitter_manager import *
-from gen_methods.selection_methods import *
+from headline_gen.gen_methods.selection_methods import *
 
 def init_twitter():
     CONSUMER_KEY = 'b3RgdN5VSO6RvdmJY9aaW07zl'
     CONSUMER_SECRET = 'wagRXKmvsp9A40LZ2htl0E8amVUgYbi9wIMTDoyhdbU271OPTs'
-    ACCESS_KEY = '1246561294808989700-ADXyzmCMsFacrqb2vy9eh0yfTHSHot'
-    ACCESS_SECRET = 'nORnUxVSmq1rXwlguqrDPRW7k1vIew8YxokxOFrqO3gBk'
+    ACCESS_KEY = '1246561294808989700-ysDKCj966HtkPZXnuFTLWEoJByDK4U'
+    ACCESS_SECRET = 'nxZVCql4YKEPOxNozFmRdhmRIvYTmVMXO7dXQvrJuwb4Q'
+
+
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
     return tweepy.API(auth)

@@ -7,10 +7,10 @@ import re
 from proverb_selector.sel_approach_standard.standard_approach import init_prov_selector_standard
 from proverb_selector.sel_approach_transformer.transformer_approach import init_prov_selector_bert
 from proverb_selector.sel_approach_we.we_approach import init_prov_selector_we
-from gen_methods.selection_methods import *
-from gen_methods.substitution_methods import *
+from headline_gen.gen_methods.selection_methods import *
+from headline_gen.gen_methods.substitution_methods import *
 from teco_twitterbot.twitter_utils.twitter_manager import get_info_methods
-from gen_utils.utils_gen import *
+from headline_gen.gen_utils.utils_gen import *
 
 SUBSTITUTION="Subs"
 ANALOGY="Analogy"

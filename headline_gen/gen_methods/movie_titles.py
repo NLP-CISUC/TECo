@@ -2,7 +2,7 @@ import csv
 import string
 
 from proverb_selector.sel_utils.file_manager import *
-from gen_utils.utils_gen import trim_pos, check_pos
+from headline_gen.gen_utils.utils_gen import trim_pos, check_pos
 
 
 def check_label(token, all_labels):

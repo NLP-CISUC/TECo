@@ -1,7 +1,7 @@
 import numpy as np
 import re
-from gen_utils.syllable_pt import Syllables
-from gen_utils.utils_gen import *
+from headline_gen.gen_utils.syllable_pt import Syllables
+from headline_gen.gen_utils.utils_gen import *
 
 
 # ------------------- Substitution Method -----------------
@@ -150,16 +150,6 @@ def get_comparable_keywords(comparison_vec, prov_tokens, accepted_pos, all_label
             continue
         elif counter1 > round(prov_len/2):
             break
-
-        '''
-        sub_order = -1
-        if accepted_pos[0][0] == accepted_pos[1][0] and trim_pos(token1_det[2]) in accepted_pos[0]:
-            sub_order = 2
-        elif trim_pos(token1_det[2]) in accepted_pos[0]: #so' se devia fazer esta, para manter sentido do vetor!
-            sub_order = 0
-        elif trim_pos(token1_det[2]) in accepted_pos[1]:
-            sub_order = 1
-        '''
 
         # print('token1_det:\t', token1_det)
         if trim_pos(token1_det[2]) in accepted_pos[0]:

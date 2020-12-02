@@ -1,4 +1,5 @@
 import time
+import cProfile
 
 from gensim.models import KeyedVectors
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -99,6 +100,8 @@ if __name__ == '__main__':
     #test_console_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
     test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
     #test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, post=True)
+
+    #cProfile.run('test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)')
 
     # vectorizer = TfidfVectorizer(max_df=0.75, min_df=2)
     # vectors = vectorizer.fit_transform(all_expressions)

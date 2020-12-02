@@ -2,7 +2,7 @@ import string
 
 from proverb_selector.sel_approach_standard.standard_approach import init_prov_selector_standard
 from proverb_selector.sel_approach_transformer.transformer_approach import init_prov_selector_bert
-from gen_utils.utils_gen import get_sentence_vector
+from headline_gen.gen_utils.utils_gen import get_sentence_vector
 
 TFIDF="TFIDF"
 WE="WE"

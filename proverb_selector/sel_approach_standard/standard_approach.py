@@ -3,7 +3,7 @@ import string
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from proverb_selector.sel_utils.file_manager import *
-from sel_approach_we.data_manager import preprocess
+#from sel_approach_we.data_manager import preprocess
 
 
 def init_prov_selector_standard(algorithm, input_text, proverbs, amount, corpus=None):
