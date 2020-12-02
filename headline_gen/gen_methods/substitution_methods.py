@@ -1,19 +1,21 @@
 import numpy as np
+import re
 from gen_utils.syllable_pt import Syllables
 from gen_utils.utils_gen import *
 
 
 # ------------------- Substitution Method -----------------
-def get_headline_substitutes(headline_dets, model, all_labels, amount_subs):
+
+def get_headline_substitutes(headline_dets, model, all_labels, top_similar):
     final_words = []
     append_final_list = final_words.append
     final_score = []
     append_final_score = final_score.append
 
     for hl_keyword in headline_dets:
-        if hl_keyword and hl_keyword[0] in model.vocab:
-            tmp_list = model.wv.most_similar(positive=hl_keyword[0], topn=amount_subs)
-            # print("---", tmp_list)
+        if hl_keyword and hl_keyword[0] in model.vocab and check_pos(hl_keyword[2]) and not aux_verb(hl_keyword):
+            tmp_list = model.wv.most_similar(positive=hl_keyword[0], topn=top_similar)
+            # print("---", hl_keyword, ":", tmp_list)
             # append_all_possibilities([word[0] for word in tmp])
             for word_position, word_det in enumerate(tmp_list):
                 # print("word_det ", word_det, final_words, final_score)
@@ -51,36 +53,37 @@ def get_substitutes_v2(keyword_det, model, all_substitutes, dict_lemmas_labels, 
     keyword_vec = model.wv[keyword]
     # keyword_syllables = len(Syllables(keyword).make_division())
     list_possibilities = []
-    append_possibilities = list_possibilities.append
 
+    #TODO: rever implementação, evitar ######
     for substitute in all_substitutes:
         substitute_det = substitute[0]
         # if substitute_det != () and keyword_pos in substitute_det[2] and \
         #         len(Syllables(substitute_det[0]).make_division()) == keyword_syllables:
-        if substitute_det != () and keyword_pos in substitute_det[2]:
+        if substitute_det and keyword_pos in substitute_det[2]:
             right_form = get_right_form(keyword_det, substitute_det, dict_lemmas_labels)
-            if substitute_det[0] == keyword or right_form == keyword:
+            if not right_form or substitute_det[0] == keyword or right_form == keyword:
                 continue
-            if "######" not in right_form and right_form in model.vocab:
-                append_possibilities((right_form, model.wv.cosine_similarities(keyword_vec, [model.wv[right_form]])[0]))
-            elif "######" not in right_form and right_form not in model.vocab:
-                append_possibilities(
+            if right_form in model.vocab:
+                list_possibilities.append((right_form, model.wv.cosine_similarities(keyword_vec, [model.wv[right_form]])[0]))
+            elif right_form not in model.vocab:
+                list_possibilities.append(
                     (substitute_det[0], model.wv.cosine_similarities(keyword_vec, [model.wv[substitute_det[0]]])[0]))
 
     return sorted(list_possibilities, key=lambda tup: tup[1], reverse=True)[:amount]
 
 
 # ------------------- Analogy Method -----------------
+'''
 def get_generated_expressions(proverb, headline_keyword, prov_keywords, keyword_id, all_substitutes, all_labels):
     positive_keyword = prov_keywords[keyword_id]
     negative_keyword = prov_keywords[keyword_id - 1]
     # keyword_syllables = len(Syllables(positive_keyword[0]).make_division())
-    prov_tokens = proverb.lower().translate(str.maketrans('', '', string.punctuation)).split()
+    # prov_tokens = proverb.lower().translate(str.maketrans('', '', string.punctuation)).split()
+    prov_tokens = get_tokens(proverb)
     # print("prov_tokens ", prov_tokens)
     tmp_hk_rightform = get_right_form(positive_keyword, headline_keyword, all_labels)
     tmp_proverb = proverb
     generated_expressions = []
-    append_gen_expression = generated_expressions.append
     # append_gen_expression(proverb)
     # print("-----------------", proverb)
     # print(headline_keyword, positive_keyword, negative_keyword)
@@ -88,7 +91,7 @@ def get_generated_expressions(proverb, headline_keyword, prov_keywords, keyword_
     if trim_pos(headline_keyword[2]) in positive_keyword[2] and tmp_hk_rightform not in prov_tokens \
             and tmp_hk_rightform != '######':
         tmp_proverb = proverb.replace(positive_keyword[0], tmp_hk_rightform)
-        prov_tokens = tmp_proverb.lower().translate(str.maketrans('', '', string.punctuation)).split()
+        prov_tokens = get_tokens(tmp_proverb)
         # Descomentar para aceitar apenas uma substituição
         # append_gen_expression(tmp_proverb)
         # print("teste1 -> ", tmp_proverb)
@@ -103,14 +106,40 @@ def get_generated_expressions(proverb, headline_keyword, prov_keywords, keyword_
             if tmp_hk_rightform not in prov_tokens and tmp_hk_rightform != '######':
                 tmp_proverb_2 = tmp_proverb.replace(negative_keyword[0], tmp_hk_rightform)
                 if tmp_proverb_2 not in generated_expressions:
-                    append_gen_expression(tmp_proverb_2)
+                    generated_expressions.append(tmp_proverb_2)
                     # print("teste2 -> ", tmp_proverb_2)
+
+    return generated_expressions
+'''
+
+def generate_analog_expressions(headline, expression, substitutions, form_labels, lemma_labels):
+
+    generated_expressions = []
+    for sub in substitutions:
+
+        label_old_1 = sub[0]
+        label_new_1 = sub[1]
+        label_old_2 = sub[2]
+
+        if trim_pos(label_new_1[2]) in label_old_1[2]:
+            label_new_2 = find_label(sub[3], [sub[3] + ' ' + headline], form_labels)
+            if label_new_2:
+                rightform_1 = get_right_form(label_old_1, label_new_1, lemma_labels)
+                rightform_2 = get_right_form(label_old_2, label_new_2, lemma_labels)
+
+                if rightform_1 and rightform_2:
+                    #print("**", substitutions)
+                    new_exp = re.sub(r'\b' + label_old_1[0] + r'\b', rightform_1, expression, flags=re.IGNORECASE)
+                    #print(label_old_1, "->", rightform_1, ": ", new_exp)
+                    new_exp = re.sub(r'\b' + label_old_2[0] + r'\b', rightform_2, new_exp, flags=re.IGNORECASE)
+                    #print(label_old_2, "->", rightform_2, ": ", new_exp)
+                    generated_expressions.append(new_exp)
 
     return generated_expressions
 
 
 # ------------------- Vector comparison Method -----------------
-def get_comparison_keywords(comparison_vec, prov_tokens, accepted_pos, all_labels, model, min_sim=0.1):
+def get_comparable_keywords(comparison_vec, prov_tokens, accepted_pos, all_labels, model, min_sim=0.1):
     # print(str(prov_tokens))
     prov_dets = [find_label(tok, prov_tokens, all_labels) for tok in prov_tokens]
     prov_len = len(prov_dets)
@@ -121,80 +150,66 @@ def get_comparison_keywords(comparison_vec, prov_tokens, accepted_pos, all_label
             continue
         elif counter1 > round(prov_len/2):
             break
+
+        '''
         sub_order = -1
         if accepted_pos[0][0] == accepted_pos[1][0] and trim_pos(token1_det[2]) in accepted_pos[0]:
             sub_order = 2
-        elif trim_pos(token1_det[2]) in accepted_pos[0]:
+        elif trim_pos(token1_det[2]) in accepted_pos[0]: #so' se devia fazer esta, para manter sentido do vetor!
             sub_order = 0
         elif trim_pos(token1_det[2]) in accepted_pos[1]:
             sub_order = 1
+        '''
 
         # print('token1_det:\t', token1_det)
-        if token1_det[0] in model.vocab and sub_order != -1:
-            for counter2 in range(counter1+1, prov_len):
-                if prov_dets[counter2] == ():
-                    continue
-                # print(counter1, counter2)
-                token2_det = prov_dets[counter2]
-                token2_pos = trim_pos(token2_det[2])
-                if token2_det[0] not in model.vocab or not check_pos(trim_pos(token2_pos)):
-                    continue
-                # To ensure the correct order and PoS in the substitution
-                if sub_order == 2 and token2_pos != accepted_pos[0]:
-                    continue
-                elif sub_order == 0 and token2_pos != accepted_pos[1]:
-                    continue
-                elif sub_order == 1 and token2_pos != accepted_pos[0]:
-                    continue
-                # print(counter1, token, counter2, prov_tokens[counter2])
-                comparison_vec_2 = model.wv[token1_det[0]] - model.wv[token2_det[0]]
-                tmp_sim = model.wv.wv.cosine_similarities(np.asarray(comparison_vec), [np.asarray(comparison_vec_2)])
-                # dist = np.linalg.norm(a - b)
-                if tmp_sim > min_sim and tmp_sim > chosen_pair[2]:
-                    chosen_pair = (counter1, counter2, tmp_sim, sub_order)
+        if trim_pos(token1_det[2]) in accepted_pos[0]:
+            if token1_det[0] in model.vocab :
+                for counter2 in range(counter1+1, prov_len):
+                    if prov_dets[counter2] == ():
+                        continue
+                    # print(counter1, counter2)
+                    token2_det = prov_dets[counter2]
+                    token2_pos = trim_pos(token2_det[2])
+                    if token2_det[0] not in model.vocab or not check_pos(trim_pos(token2_pos)):
+                        continue
+                    # To ensure the correct order and PoS in the substitution
+                    if token2_pos != accepted_pos[1]:
+                        continue
+
+                    # print(counter1, token, counter2, prov_tokens[counter2])
+                    comparison_vec_2 = model.wv[token1_det[0]] - model.wv[token2_det[0]]
+                    tmp_sim = model.wv.wv.cosine_similarities(np.asarray(comparison_vec), [np.asarray(comparison_vec_2)])
+                    # dist = np.linalg.norm(a - b)
+                    if tmp_sim > min_sim and tmp_sim > chosen_pair[2]:
+                        chosen_pair = (counter1, counter2, tmp_sim)
 
     if chosen_pair == (-1, -1, 0):
-        return None, None, None, None
-    return prov_dets[chosen_pair[0]], prov_dets[chosen_pair[1]], chosen_pair[2], chosen_pair[3]
+        return None, None, None
+    return prov_dets[chosen_pair[0]], prov_dets[chosen_pair[1]], chosen_pair[2]
 
 
-def get_generated_expressions_vecdiff(proverb, headline_keywords, prov_key1, prov_key2, sub_order, all_labels):
+def get_generated_expressions_vecdiff(proverb, headline_keywords, prov_key1, prov_key2, all_labels):
     generated_expressions = []
 
-    if sub_order in [0, 2]:
-        tmp_prov = proverb.replace(prov_key1[0], get_right_form(prov_key1, headline_keywords[0], all_labels))
-        # print("0: ", tmp_prov, proverb)
-        if "######" not in tmp_prov:
-            tmp_2 = tmp_prov.replace(prov_key2[0], get_right_form(prov_key2, headline_keywords[1], all_labels))
-            if "######" not in tmp_2:
-                # print("0_1: ", tmp_2, proverb)
-                generated_expressions.append(tmp_2)
-            # else:
-                # append_expression(tmp_prov)
+    form1 = get_right_form(prov_key1, headline_keywords[0], all_labels)
+    form2 = get_right_form(prov_key2, headline_keywords[1], all_labels)
+
+    if form1 and form2:
+        #new_exp = proverb.replace(prov_key1[0], form1).replace(prov_key2[0], form2) if form1 in proverb else proverb.replace(prov_key2[0], form2).replace(prov_key1[0], form1)
+        if form1 in proverb:
+            new_exp = re.sub(r'\b'+prov_key1[0]+r'\b', form1, proverb, flags=re.IGNORECASE)
+            new_exp = re.sub(r'\b'+prov_key2[0]+r'\b', form2, new_exp, flags=re.IGNORECASE)
+        else:
+            new_exp = re.sub(r'\b'+prov_key2[0]+r'\b', form2, proverb, flags=re.IGNORECASE)
+            new_exp = re.sub(r'\b'+prov_key1[0]+r'\b', form1, new_exp, flags=re.IGNORECASE)
+        #print("**", proverb, ":", prov_key1[0], "->", form1, ";", prov_key2[0], "->", form2, "=", new_exp)
+        generated_expressions.append(new_exp)
         '''
         else:
             tmp_2 = proverb.replace(prov_key2[0], get_right_form(prov_key2, headline_keywords[1], all_labels))
             if "######" not in tmp_2:
                 # print("0_2: ", tmp_2, proverb)
                 generated_expressions.append(tmp_2)
-        '''
-
-    if sub_order in [1, 2]:
-        tmp_prov = proverb.replace(prov_key1[0], get_right_form(prov_key1, headline_keywords[1], all_labels))
-        # print("1: ", tmp_prov, proverb)
-        if "######" not in tmp_prov:
-            tmp_2 = tmp_prov.replace(prov_key2[0], get_right_form(prov_key2, headline_keywords[0], all_labels))
-            if "######" not in tmp_2:
-                # print("1_1: ", tmp_2, proverb)
-                generated_expressions.append(tmp_2)
-            # else:
-                # append_expression(tmp_prov)
-        '''
-        else:
-            tmp_prov = proverb.replace(prov_key1[0], get_right_form(prov_key2, headline_keywords[1], all_labels))
-            if "######" not in tmp_prov:
-                # print("1_2: ", tmp_prov, proverb)
-                generated_expressions.append(tmp_prov)
         '''
 
     return generated_expressions

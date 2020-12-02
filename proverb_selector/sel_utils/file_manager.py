@@ -78,12 +78,31 @@ def news_data_retrieval():
     file.close()
 
 
-def selector(input_text, proverbs, sim, info_sim, amount):
+def selector(input_text, proverbs, sim, amount):
+    # print("$$$$", input_text, proverbs, sim, info_sim)
+    chosen_expressions = []
+    for counter in range(amount):
+        #print("***", input_text, counter, sim[inp_id])
+
+        if len(sim) == 0:
+            break
+
+        index_sim = sim.index(max(sim))
+        #print(inp, proverbs[index_sim], sim[inp_id][index_sim], info_sim)
+        chosen_expressions.append((input_text, proverbs[index_sim], sim[index_sim]))
+        sim.pop(index_sim)
+        proverbs.pop(index_sim)
+
+    #print("++", len(chosen_expressions), chosen_expressions)
+    return chosen_expressions
+
+
+def selector_old(input_text, proverbs, sim, amount):
     # print("$$$$", input_text, proverbs, sim, info_sim)
     chosen_expressions = []
     for inp_id, inp in enumerate(input_text):
         for counter in range(amount):
-            #print(input_text, counter, sim[inp_id])
+            #print("***", input_text, counter, sim[inp_id])
 
             if len(sim[inp_id]) == 0:
                 break
@@ -93,8 +112,8 @@ def selector(input_text, proverbs, sim, info_sim, amount):
             chosen_expressions.append((inp, proverbs[index_sim], sim[inp_id][index_sim]))
             if counter == 0:
                 # LOGGING RESULTS
-                log.info("[{}] Input: {}\n\tAt index: {} \n\tChosen proverb: {} \tSimilarity level: {}\n"
-                         .format(info_sim, inp, index_sim, proverbs[index_sim], sim[inp_id][index_sim]))
+                log.info("Input: {}\n\tAt index: {} \n\tChosen proverb: {} \tSimilarity: {}\n"
+                         .format(inp, index_sim, proverbs[index_sim], sim[inp_id][index_sim]))
             sim[inp_id].pop(index_sim)
             proverbs.pop(index_sim)
 

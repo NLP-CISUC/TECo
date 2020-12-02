@@ -2,6 +2,7 @@ import csv
 import string
 
 from gen_methods.movie_titles import check_label
+from gen_utils.utils_gen import get_tokens
 from proverb_selector.sel_utils.file_manager import read_write_obj_file
 import tweepy
 
@@ -75,7 +76,7 @@ def get_selection_results(filename):
 
 
 def check_headline(headline, all_labels):
-    headline_tokens = headline.lower().translate(str.maketrans('', '', string.punctuation)).split()
+    headline_tokens = get_tokens(headline)
     total_tok = len(headline_tokens)
     if total_tok < 5:
         return False

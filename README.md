@@ -17,7 +17,7 @@ Under 'teco_config', the configuration file is 'config.properties', where beside
 - Run 'bert_server_run.py' (only if BERT is required)
 - Run 'teco_main.py'
 
-# More information
+# Additional information
 - TECo is described in the research paper <i>TECo: Exploring Word Embeddings for Text Adaptation to a given
 Context</i>, included in the proceedings of the  <a href="http://computationalcreativity.net/iccc20/papers/ICCC20_Proceedings.pdf">11th International Conference on Computational Creativity</a>, which can be cited as follows:
 <pre>

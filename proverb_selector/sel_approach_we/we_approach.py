@@ -3,7 +3,7 @@ from proverb_selector.sel_approach_we.we_object_manager import *
 from proverb_selector.sel_utils.file_manager import *
 
 
-def init_prov_selector_we(input_text, proverbs, algorithm, model_fn, amount):
+def init_prov_selector_we(input_text, proverbs, algorithm, model_fn, model, amount):
     # OBJECT CREATION
     # proverbs, news_tokens, news_tags, prov_tokens, prov_tags, prov_lemmas  = objects_creation()
     # model = KeyedVectors.load_word2vec_format(
@@ -40,7 +40,8 @@ def init_prov_selector_we(input_text, proverbs, algorithm, model_fn, amount):
             info_sim = 'COSINE_WE_' + model_fn.split("/")[-1].split(".")[0]
             aux_tfidf = False
 
-        model = KeyedVectors.load(model_fn)
+        if not model:
+            model = KeyedVectors.load(model_fn)
         inp_keywords = [preprocess(i.lower(), model.wv.vocab, True) for i in input_text]
         prov_keywords = [preprocess(p, model.wv.vocab, False) for p in prov_tokens]
 

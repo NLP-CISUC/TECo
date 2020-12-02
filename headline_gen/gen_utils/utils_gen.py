@@ -1,7 +1,13 @@
 import string
+import random
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 import NLPyPort as nlpyport
+
+
+def get_tokens(input_text):
+    input_text = input_text.replace("«", "").replace("»", "").lower()
+    return input_text.translate(str.maketrans('', '', string.punctuation)).split()
 
 
 def get_word_tfidf(prov_id, docs):
@@ -73,7 +79,7 @@ def check_pos(w_pos):
     return False
 
 def aux_verb(label):
-    return label[2][0] == 'v' and (label[1] == 'ser' or label[1] == 'estar' or label[1] == 'ter' or label[1] == 'fazer')
+    return label[2][0] == 'v' and (label[1] == 'ser' or label[1] == 'estar' or label[1] == 'ter' or label[1] == 'ir' or label[1] == 'fazer')
 
 def trim_pos(w_pos):
     while '+' in w_pos:
@@ -84,19 +90,21 @@ def trim_pos(w_pos):
 
 
 def get_right_form(keyword_det, sub_det, dict_lemmas_labels):
-
     if keyword_det[2][0] != sub_det[2][0]:
-        return "######"
+        return None
 
     if keyword_det[2][0] == 'v':
         tmp = get_right_verb_form(keyword_det, sub_det, dict_lemmas_labels)
-        if tmp and tmp != keyword_det[0]:
+        #Se forma for igual...
+        #if tmp and tmp != keyword_det[0]:
             # print("\nSUB VERB: ", keyword_det, sub_det, tmp)
-            return tmp
-        return "######"
+        return tmp
     else:
         keyword_form = keyword_det[3].split(":")
         # print(keyword_det, sub_det, keyword_form)
+
+        # so that it is not always the same
+        random.shuffle(keyword_form)
         for form in keyword_form:
             if form.lower().translate(str.maketrans('', '', string.punctuation)).strip() in sub_det[3]:
                 return sub_det[0]
@@ -107,9 +115,8 @@ def get_right_form(keyword_det, sub_det, dict_lemmas_labels):
                 # check lemma and form
                 if label[3] == keyword_form or keyword_form in label[3]:
                     return label[0]
-    # if a substitute has '######' in it, it's invalid
-    # print("######", w, sub, trim_pos(sub[3]))
-    return "######"
+
+    return None
 
 
 def get_sentence_vector(tokens, model):

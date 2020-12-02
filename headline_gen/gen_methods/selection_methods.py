@@ -26,8 +26,8 @@ def get_first_selection(all_proverbs, headline, sel_method, amount, model):
 
     # TFIDFVectorizer
     elif sel_method == TFIDF:
-        selected_proverbs = init_prov_selector_standard(0, [headline], all_proverbs, amount=amount)
-        #print("\nSELECTED PROVERBS:\t", len(selected_proverbs), selected_proverbs)
+        selected_proverbs = init_prov_selector_standard(0, headline, all_proverbs, amount=amount)
+        # print("\nSELECTED PROVERBS:\t", len(selected_proverbs), selected_proverbs)
         return selected_proverbs
 
     # BERT
