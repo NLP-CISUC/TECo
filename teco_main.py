@@ -6,21 +6,22 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 from teco_config.load_config import *
 from proverb_selector.sel_utils.file_manager import read_write_obj_file
-from teco_twitterbot.twitter_bot import init_twitter_bot
+from teco_twitterbot.twitter_bot import run_twitter_bot
 from teco_twitterbot.twitter_bot import call_teco
+from teco_twitterbot.twitter_bot import load_twitter_confs
 
-from sklearn.metrics.pairwise import cosine_similarity
+def test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, twitter_conf_file, post=True):
 
-def test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, post=True):
-    #start = time.time()
-    print("Init Twitter bot...")
+    twitter_conf = load_twitter_confs(twitter_conf_file)
+    #print(twitter_conf)
     while True:
-        init_twitter_bot(all_expressions=all_expressions, model=model, dict_forms_labels=dict_forms_labels,
-                         dict_lemmas_labels=dict_lemmas_labels, configs=configs, gen_method=gen_method, post=post)
-        print("Sleep...", sleep_time)
-        time.sleep(sleep_time)
-    #end = time.time()
-    # print("SLEEP TIME: ", end - start)
+        print("Run Twitter bot...")
+        run_twitter_bot(all_expressions=all_expressions, model=model, dict_forms_labels=dict_forms_labels,
+                        dict_lemmas_labels=dict_lemmas_labels, configs=configs, gen_method=gen_method, twitter_conf=twitter_conf, post=post)
+        sleep = twitter_conf[0]
+        print("Sleep for", sleep)
+        time.sleep(sleep)
+
 
 def test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, method_order):
     noticias_teste = [
@@ -92,14 +93,17 @@ if __name__ == '__main__':
 
     gen_method = file_paths[GEN_METHOD]
     print("Gen method", gen_method)
-    sleep_time = int(file_paths[TWEET_INTERVAL])
-    print("Sleep time", sleep_time)
+    #sleep_time = int(file_paths[TWEET_INTERVAL])
+    #print("Sleep time", sleep_time)
+
+    twitter_conf_file = file_paths[TWITTER_CONFS]
+    print("Twitter confs", twitter_conf_file)
 
     dict_lemmas_labels = dict_forms_to_lemmas_label(dict_forms_labels)
 
     #test_console_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
-    test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
-    #test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, post=True)
+    #test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
+    test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, twitter_conf_file, post=True)
 
     #cProfile.run('test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)')
 

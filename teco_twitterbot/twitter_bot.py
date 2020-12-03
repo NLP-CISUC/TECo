@@ -9,21 +9,35 @@ from proverb_selector.sel_approach_standard.standard_approach import init_prov_s
 from teco_twitterbot.twitter_utils.twitter_manager import *
 from headline_gen.gen_methods.selection_methods import *
 
-def init_twitter():
-    CONSUMER_KEY = 'b3RgdN5VSO6RvdmJY9aaW07zl'
-    CONSUMER_SECRET = 'wagRXKmvsp9A40LZ2htl0E8amVUgYbi9wIMTDoyhdbU271OPTs'
-    ACCESS_KEY = '1246561294808989700-ysDKCj966HtkPZXnuFTLWEoJByDK4U'
-    ACCESS_SECRET = 'nxZVCql4YKEPOxNozFmRdhmRIvYTmVMXO7dXQvrJuwb4Q'
+def auth_twitter(twitter_conf):
 
-
-    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-    auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+    auth = tweepy.OAuthHandler(twitter_conf[1], twitter_conf[2])
+    auth.set_access_token(twitter_conf[3], twitter_conf[4])
     return tweepy.API(auth)
 
 
-def init_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, post=True):
+def load_twitter_confs(twitter_conf):
+    with open(twitter_conf, 'r') as tconf:
+        for row in tconf:
+            if row[0] != "#":
+                cols = row.split("=")
+                if cols[0] == "TWEET_INTERVAL":
+                    sleep = int(cols[1].strip("\n"))
+                elif cols[0] == "CONSUMER_KEY":
+                    consumer_key = cols[1].strip("\n")
+                elif cols[0] == "CONSUMER_SECRET":
+                    consumer_secret = cols[1].strip("\n")
+                elif cols[0] == "ACCESS_KEY":
+                    access_key = cols[1].strip("\n")
+                elif cols[0] == "ACCESS_SECRET":
+                    access_secret = cols[1].strip("\n")
 
-    api = init_twitter()
+    return sleep, consumer_key, consumer_secret, access_key, access_secret
+
+
+def run_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, twitter_conf, post=True):
+
+    api = auth_twitter(twitter_conf)
 
     og_tweets = tweet_retrieval(api=api, amount=10)
     #all_headlines = [twt[2] for twt in og_tweets]
@@ -59,6 +73,10 @@ def init_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labe
                     return
                 except tweepy.TweepError:
                     print(tweepy.TweepError)
+
+
+def get_sleep_time():
+    return TWEET_INTERVAL
 
 
 def call_teco(headline, all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method):

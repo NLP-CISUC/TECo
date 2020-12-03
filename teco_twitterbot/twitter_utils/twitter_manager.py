@@ -1,8 +1,8 @@
 import csv
 import string
 
-from gen_methods.movie_titles import check_label
-from gen_utils.utils_gen import get_tokens
+from headline_gen.gen_methods.movie_titles import check_label
+from headline_gen.gen_utils.utils_gen import get_tokens
 from proverb_selector.sel_utils.file_manager import read_write_obj_file
 import tweepy
 

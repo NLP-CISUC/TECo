@@ -8,7 +8,7 @@ import NLPyPort as nlpyport
 from proverb_selector.sel_utils.file_manager import read_write_obj_file
 #from headline_gen.gen_utils.utils_gen import find_label, get_word_tfidf
 #from gen_methods.movie_titles import check_movie_pt
-from gen_utils.utils_gen import check_pos, trim_pos
+from headline_gen.gen_utils.utils_gen import check_pos, trim_pos
 
 
 def get_tfidf(headline, all_words, all_occurrences):
@@ -38,9 +38,9 @@ def test_data_creation(tokens, model, filename, all_labels):
                         break
 
     print(len(tfidf_words), tfidf_words)
-    read_write_obj_file(0, tfidf_words, 'gen_inputs/tfidf_words.pk1')
+    read_write_obj_file(0, tfidf_words, 'headline_gen/gen_inputs/tfidf_words.pk1')
     print(len(tfidf_occurrences), tfidf_occurrences)
-    read_write_obj_file(0, tfidf_occurrences, 'gen_inputs/tfidf_occur.pk1')
+    read_write_obj_file(0, tfidf_occurrences, 'headline_gen/gen_inputs/tfidf_occur.pk1')
 
 
 def create_freq_dict(filename, model, all_labels, min_freq=100):
@@ -53,7 +53,7 @@ def create_freq_dict(filename, model, all_labels, min_freq=100):
             if occ >= min_freq and line[1] in all_labels and line[1] in model.vocab:
                 if line[1] not in dicio:
                     dicio[line[1]] = occ
-    read_write_obj_file(0, dicio, '../models_db/dict_freq.pk1')
+    read_write_obj_file(0, dicio, 'models_db/dict_freq.pk1')
 
 def labels_2_dict(all_labels):
     dicio = {}
@@ -61,7 +61,7 @@ def labels_2_dict(all_labels):
         if l[0] not in dicio:
             dicio[l[0]] = []
         dicio[l[0]].append(l)
-    read_write_obj_file(0, dicio, '../models_db/dict_labels.pk1')
+    read_write_obj_file(0, dicio, 'models_db/dict_labels.pk1')
 
 def best_rated_movies_pt(file_ids_ratings, file_ids_titles, min_rating, min_tokens=3):
     ids_ratings = {}
@@ -116,10 +116,10 @@ def load_proverbs(file_proverbs):
 
 
 def create_expressions_file():
-    movie_titles = best_rated_movies_pt('gen_inputs/title.ratings.tsv', 'gen_inputs/movie_titles_pt.tsv', 7, 3)
+    movie_titles = best_rated_movies_pt('headline_gen/gen_inputs/title.ratings.tsv', 'gen_inputs/movie_titles_pt.tsv', 7, 3)
     print("Movie titles", len(movie_titles))
 
-    dict_forms_labels = read_write_obj_file(1, None, '../models_db/dict_labels.pk1')
+    dict_forms_labels = read_write_obj_file(1, None, 'models_db/dict_labels.pk1')
 
     filtered_titles = []
     for t in movie_titles:
@@ -128,13 +128,13 @@ def create_expressions_file():
             filtered_titles.append(t)
     print("Filtered titles", len(filtered_titles))
 
-    proverbs = load_proverbs('gen_inputs/proverbs.txt')
+    proverbs = load_proverbs('headline_gen/gen_inputs/proverbs.txt')
     print("Proverbs", len(proverbs))
 
     expressions = []
     expressions.extend(proverbs)
     expressions.extend(filtered_titles)
-    read_write_obj_file(0, expressions, '../models_db/prov_movies_v2.pk1')
+    read_write_obj_file(0, expressions, 'models_db/prov_movies_v2.pk1')
 
 
 if __name__ == '__main__':

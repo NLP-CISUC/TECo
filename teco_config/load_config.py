@@ -12,7 +12,7 @@ N_FIRST_SEL="N_FIRST_SEL"
 FIRST_SEL="FIRST_SEL"
 GEN_METHOD="GEN_METHOD"
 FINAL_SEL="FINAL_SEL"
-TWEET_INTERVAL="TWEET_INTERVAL"
+TWITTER_CONFS="TWITTER_CONFS"
 
 def load_config(config_file='teco_config/config.properties'):
     config = {}
@@ -38,8 +38,8 @@ def load_config(config_file='teco_config/config.properties'):
                     config[FIRST_SEL] = cols[1].strip("\n")
                 elif cols[0] == FINAL_SEL:
                     config[FINAL_SEL] = cols[1].strip("\n")
-                elif cols[0] == TWEET_INTERVAL:
-                    config[TWEET_INTERVAL] = cols[1].strip("\n")
+                elif cols[0] == TWITTER_CONFS:
+                    config[TWITTER_CONFS] = cols[1].strip("\n")
                 elif cols[0] == GEN_METHOD:
                     config[GEN_METHOD] = cols[1].strip("\n").split(",")
         return config
