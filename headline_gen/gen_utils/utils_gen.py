@@ -19,7 +19,7 @@ def get_word_tfidf(prov_id, docs):
     return sorted([(feature_names[i], s) for (i, s) in tfidf_scores], key=lambda tup: tup[1], reverse=True)
 
 
-def get_words_relevance(input_text, df, ascending_df=True, input_tokens=None):
+def get_words_relevance_df(input_text, df, ascending_df=True, input_tokens=None):
     token_dets = []
     if not input_tokens:
         input_tokens = input_text.lower().translate(str.maketrans('', '', string.punctuation)).split()
@@ -27,6 +27,17 @@ def get_words_relevance(input_text, df, ascending_df=True, input_tokens=None):
         if token in df:
             token_dets.append((token, df[token]))
     return sorted(token_dets, key=lambda tup: tup[1], reverse=(not ascending_df)) #the higher the DF, the lower the relevance
+
+
+#assume that: (1) relevance is indirectly proportional to confidence; (2) vocabulary words are ordered by frequency
+def get_words_relevance_vocab(input_text, vocab, descending_index=True, input_tokens=None):
+    token_dets = []
+    if not input_tokens:
+        input_tokens = input_text.lower().translate(str.maketrans('', '', string.punctuation)).split()
+    for token in input_tokens:
+        if token in vocab:
+            token_dets.append((token, vocab[token].index))
+    return sorted(token_dets, key=lambda tup: tup[1], reverse=descending_index) #the higher the index, the lower the relevance
 
 
 def find_prov_index(prov, proverbs):

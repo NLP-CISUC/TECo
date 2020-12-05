@@ -45,7 +45,7 @@ def get_best_keywords(sentence_words, all_labels, model, reverse_order):
     return list_keywords
 
 
-def init_headline_generator_v2(headline, headline_tokens, use_expressions, model, dict_forms_labels, dict_lemmas_labels, tfidf, gen_method):
+def headline_generator_v2(headline, headline_tokens, use_expressions, model, dict_forms_labels, dict_lemmas_labels, gen_method):
     """
     This function, considering a given headline, applies methods to generate new expressions based on proverbs and
     chosen words (computed by different methods).
@@ -64,11 +64,11 @@ def init_headline_generator_v2(headline, headline_tokens, use_expressions, model
 
     # -------- Adaptation -----------
     if gen_method == SUBSTITUTION:
-        all_generated_expressions = substitution_many(headline, use_expressions, headline_tokens, tfidf, dict_forms_labels, dict_lemmas_labels, model)
+        all_generated_expressions = substitution_many(headline, use_expressions, headline_tokens, dict_forms_labels, dict_lemmas_labels, model)
     elif gen_method == ANALOGY:
-        all_generated_expressions = analogy_many(use_expressions, headline, headline_tokens, tfidf, dict_forms_labels, dict_lemmas_labels, model)
+        all_generated_expressions = analogy_many(use_expressions, headline, headline_tokens, dict_forms_labels, dict_lemmas_labels, model)
     elif gen_method == VEC_DIFF:
-        all_generated_expressions = vecdiff_many(use_expressions, headline, headline_tokens, tfidf, dict_forms_labels, dict_lemmas_labels, model)
+        all_generated_expressions = vecdiff_many(use_expressions, headline, headline_tokens, dict_forms_labels, dict_lemmas_labels, model)
 
     if not all_generated_expressions:
         print("[ERROR] Could not generate expression with "+gen_method)
@@ -77,8 +77,8 @@ def init_headline_generator_v2(headline, headline_tokens, use_expressions, model
     return all_generated_expressions
 
 
-def substitution_many(headline, proverbs, headline_tokens, tfidf, dict_forms_labels, dict_lemmas_labels, model):
-    headline_keywords = get_headline_keywords(headline, headline_tokens, tfidf, dict_forms_labels, model, min=1, max=5)
+def substitution_many(headline, proverbs, headline_tokens, dict_forms_labels, dict_lemmas_labels, model):
+    headline_keywords = get_headline_keywords(headline, headline_tokens, dict_forms_labels, model, min=1, max=5)
     headline_substitutes = get_headline_substitutes(headline_keywords, model, dict_forms_labels, top_similar=5)
     print("[Sub Candidates]", headline_substitutes)
 
@@ -86,7 +86,8 @@ def substitution_many(headline, proverbs, headline_tokens, tfidf, dict_forms_lab
     for proverb in proverbs:
         #tmp_proverb = (proverb.lower(), 0)
 
-        best_prov_keywords = get_best_keywords(get_words_relevance(proverb, tfidf), dict_forms_labels, model, False)
+        #best_prov_keywords = get_best_keywords(get_words_relevance_df(proverb, tfidf), dict_forms_labels, model, False)
+        best_prov_keywords = get_best_keywords(get_words_relevance_vocab(proverb, model.vocab), dict_forms_labels, model, False)
         generated = substitution_one(proverb, best_prov_keywords, headline_substitutes, dict_lemmas_labels, model)
         if generated:
             all_generated.extend(generated)
@@ -106,8 +107,10 @@ def substitution_one(proverb, best_prov_keywords, headline_substitutes, dict_lem
 
     return generated_expressions
 
-def get_headline_keywords(headline, headline_tokens, tfidf, all_labels, model, min=2, max=2):
-    headline_tfidf = get_words_relevance(headline, tfidf, ascending_df=True, input_tokens=headline_tokens)
+
+def get_headline_keywords(headline, headline_tokens, all_labels, model, min=2, max=2):
+    #headline_tfidf = get_words_relevance_df(headline, tfidf, ascending_df=True, input_tokens=headline_tokens)
+    headline_tfidf = get_words_relevance_vocab(headline, model.vocab, descending_index=True, input_tokens=headline_tokens)
     #print("TFIDF", headline_tfidf)
     headline_keywords = []
     for hk in headline_tfidf:
@@ -125,15 +128,16 @@ def get_headline_keywords(headline, headline_tokens, tfidf, all_labels, model, m
         print("[Keywords]", headline_keywords)
     return headline_keywords
 
-def analogy_many(proverbs, headline, headline_tokens, tfidf, dict_forms_labels, dict_lemmas_labels, model):
-    headline_keywords = get_headline_keywords(headline, headline_tokens, tfidf, dict_forms_labels, model, min=2, max=3)
+def analogy_many(proverbs, headline, headline_tokens, dict_forms_labels, dict_lemmas_labels, model):
+    headline_keywords = get_headline_keywords(headline, headline_tokens, dict_forms_labels, model, min=2, max=3)
     if not headline_keywords:
         return None
 
     all_generated = []
     for proverb in proverbs:
         # Structure of keywords: [( [0] word; [1] lemma; [2] PoS tag;  [3] Form ; [4] Similarity), .. ,()]
-        best_prov_keywords = get_best_keywords(get_words_relevance(proverb, tfidf), dict_forms_labels, model, False)
+        # best_prov_keywords = get_best_keywords(get_words_relevance_df(proverb, tfidf), dict_forms_labels, model, False)
+        best_prov_keywords = get_best_keywords(get_words_relevance_vocab(proverb, model.vocab), dict_forms_labels, model, False)
 
         #needs at least two keywords to replace!
         if len(best_prov_keywords) >= 2:
@@ -227,8 +231,8 @@ def analogy_one(expression, exp_keywords, headline, headline_keywords, dict_form
 
 
 
-def vecdiff_many(proverbs, headline, headline_tokens, tfidf, dict_forms_labels, dict_lemmas_labels, model):
-    headline_keywords = get_headline_keywords(headline, headline_tokens, tfidf, dict_forms_labels, model, min=2, max=2)
+def vecdiff_many(proverbs, headline, headline_tokens, dict_forms_labels, dict_lemmas_labels, model):
+    headline_keywords = get_headline_keywords(headline, headline_tokens, dict_forms_labels, model, min=2, max=2)
 
     if not headline_keywords or len(headline_keywords) < 2:
         return None

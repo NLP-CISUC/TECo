@@ -10,7 +10,7 @@ from gensim.models import KeyedVectors
 from scipy import stats
 from sel_approach_standard.standard_approach import init_prov_selector_standard
 from sel_approach_transformer.transformer_approach import init_prov_selector_bert
-from headline_gen.headline_gen import init_headline_generator_v2
+from headline_gen.headline_gen import headline_generator_v2
 from sel_utils.file_manager import data_retrieval
 from NLPyPort.FullPipeline import load_config
 from gen_utils.utils_gen import *
@@ -80,18 +80,18 @@ def sample_data_creation():
         print("#####\t[HEADLINE]\t", counter, hl, all_headlines[counter])
         print("#####\t [ALL HEADLINES]\t", all_headlines, all_headlines_iter)
         new_data = [
-            init_headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
-                                       gen_method=0, sel_method=1),
-            init_headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
-                                       gen_method=0, sel_method=2),
-            init_headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
-                                       gen_method=1, sel_method=1),
-            init_headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
-                                       gen_method=1, sel_method=2),
-            init_headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
-                                       gen_method=2, sel_method=1),
-            init_headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
-                                       gen_method=2, sel_method=2),
+            headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
+                                  gen_method=0, sel_method=1),
+            headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
+                                  gen_method=0, sel_method=2),
+            headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
+                                  gen_method=1, sel_method=1),
+            headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
+                                  gen_method=1, sel_method=2),
+            headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
+                                  gen_method=2, sel_method=1),
+            headline_generator_v2(hl, model, all_headlines, prov_movies, all_labels,
+                                  gen_method=2, sel_method=2),
             init_prov_selector_standard(0, [hl], prov_movies, amount=1)[0][1],
             init_prov_selector_bert(7, [hl], prov_movies, amount=1)[0][1]
         ]

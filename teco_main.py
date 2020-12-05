@@ -78,18 +78,10 @@ if __name__ == '__main__':
     model = KeyedVectors.load(file_paths[EMBEDDINGS])
     print("Lexicon", file_paths[LEXICON])
     dict_forms_labels = read_write_obj_file(1, None, file_paths[LEXICON])
-    print("Frequencies", file_paths[FREQUENCIES])
-    freqs = read_write_obj_file(1, None, file_paths[FREQUENCIES])
+    #print("Frequencies", file_paths[FREQUENCIES])
+    #freqs = read_write_obj_file(1, None, file_paths[FREQUENCIES])
 
-    #passar tf-idf para um dicionário
-    #tfidf_words = read_write_obj_file(1, None, file_paths[TFIDF_WORDS])
-    #tfidf_occurs = read_write_obj_file(1, None, file_paths[TFIDF_OCCURS])
-    #tfidf = {}
-    #for i in range(len(tfidf_words)):
-    #    tfidf[tfidf_words[i]] = tfidf_occurs[i]
-
-    #tfidf_words, tfidf_occur, first_sel_amount, sel_method
-    configs = [freqs, file_paths[FIRST_SEL], int(file_paths[N_FIRST_SEL]), file_paths[FINAL_SEL]]
+    configs = [file_paths[FIRST_SEL], int(file_paths[N_FIRST_SEL]), file_paths[FINAL_SEL]]
 
     gen_method = file_paths[GEN_METHOD]
     print("Gen method", gen_method)
@@ -102,8 +94,8 @@ if __name__ == '__main__':
     dict_lemmas_labels = dict_forms_to_lemmas_label(dict_forms_labels)
 
     #test_console_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
-    #test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
-    test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, twitter_conf_file, post=True)
+    test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
+    #test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, twitter_conf_file, post=True)
 
     #cProfile.run('test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)')
 

@@ -3,7 +3,7 @@ import random
 import tweepy
 from gensim.models import KeyedVectors
 
-from headline_gen.headline_gen import init_headline_generator_v2, get_tokens
+from headline_gen.headline_gen import headline_generator_v2, get_tokens
 from proverb_selector.sel_utils.file_manager import read_write_obj_file
 from proverb_selector.sel_approach_standard.standard_approach import init_prov_selector_we
 from teco_twitterbot.twitter_utils.twitter_manager import *
@@ -75,16 +75,12 @@ def run_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_label
                     print(tweepy.TweepError)
 
 
-def get_sleep_time():
-    return TWEET_INTERVAL
-
-
 def call_teco(headline, all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method):
     # Structure of Headline: [([0] word; [1] lemma; [2] PoS tag; [3] Form), .. , ()]
     headline_tokens = get_tokens(headline)
     #print("Headline tokens: ", headline_tokens)
 
-    tfidf, first_sel_method, first_sel_amount, sel_method = configs
+    first_sel_method, first_sel_amount, sel_method = configs
 
     # -------- First Selection -----------
     selected_proverbs = first_selection(first_sel_method, first_sel_amount//2, first_sel_amount//2, headline, all_expressions, model)
@@ -94,9 +90,9 @@ def call_teco(headline, all_expressions, model, dict_forms_labels, dict_lemmas_l
     all_generated = None
     for method in gen_method:
         print("GENERATING with "+method+" ...")
-        all_generated = init_headline_generator_v2(
+        all_generated = headline_generator_v2(
             headline=headline, headline_tokens=headline_tokens, use_expressions=selected_proverbs,
-            model=model, dict_forms_labels=dict_forms_labels, dict_lemmas_labels=dict_lemmas_labels, tfidf=tfidf, gen_method=method
+            model=model, dict_forms_labels=dict_forms_labels, dict_lemmas_labels=dict_lemmas_labels, gen_method=method
         )
         if all_generated:
             break;

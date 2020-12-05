@@ -26,12 +26,8 @@ def load_config(config_file='teco_config/config.properties'):
                     config[EMBEDDINGS] = cols[1].strip("\n")
                 elif cols[0] == LEXICON:
                     config[LEXICON] = cols[1].strip("\n")
-                elif cols[0] == FREQUENCIES:
-                    config[FREQUENCIES] = cols[1].strip("\n")
-                elif cols[0] == TFIDF_WORDS:
-                    config[TFIDF_WORDS] = cols[1].strip("\n")
-                elif cols[0] == TFIDF_OCCURS:
-                    config[TFIDF_OCCURS] = cols[1].strip("\n")
+#                elif cols[0] == FREQUENCIES:
+#                    config[FREQUENCIES] = cols[1].strip("\n")
                 elif cols[0] == N_FIRST_SEL:
                     config[N_FIRST_SEL] = cols[1].strip("\n")
                 elif cols[0] == FIRST_SEL:
