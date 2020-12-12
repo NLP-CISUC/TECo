@@ -19,8 +19,9 @@ def get_first_selection(all_proverbs, headline, sel_method, amount, model):
             prov_vec = get_sentence_vector(prov_tokens, model)
             if not any(prov_vec):
                 continue
-            selected_proverbs.append((headline, prov, model.wv.cosine_similarities(headline_vec, [prov_vec])))
-        selected_proverbs = sorted(selected_proverbs, key=lambda tup: tup[1], reverse=True)[:amount]
+            cos = model.wv.cosine_similarities(headline_vec, [prov_vec])[0]
+            selected_proverbs.append((headline, prov, cos))
+        selected_proverbs = sorted(selected_proverbs, key=lambda tup: tup[2], reverse=True)[:amount]
         # print("\nSELECTED PROVERBS:\t", len(selected_proverbs), selected_proverbs)
         return selected_proverbs
 
