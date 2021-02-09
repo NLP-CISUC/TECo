@@ -1,4 +1,4 @@
-# Project TECo - Texto Em Contexto (Text in Context)
+# TECo - Texto Em Contexto (Text in Context)
 This system aims to, given a short-text input, adapt and select Portuguese expressions (e.g., proverbs and movie titles) in order to approximate them to the input, enhancing relatedness, originality and, possibly, funniness.
 
 # Download & Install
