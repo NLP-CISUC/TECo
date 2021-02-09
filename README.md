@@ -36,8 +36,7 @@ Under 'teco_config', the configuration file is 'config.properties', where beside
 <pre>
 @inproceedings{mendes-goncalo-oliveira-2020-amplifying,
     title = "Amplifying the Range of News Stories with Creativity: Methods and their Evaluation, in {P}ortuguese",
-    author = "Mendes, Rui  and
-      Gon{\c{c}}alo Oliveira, Hugo",
+    author = "Mendes, Rui and Gon{\c{c}}alo Oliveira, Hugo",
     booktitle = "Proceedings of the 13th International Conference on Natural Language Generation",
     month = dec,
     year = "2020",
