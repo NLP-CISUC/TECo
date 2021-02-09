@@ -18,8 +18,9 @@ Under 'teco_config', the configuration file is 'config.properties', where beside
 - Run 'teco_main.py'
 
 # Additional information
-- TECo is described in the research paper <i>TECo: Exploring Word Embeddings for Text Adaptation to a given
-Context</i>, included in the proceedings of the  <a href="http://computationalcreativity.net/iccc20/papers/ICCC20_Proceedings.pdf">11th International Conference on Computational Creativity</a>, which can be cited as follows:
+- TECo is described in two research papers:
+
+<i>TECo: Exploring Word Embeddings for Text Adaptation to a given Context</i>, included in the proceedings of the  <a href="http://computationalcreativity.net/iccc20/papers/ICCC20_Proceedings.pdf">11th International Conference on Computational Creativity</a>, which can be cited as follows:
 <pre>
 @inproceedings{mendes_goncalooliveira:iccc2020b,
 	author = {Rui Mendes and Hugo {Gon{\c c}alo Oliveira}},
@@ -29,4 +30,20 @@ Context</i>, included in the proceedings of the  <a href="http://computationalcr
 	series = {ICCC 2020},
 	title = {TECo: Exploring Word Embeddings for Text Adaptation to a given Context},
 	year = {2020}}
+</pre>
+
+<i>Amplifying the Range of News Stories with Creativity: Methods and their Evaluation, in Portuguese</i>, included in the proceedings of the <a href="https://www.aclweb.org/anthology/2020.inlg-1.32/">13th International Conference on Natural Language Generation</a>, which can be cited as follows:
+<pre>
+@inproceedings{mendes-goncalo-oliveira-2020-amplifying,
+    title = "Amplifying the Range of News Stories with Creativity: Methods and their Evaluation, in {P}ortuguese",
+    author = "Mendes, Rui  and
+      Gon{\c{c}}alo Oliveira, Hugo",
+    booktitle = "Proceedings of the 13th International Conference on Natural Language Generation",
+    month = dec,
+    year = "2020",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.inlg-1.32",
+    pages = "252--262",
+}
 </pre>
