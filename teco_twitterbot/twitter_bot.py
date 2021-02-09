@@ -3,7 +3,7 @@ import random
 import tweepy
 from gensim.models import KeyedVectors
 
-from headline_gen.headline_gen import headline_generator_v2, get_tokens
+from headline_gen.headline_gen import *
 from proverb_selector.sel_utils.file_manager import read_write_obj_file
 from proverb_selector.sel_approach_standard.standard_approach import init_prov_selector_we
 from teco_twitterbot.twitter_utils.twitter_manager import *
@@ -85,14 +85,21 @@ def call_teco(headline, all_expressions, model, dict_forms_labels, dict_lemmas_l
     # -------- First Selection -----------
     selected_proverbs = first_selection(first_sel_method, first_sel_amount//2, first_sel_amount//2, headline, all_expressions, model)
     print("Adapting ", len(selected_proverbs), "proverbs")
+    longer_expressions, shorter_expressions = split_longer_shorter_expressions(selected_proverbs)
 
     # -------- Generation -----------
+    nlpyport.load_config() #required for PoS tagging
+    headline_keywords = get_headline_keywords(headline, headline_tokens, dict_forms_labels, model, min=1, max=5)
     all_generated = None
     for method in gen_method:
         print("GENERATING with "+method+" ...")
+
+        #for Analogy and VecDiff use only longer expressions
+        expressions = selected_proverbs if method == SUBSTITUTION else longer_expressions
         all_generated = headline_generator_v2(
-            headline=headline, headline_tokens=headline_tokens, use_expressions=selected_proverbs,
-            model=model, dict_forms_labels=dict_forms_labels, dict_lemmas_labels=dict_lemmas_labels, gen_method=method
+            headline=headline, use_expressions=expressions,
+            model=model, dict_forms_labels=dict_forms_labels, dict_lemmas_labels=dict_lemmas_labels, gen_method=method,
+            headline_keywords=headline_keywords, shorter_expressions=shorter_expressions
         )
         if all_generated:
             break;
@@ -143,10 +150,22 @@ def first_selection(sel_method, quant_tfidf, quant_random, headline, all_express
     return list(set(selected_expressions))
 
 
+def split_longer_shorter_expressions(all_expressions, short_length=5):
+    longer_expressions = []
+    shorter_expressions = []
+    for exp in all_expressions:
+        exp_tokens = get_tokens(exp)
+        if len(exp_tokens) > short_length:
+            longer_expressions.append(exp)
+        else:
+            shorter_expressions.append(exp)
+    return longer_expressions, shorter_expressions
+
+
 def final_rank(headline, gen_expressions, method=TFIDF, n=10, all_expressions=None, model=None, headline_tokens=None):
-    #selected_proverbs = []
+
     if method == BERT:
-        selected_proverbs = init_prov_selector_bert(7, [headline], gen_expressions, amount=n)
+        selected_proverbs = init_prov_selector_bert_service(headline, gen_expressions, amount=n)
     elif method == WE:
         selected_proverbs = init_prov_selector_we(headline, gen_expressions, model=model, input_tokens=headline_tokens, tfidf=True, corpus=all_expressions, amount=n)
     else:

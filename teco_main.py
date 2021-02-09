@@ -30,6 +30,8 @@ def test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_lab
         # um que so' da' com Subs
 #        "Mourinho culpa-me por ter sido demitido do Chelsea. Esteve sempre contra mim",
 #       "VÍDEO: erro de Otamendi e Rodrigo Pinho dá vantagem ao Marítimo",
+        "existências",
+        "A educação deve falar com a ciência",
         "Agência europeia confirma pedidos de vacinas e responde dentro de semanas",
         "Cristina Ferreira levou os amigos e tentou mudar tudo na TVI mas as derrotas sucessivas ameaçam o futuro",
         "Coronavírus: Profissionais de saúde sofreram estigma por parte de vizinhos",
@@ -53,9 +55,13 @@ def test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_lab
 def test_console_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, method_order):
     while True:
         text = input("> ")
-        headline, generated = call_teco(text, all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs,
+        if text:
+            headline, generated = call_teco(text, all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs,
                                         method_order)
-        print("> "+generated[1])
+            print("> "+generated[1] if generated else "...")
+        else:
+            print("> Adeus.")
+            break
 
 
 def dict_forms_to_lemmas_label(dict_forms_labels):
@@ -66,6 +72,7 @@ def dict_forms_to_lemmas_label(dict_forms_labels):
                 dict_lemmas_labels[entry[1]] = []
             dict_lemmas_labels[entry[1]].append(entry)
     return dict_lemmas_labels
+
 
 if __name__ == '__main__':
 
@@ -94,8 +101,8 @@ if __name__ == '__main__':
     dict_lemmas_labels = dict_forms_to_lemmas_label(dict_forms_labels)
 
     #test_console_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
-    test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
-    #test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, twitter_conf_file, post=True)
+    #test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)
+    test_twitter_bot(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method, twitter_conf_file, post=True)
 
     #cProfile.run('test_headline_gen(all_expressions, model, dict_forms_labels, dict_lemmas_labels, configs, gen_method)')
 

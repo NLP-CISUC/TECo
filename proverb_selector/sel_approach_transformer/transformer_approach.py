@@ -1,6 +1,8 @@
 import time
 
 import numpy as np
+from numpy import dot
+from numpy.linalg import norm
 import string
 
 import NLPyPort as nlpyport
@@ -8,6 +10,29 @@ from proverb_selector.sel_utils.file_manager import *
 from bert_serving.client import BertClient
 #from bert_serving.server import BertServer
 #from bert_serving.server.helper import get_args_parser
+
+
+def init_prov_selector_bert_service(input_text, proverbs, amount):
+    bc_client = BertClient()
+    vec_input = bc_client.encode([input_text])[0]
+    p_vecs = bc_client.encode(proverbs)
+    sim = np.sum(vec_input * p_vecs, axis=1) / (np.linalg.norm(p_vecs, axis=1) * np.linalg.norm(vec_input))
+
+    '''
+    topk_idx = np.argsort(score)[::-1][:amount]
+    for idx in topk_idx:
+        print('> %s\t%s' % (score[idx], proverbs[idx]))
+    '''
+
+    '''
+    for p in proverbs:
+        vec_p = bc_client.encode(p)
+        sim_p = dot(vec_input, vec_p)/(norm(vec_input)*norm(vec_p))
+        sim.append(sim_p)
+    '''
+    bc_client.close()
+
+    return selector(input_text, proverbs, sim.tolist(), amount=amount)
 
 
 def init_prov_selector_bert(alg, input_text, proverbs, amount):

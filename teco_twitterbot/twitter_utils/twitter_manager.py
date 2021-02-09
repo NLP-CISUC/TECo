@@ -14,8 +14,10 @@ def trim_tweet(tweet_text):
         if len(tmp_twt) == 1:
             tmp_twt = tmp_twt[0].strip()
         else:  # in case there is more than one ':' in the sentence
+            tmp_str = ''
             for t in tmp_twt:
-                tmp_twt = tmp_twt + ':' + t
+                tmp_str = tmp_str + ':' + t
+            tmp_twt = tmp_str
 
     if '\n' not in tmp_twt:
         tmp_twt = tmp_twt + '\n'
